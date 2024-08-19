@@ -1,0 +1,342 @@
+Name: S7_1500_TIA_Client
+Id: g=1e71c183fe0b563cc174aa07cde6e775
+Type: OPCUAClient
+Children:
+- Name: ServerEndpointURL
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "opc.tcp://192.168.0.27:4840"
+- Name: MinimumMessageSecurityMode
+  Type: BaseDataVariableType
+  DataType: ns=92;MessageSecurityModeEnum
+- Name: MinimumSecurityPolicy
+  Type: BaseDataVariableType
+  DataType: ns=92;SecurityPolicyEnum
+- Name: UserIdentityType
+  Type: BaseDataVariableType
+  DataType: UserIdentityTypeEnum
+- Name: ConnectionStatus
+  Type: BaseDataVariableType
+  DataType: ConnectionStatusEnum
+  AccessLevel: Read
+- Name: ServerUri
+  Type: BaseDataVariableType
+  DataType: String
+  AccessLevel: Read
+- Name: Events
+  Type: BaseDataVariableType
+  DataType: EventsEnum
+  Value: 1
+- Name: RuntimeConfigurations
+  Type: BaseObjectType
+- Class: Reference
+  Target: ns=92;i=8
+  Direction: Forward
+- Class: Reference
+  Target: ns=92;i=9
+  Direction: Forward
+- Class: Reference
+  Target: ns=92;i=54
+  Direction: Forward
+- Class: Reference
+  Target: ns=92;i=57
+  Direction: Forward
+- Class: Reference
+  Target: ns=92;i=91
+  Direction: Forward
+- Class: Reference
+  Target: ns=92;i=60
+  Direction: Forward
+- Class: Reference
+  Target: ns=92;i=63
+  Direction: Forward
+- Class: Reference
+  Target: ns=92;i=83
+  Direction: Forward
+- Class: Reference
+  Target: ns=92;i=75
+  Direction: Forward
+- Name: Objects
+  Type: BaseObjectType
+  Children:
+  - Name: ns=15;PLC_1
+    Id: ns=15;s=PLC
+    Type: SimaticDeviceType
+    DisplayName: {"LocaleId":"","Text":"PLC_1"}
+    Description: {"LocaleId":"","Text":"The PLC instance which supports you with OPC UA functionality"}
+    Children:
+    - Name: DataBlocksGlobal
+      Id: ns=15;s=DataBlocksGlobal
+      Type: FunctionalGroupType
+      DisplayName: {"LocaleId":"","Text":"DataBlocksGlobal"}
+      Description: {"LocaleId":"","Text":"Holding all global available datablocks."}
+      Children:
+      - Name: ns=15;Machine_Data
+        Id: 'ns=15;s="Machine_Data"'
+        Type: BaseObjectType
+        DisplayName: {"LocaleId":"","Text":"Machine_Data"}
+        ReferenceType: Organizes
+        Children:
+        - Name: ns=15;Machine_3_Speed
+          Id: 'ns=15;s="Machine_Data"."Machine_3_Speed"'
+          Type: BaseDataVariableType
+          DataType: WORD
+          DisplayName: {"LocaleId":"","Text":"Machine_3_Speed"}
+        - Name: ns=15;Machine_3_Run
+          Id: 'ns=15;s="Machine_Data"."Machine_3_Run"'
+          Type: BaseDataVariableType
+          DataType: Boolean
+          DisplayName: {"LocaleId":"","Text":"Machine_3_Run"}
+  - Class: DataType
+    Name: SimaticOperatingState
+    Id: ns=15;i=3063
+    Supertype: Enumeration
+    EnumDefinition: 
+     {
+      "Name": "SimaticOperatingState",
+      "DataType": {
+       "Id": 3063,
+       "Namespace": 15
+      },
+      "Fields": [{
+        "Name": "NotSupported",
+        "Value": 0,
+        "DisplayName": {
+         "LocaleId": "",
+         "Text": "NotSupported"
+        }
+       },{
+        "Name": "StopFwUpdate",
+        "Value": 1,
+        "DisplayName": {
+         "LocaleId": "",
+         "Text": "StopFwUpdate"
+        }
+       },{
+        "Name": "StopSelfInitialization",
+        "Value": 3,
+        "DisplayName": {
+         "LocaleId": "",
+         "Text": "StopSelfInitialization"
+        }
+       },{
+        "Name": "Stop",
+        "Value": 4,
+        "DisplayName": {
+         "LocaleId": "",
+         "Text": "Stop"
+        }
+       },{
+        "Name": "Startup",
+        "Value": 6,
+        "DisplayName": {
+         "LocaleId": "",
+         "Text": "Startup"
+        }
+       },{
+        "Name": "Run",
+        "Value": 8,
+        "DisplayName": {
+         "LocaleId": "",
+         "Text": "Run"
+        }
+       },{
+        "Name": "RunRedundant",
+        "Value": 9,
+        "DisplayName": {
+         "LocaleId": "",
+         "Text": "RunRedundant"
+        }
+       },{
+        "Name": "Halt",
+        "Value": 10,
+        "DisplayName": {
+         "LocaleId": "",
+         "Text": "Halt"
+        }
+       },{
+        "Name": "RunSyncUp",
+        "Value": 11,
+        "DisplayName": {
+         "LocaleId": "",
+         "Text": "RunSyncUp"
+        }
+       },{
+        "Name": "SyncUp",
+        "Value": 12,
+        "DisplayName": {
+         "LocaleId": "",
+         "Text": "SyncUp"
+        }
+       },{
+        "Name": "Defective",
+        "Value": 13,
+        "DisplayName": {
+         "LocaleId": "",
+         "Text": "Defective"
+        }
+       },{
+        "Name": "ErrorSearch",
+        "Value": 14,
+        "DisplayName": {
+         "LocaleId": "",
+         "Text": "ErrorSearch"
+        }
+       },{
+        "Name": "NoPower",
+        "Value": 15,
+        "DisplayName": {
+         "LocaleId": "",
+         "Text": "NoPower"
+        }
+       },{
+        "Name": "CiR",
+        "Value": 16,
+        "DisplayName": {
+         "LocaleId": "",
+         "Text": "CiR"
+        }
+       },{
+        "Name": "STOPwithoutODIS",
+        "Value": 17,
+        "DisplayName": {
+         "LocaleId": "",
+         "Text": "STOPwithoutODIS"
+        }
+       },{
+        "Name": "RunODIS",
+        "Value": 18,
+        "DisplayName": {
+         "LocaleId": "",
+         "Text": "RunODIS"
+        }
+       },{
+        "Name": "PgmTest",
+        "Value": 19,
+        "DisplayName": {
+         "LocaleId": "",
+         "Text": "PgmTest"
+        }
+       }]
+     }
+    DisplayName: {"LocaleId":"","Text":"SimaticOperatingState"}
+    Children:
+    - Name: ns=0;EnumValues
+      Id: ns=15;i=6083
+      Type: PropertyType
+      DataType: EnumValueType
+      DisplayName: {"LocaleId":"","Text":"EnumValues"}
+      ValueRank: OneDimension
+      ArrayDimensions: [17]
+      Value: [{"TypeId":{"Id":7594},"Body":{"Value":0,"DisplayName":{"LocaleId":"","Text":"NotSupported"},"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}},{"TypeId":{"Id":7594},"Body":{"Value":1,"DisplayName":{"LocaleId":"","Text":"StopFwUpdate"},"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}},{"TypeId":{"Id":7594},"Body":{"Value":3,"DisplayName":{"LocaleId":"","Text":"StopSelfInitialization"},"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}},{"TypeId":{"Id":7594},"Body":{"Value":4,"DisplayName":{"LocaleId":"","Text":"Stop"},"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}},{"TypeId":{"Id":7594},"Body":{"Value":6,"DisplayName":{"LocaleId":"","Text":"Startup"},"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}},{"TypeId":{"Id":7594},"Body":{"Value":8,"DisplayName":{"LocaleId":"","Text":"Run"},"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}},{"TypeId":{"Id":7594},"Body":{"Value":9,"DisplayName":{"LocaleId":"","Text":"RunRedundant"},"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}},{"TypeId":{"Id":7594},"Body":{"Value":10,"DisplayName":{"LocaleId":"","Text":"Halt"},"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}},{"TypeId":{"Id":7594},"Body":{"Value":11,"DisplayName":{"LocaleId":"","Text":"RunSyncUp"},"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}},{"TypeId":{"Id":7594},"Body":{"Value":12,"DisplayName":{"LocaleId":"","Text":"SyncUp"},"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}},{"TypeId":{"Id":7594},"Body":{"Value":13,"DisplayName":{"LocaleId":"","Text":"Defective"},"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}},{"TypeId":{"Id":7594},"Body":{"Value":14,"DisplayName":{"LocaleId":"","Text":"ErrorSearch"},"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}},{"TypeId":{"Id":7594},"Body":{"Value":15,"DisplayName":{"LocaleId":"","Text":"NoPower"},"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}},{"TypeId":{"Id":7594},"Body":{"Value":16,"DisplayName":{"LocaleId":"","Text":"CiR"},"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}},{"TypeId":{"Id":7594},"Body":{"Value":17,"DisplayName":{"LocaleId":"","Text":"STOPwithoutODIS"},"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}},{"TypeId":{"Id":7594},"Body":{"Value":18,"DisplayName":{"LocaleId":"","Text":"RunODIS"},"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}},{"TypeId":{"Id":7594},"Body":{"Value":19,"DisplayName":{"LocaleId":"","Text":"PgmTest"},"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}]
+    - Name: ns=0;Icon
+      Id: ns=15;i=5208
+      Type: PropertyType
+      DataType: ImagePNG
+      DisplayName: {"LocaleId":"","Text":"Icon"}
+      ModellingRule: None
+      Value: "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"
+  - Name: SimaticDeviceType
+    Id: ns=15;i=1002
+    Supertype: DeviceType
+    DisplayName: {"LocaleId":"","Text":"SimaticDeviceType"}
+    Description: {"LocaleId":"","Text":"This type represents one simatic opcua device."}
+    Children:
+    - Name: ns=15;EngineeringRevision
+      Id: ns=15;i=6070
+      Type: PropertyType
+      DataType: String
+      DisplayName: {"LocaleId":"","Text":"EngineeringRevision"}
+      Description: {"LocaleId":"","Text":"Revision Level of the engineering environment."}
+    - Name: ns=15;OperatingMode
+      Id: ns=15;i=6071
+      Type: PropertyType
+      DataType: SimaticOperatingState
+      DisplayName: {"LocaleId":"","Text":"OperatingMode"}
+      Description: {"LocaleId":"","Text":"Shows the current operating state of your PLC."}
+      Value: 15
+    - Name: ns=15;OrderNumber
+      Id: ns=15;i=6072
+      Type: PropertyType
+      DataType: String
+      DisplayName: {"LocaleId":"","Text":"OrderNumber"}
+      Description: {"LocaleId":"","Text":"Order number of your device (MFLB)"}
+    - Name: ns=0;Icon
+      Id: ns=15;i=5201
+      Type: PropertyType
+      DataType: ImagePNG
+      DisplayName: {"LocaleId":"","Text":"Icon"}
+      ModellingRule: None
+      Value: "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH4AcUCwAx6kBCIQAABUVJREFUaN7VWTuOHVUQPdUzIkRETohIkJEQW2AdXgQSkmMnxASYxBIkrMAZOEKk7IEAsQVCgjoE99atT/fre9tmLKY1M2+mp9/r+pw6daoaeOSHAMA33/7I//qDf/n5zYMb//tvr+X+IW/w6dPPAQBkiA9b2MY5thMEAbD92S9q19C++lUEKfjrzz/w/MXLZw/qAEhApOXZfBAz0v1BNJ52hgDp/+9OuIPtOHXgu7//mdr49Ycf3LZfAFBb9Oi3bX+zGyndXBaHYhAwMgT3ce7Ax188BQA8+eyT2xe9+fUkA/2WMXrdE9KNJdhP+xsYodevb/7mcr1frnWh1XxPrUCEEwSx4BmARoiErAy4mMMMcArQUkCgaw5QpJncf4wbbNJvus2KwFMQImqhYIVIzEo73UylOwMCKqsZEIGCDabwBBhusWR/Yw2xiPbPUCUG+mPxkuM2SibnRwCV6xlo8NkGLrtfALZw5pb9Dt4RwH5z6eeYQN4jjO4ccwabI3qhBrYGG0oMP+zj07lbLOr8Lb12iB2Jhp7A+BquVbIzV2OwtQxsW698SVTe3BFwiiBt7ML2e7SpQScYnmoFIWsKslWDWhB4BUJba0YsEdelRub0GfvtrkHRAdpqwFnfnHBm0hS4SQasBtBpU0LKjVpP3q/B7Q4fZxlJhRupVQt9DtiVTK1BKEJp1IY1pTkNSScN1zG5aBmMSnxPJkodZJAMWcyAF3F/p2y5sZ2wkPcvBiOxK2hjHEroB9RSG9nJ9QwMgzenQMjcAUURZk37pKZFRtLtcNcMrVHM2KnbRQcEkmi0ZGSagQgZdf2ZeJ4pwrXIU02sOqDbButltRfMoo9ioEc9KzyWDPgMIKkOnNGYuOO8kd0JCHE2SsY7pM7FXI5aZJyoQJNj4GAi00HRuWU5rdIywM42IhlCstAHTBik3sosl2tTOxSA0ZFVGsXdXbt466UbpipQXOSdZIChmtOUNbpt0PzQhtXBUIVCDUbLjeyuSWbLwEAM+5gocymBwVjquI41sIu0Op1qKGoJDl+BEEQGC9nNZLMATlPgOmi8HkCjyGoCEGViqjrgr9OoBFVaQy6yxEIs0W56nkMDxe7K0okT6lmZawqh2sgiH8/7gGpALBlkeDGNUYEGGk0i7kAbrTaypn1kYF66kON0JMO+e5qaLFonG24NL3fiffe+KiWCGl2SEsHY1IUZYMOcCcSJi3mOrvR7SUqk7isyqHTaB0xG35y6SoOqnbvOA+WYqlHCpISktQpKXRzWAJkgUxVqZRaWTB3NCtWNpQzoVmi0ZuSkD6TZNkW/yOa0DwpZEBmLgKFI1yHkkIlFzFVBpz58kjdmgYMtXYILNcjwDL1rNSDO+8I4b00yUDAdpUQsZhtkwAKVYfBbsFAb5vcNi30am4k56gHfHypMs4/70TKOlTU7K1uJ9r2HTKyJ2WJrbB0ooGieB8ocbKvsvAiuhYzrNZAd2K9ZTtUo4kBeWKjyfJTSanvTfd1cWC26A0xuLCy26pY5aaO8jY7aaKjQ2uyIsU9drgEr1lgGYwG7IuaSBK4rlGy47BgorugP1vDrzwfe9lDvriQodfdz5FR9JhBHyItrlXd+RKbZ0BHRSK0Ia0fWrbYU9sFOAZ868NWTj06hNR+JuRNk+elkePaoBvDQtHonj9ttXKmB++9/escMHDSk8hQyaW5jWFGbQAG2wVRQVo3vBULg7jFTwrz1hbR2R3kyiCgyugp4TzVQt2h7SOVpDLttnMmMOmOXDPzw6hUe5/Hlwkz4Pz8evQODD5+/ePnsMTrwL/n7t3oadTPUAAAAAElFTkSuQmCC"
+    - Name: ns=15;Counters
+      Id: ns=15;i=5062
+      Type: FunctionalGroupType
+      ModellingRule: Optional
+      DisplayName: {"LocaleId":"","Text":"Counters"}
+      Description: {"LocaleId":"","Text":"Holding all counters."}
+      Children:
+      - Name: ns=0;Icon
+        Id: ns=15;i=5204
+        Type: PropertyType
+        DataType: ImagePNG
+        DisplayName: {"LocaleId":"","Text":"Icon"}
+        ModellingRule: None
+        Value: "iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH4AcUCwYJlBhdOQAAA6xJREFUWMPFl0FoXFUUhr/73kRaFzGIVFy4UMSN4kYUsVZsXLjQjWDBFBcu1JVt0HRpipCNmyyimJ3dKBNJQUFd6MJMRWglC6HgIqIbFcFW0yqUkvadc66Le+97900zSTMz4oXLu3PfzP3/85//nPcG/ufhAD5Y3fTOgSugzK5FEWZZQFE4yrSO93BhfW79M06eeNkNQ6AD4Bw8+vAUzjWHh2sDWhYwMdEmkO6fW4e5+aWZxYXZlaEIFC5Ek1RI4EmBooCyjPvZvURmlBEUaEmeSZ1HX/alxDVzZAKlywBjpGXZ7HUKKMpE0rWIjIifFHCUZTj4nrumAbhwaQ1XwIGp6YE/Vu2NXAVBgQI6UeI0UvT/9agJpHnx0lpjuMJx5WqvTodLRs0OMBuTCTslN5ivznU0m+tLuPdgfswpuH0y5PzqVo+igH23HB7442vXe+g4FCjLRoGWB3axuBqojssDpaN0sHWtV8tduLbTvQf1Ie9mIAqmfnQCecNJ4Hm+fTRbi4B61MbmAVeDT0wcbtV4WQ72wF+X19BxEKh7fl/Od4tOxqVA3tNT5N6Dt+AJjTlXC7KnKRoIPPnYA3z+1dnh3wfOfHfZH3pkqhW5ZWYLBHzteon7bzy+OlL0p39+0XVqFv1ms0TA14ASCZjBmwdXeeXYC1EtQ9UwU9QUFcVMEFFUBVFBNeyF7xnvLi0zN780U3vAZ1Hn4GpNxEn2E0+s8tJrz/Hj+t+oKaaBgIigIogIVVVRiSCVUFXXqSqhkip+lhvfiMxy2X0LtJ4Z+C/nt/De481jZpgqpkEBUUHNUFVEFdWwVtGohLYJLJ/aZJnNHfP19MGKL98+n4GDmdUE1GIKxKIiUfb62kzVPgI7gQ4aX589DcDk5G3sv3U/d9/xUIxUYrRZ1DHypIRlj9C68ufml2b6QRYXPu3uRHBu/vmjAPf+M93986d9yHZ5rypEKqoqeCP5ZOPCNzw7f//RTgO23RvtU93dSmlxYXblw7d+6/6hV4LDo/M1Sm117pNPQrpuKgVwxuXK/LpyZ/fV2SP88O1FHjx0AKD7zHuvdwE2dAM1QaIPJBnPFDXDm9alaln77NxMhGl95L6Pu+Ex7Pl+7ffg9kqokrvjVUxq86k0xjMzzDw+U6DYa+c6fuw43uJhsf5VBJVUcg2RUJaxScUGlOZQBAA2eN+d+uSdCB4BzILUNbjVhFJvUJ9K1fB+DykYROKjLxjxOTikAjmJsf07HmVs1z/2Mv4FtCXv4wg86bsAAAAASUVORK5CYII="
+    - Name: ns=15;DataBlocksGlobal
+      Id: ns=15;i=5063
+      Type: FunctionalGroupType
+      ModellingRule: Optional
+      DisplayName: {"LocaleId":"","Text":"DataBlocksGlobal"}
+      Description: {"LocaleId":"","Text":"Holding all global available datablocks."}
+      Children:
+      - Name: ns=0;Icon
+        Id: ns=15;i=5202
+        Type: PropertyType
+        DataType: ImagePNG
+        DisplayName: {"LocaleId":"","Text":"Icon"}
+        ModellingRule: None
+        Value: "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"
+    - Name: ns=15;DataBlocksInstance
+      Id: ns=15;i=5064
+      Type: FunctionalGroupType
+      ModellingRule: Optional
+      DisplayName: {"LocaleId":"","Text":"DataBlocksInstance"}
+      Description: {"LocaleId":"","Text":"Holding all instance datablocks."}
+      Children:
+      - Name: ns=0;Icon
+        Id: ns=15;i=5203
+        Type: PropertyType
+        DataType: ImagePNG
+        DisplayName: {"LocaleId":"","Text":"Icon"}
+        ModellingRule: None
+        Value: "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"
+    - Name: ns=15;Inputs
+      Id: ns=15;i=5059
+      Type: FunctionalGroupType
+      ModellingRule: Optional
+      DisplayName: {"LocaleId":"","Text":"Inputs"}
+      Description: {"LocaleId":"","Text":"Holding all global inputs."}
+    - Name: ns=15;Memory
+      Id: ns=15;i=5065
+      Type: FunctionalGroupType
+      ModellingRule: Optional
+      DisplayName: {"LocaleId":"","Text":"Memory"}
+      Description: {"LocaleId":"","Text":"Holding all global memory (bit, byte, words, ...)."}
+    - Name: ns=15;Outputs
+      Id: ns=15;i=5060
+      Type: FunctionalGroupType
+      ModellingRule: Optional
+      DisplayName: {"LocaleId":"","Text":"Outputs"}
+      Description: {"LocaleId":"","Text":"Holding all global outputs."}
+    - Name: ns=15;Timers
+      Id: ns=15;i=5061
+      Type: FunctionalGroupType
+      ModellingRule: Optional
+      DisplayName: {"LocaleId":"","Text":"Timers"}
+      Description: {"LocaleId":"","Text":"Holding all global timers."}
+  - Class: DataType
+    Name: WORD
+    Id: ns=15;i=3002
+    Supertype: UInt16
+    DisplayName: {"LocaleId":"en-US","Text":"WORD"}
+    Description: {"LocaleId":"en-US","Text":"Is a bit string of 16 bits: W#16#0 to W#16#FFFF."}

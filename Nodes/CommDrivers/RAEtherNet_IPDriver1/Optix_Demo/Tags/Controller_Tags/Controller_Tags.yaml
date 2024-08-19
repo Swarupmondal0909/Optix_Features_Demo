@@ -1,0 +1,4494 @@
+Name: Controller Tags
+Id: g=8cadb43057ed01771fdf6c33d18781d2
+Type: FolderType
+Children:
+- Name: Test1
+  Id: g=e1dc424fb720d85d08a96650d936d6a4
+  Type: MTR
+  DataType: MTR
+  Children:
+  - Name: Interlock_Text
+    Id: g=e9592feb351a4f6bd1e70ae5f1c1af47
+    Type: RAEtherNetIPTag
+    DataType: String
+    ValueRank: OneDimension
+    ArrayDimensions: [16]
+    Children:
+    - Name: SymbolName
+      Id: g=fc4e479f35dfc6283411a7bd14a9f160
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Test1.Interlock_Text"
+  - Name: Motor
+    Id: g=2f93bce0e5462bad766df6ad283a0748
+    Type: Motor
+    DataType: Motor
+    Children:
+    - Name: All_Interlock_OK
+      Id: g=b68f923def5ce1a459075a31ee9bb4b5
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=26921935856e67526af6deb304148ec8
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Test1.Motor.All_Interlock_OK"
+    - Name: All_Permissive_OK
+      Id: g=396d272e78cc415ab70795c93eb11ef0
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=bef1f82c42e9f1dde2bdff22c7ead62e
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Test1.Motor.All_Permissive_OK"
+    - Name: Auto_On_Cmd
+      Id: g=1359dadbc6f039785dc1c08f447a9d9d
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=6fe2ebdcdd8c8487d470ae8f23e7936d
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Test1.Motor.Auto_On_Cmd"
+    - Name: Auto_On_Cmd_from_Logic
+      Id: g=5dd02864161efa2103ed0af01e0e099b
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=94566b0f001f640a9b897ca5da725d9c
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Test1.Motor.Auto_On_Cmd_from_Logic"
+    - Name: Auto_Selected_Bit
+      Id: g=037030dda7d91bf8b53390afc8393b97
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=0b9154a457d99123affa4d4342e4d76f
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Test1.Motor.Auto_Selected_Bit"
+    - Name: Autro_Selection_PB
+      Id: g=351e7186bb03418af1605600efe785e9
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=b9de8ade99e4832679931f463d26979d
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Test1.Motor.Autro_Selection_PB"
+    - Name: EnableIn
+      Id: g=3bcbd994750f3965d79c13a43823e10e
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=1116d3ffe106c3195970e412ab401354
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Test1.Motor.EnableIn"
+    - Name: EnableOut
+      Id: g=8acd5be43c0f49726ee9fcc2937f116d
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=fc0b3cf058aed7e6b3cd711d7a2780de
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Test1.Motor.EnableOut"
+    - Name: Has_Interlock_Bit
+      Id: g=bd0c1ce63de3d289827e2c3645f3e3fb
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=ec098adefedfc9190b0f7ce58165b118
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Test1.Motor.Has_Interlock_Bit"
+    - Name: Has_Permissive_Bit
+      Id: g=74f91ee672177b792972d1fc8315cd5e
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=2307180e114456336ba9f559b416a0df
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Test1.Motor.Has_Permissive_Bit"
+    - Name: Has_Speed_Ref
+      Id: g=aab7a9a4bed5d8e51e3769a3ef13c1b0
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=54e85e91f138b9bb3bfbebcad0a2166a
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Test1.Motor.Has_Speed_Ref"
+    - Name: Interlock_Bit
+      Id: g=e9d4f645ea9645e35eacd60d2f3f65fd
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Id: g=502c56e581cd051bdfecc2e1aa9c1e96
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Test1.Motor.Interlock_Bit"
+    - Name: Interlock_Bypass_Bit
+      Id: g=94ef72745bd9892e0ce02903755fc3ec
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Id: g=86553d497717c750608fa751fc47dd4f
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Test1.Motor.Interlock_Bypass_Bit"
+    - Name: Interlock_Enable_Bit
+      Id: g=0798b8a5a589b248ef33b553f08b2147
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Id: g=cfac0f9ab6a52e8b5f5aa4cc92c4e8dc
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Test1.Motor.Interlock_Enable_Bit"
+    - Name: Manual_On_Cmd
+      Id: g=f63829bca0981fe78e1cd1e94818f5e0
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=d493a5e9456e7e83b4ad3891e3eae58a
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Test1.Motor.Manual_On_Cmd"
+    - Name: Manual_Selected_Bit
+      Id: g=40f3dd51e6054f04120f63d67dec0cc0
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=dfd416984b2862567dc9534d8a109e55
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Test1.Motor.Manual_Selected_Bit"
+    - Name: Manual_Selection_PB
+      Id: g=1d71f0c333e2c55316f4bbbda031ce1f
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=e49402d220c4000a60ce277bd83379b7
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Test1.Motor.Manual_Selection_PB"
+    - Name: Manual_Start_PB
+      Id: g=a17659519fab5e3ea01851c2277d29b1
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=5bd11caf3adcd2fed4a5fa83b0a914d0
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Test1.Motor.Manual_Start_PB"
+    - Name: Manual_Stop_PB
+      Id: g=eac4869448f4a8f163011f2487ddc547
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=5667a4acf8827c9e3756d349dd5293bb
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Test1.Motor.Manual_Stop_PB"
+    - Name: Motor_Has_Run_FB
+      Id: g=a5a214eea62045cce8af7ecbf7fce67b
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=884ff82eddcba82cc387a3b5ea1afc92
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Test1.Motor.Motor_Has_Run_FB"
+    - Name: Motor_On_Cmd
+      Id: g=a6e4aae75a68cd1496b5c8bb57dab4d6
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=81cd57d33a4eb669b799a7d7fb3593e2
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Test1.Motor.Motor_On_Cmd"
+    - Name: Motor_Run_FB
+      Id: g=bf6fb05e1f8589882656e275f0f6bcec
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=6f24d2a8a28771c350b6d06fea293f80
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Test1.Motor.Motor_Run_FB"
+    - Name: Motor_Run_FB_Input
+      Id: g=5cf89a862873f52d7c6950c1656b3066
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=9a4d585fd5783df9a8bf4981bc5be20d
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Test1.Motor.Motor_Run_FB_Input"
+    - Name: Motor_Speed_Ref
+      Id: g=6c7b0249d0044e6f4dc0e2b4ccdeb52d
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Id: g=cbc384bc54a96825a4c82edd7d5b7952
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Test1.Motor.Motor_Speed_Ref"
+    - Name: Motor_Status
+      Id: g=78be72d07fe286086c9e78d1571decbc
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Id: g=f7b6d7dda6151a64eb84e611616903e6
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Test1.Motor.Motor_Status"
+    - Name: Permissive_Bit
+      Id: g=840687e95336830514ab2602993865f8
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Id: g=591f674fd87e6e1630316cdafee6be29
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Test1.Motor.Permissive_Bit"
+    - Name: Permissive_Bypass_Bit
+      Id: g=2b44375326dff78fae1d17cb9e5e616a
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Id: g=152183036f5050ac7094faf091b10bff
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Test1.Motor.Permissive_Bypass_Bit"
+    - Name: Permissive_Enable_Bit
+      Id: g=91835126cee9d2e48ae65ba669fccc60
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Id: g=74a3df1a742ecd795cd4a43462d89888
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Test1.Motor.Permissive_Enable_Bit"
+    - Name: Reset_PB
+      Id: g=f40b8a8e5def1cc5ff6aaef9df5dc14d
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=4337126d312ff4e960c319401c66bb06
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Test1.Motor.Reset_PB"
+    - Name: Run_FB_Check_Time
+      Id: g=de7cebd7810f4d41ab22165a898a31ee
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Id: g=c7d00c39e48b271dc02e7b5986a856dd
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Test1.Motor.Run_FB_Check_Time"
+    - Name: Run_FB_Fault
+      Id: g=b799f0a0f5123a3ea826446545c0b0ee
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=0c9a39a9022802725978a7813b851ba1
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Test1.Motor.Run_FB_Fault"
+    - Name: Status_Blink_Bit
+      Id: g=958f2eb4393eaee6b92fa2a69afb7c59
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=c48c4223bcc31412d09430c1b43ea567
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Test1.Motor.Status_Blink_Bit"
+    - Name: System_First_Scan
+      Id: g=fa98ca1cfa8d584d1cd2e74ece9896ef
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=e296a8ea8c5309c3a52d5e9bedcf7e19
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Test1.Motor.System_First_Scan"
+  - Name: Permissive_Text
+    Id: g=20485a2c7f007378f962f761812a58f3
+    Type: RAEtherNetIPTag
+    DataType: String
+    ValueRank: OneDimension
+    ArrayDimensions: [16]
+    Children:
+    - Name: SymbolName
+      Id: g=5dbfd69e8490c309716cc5513671099d
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Test1.Permissive_Text"
+  - Name: Tagname
+    Id: g=5325247ca2bf255c9363da6ac0de13b2
+    Type: RAEtherNetIPTag
+    DataType: String
+    Children:
+    - Name: SymbolName
+      Id: g=cb89a9c7cf1529139acc785287ff51bb
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Test1.Tagname"
+- Name: Test10
+  Id: g=8be18e38d609b07e44ed774a13ff8d82
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  ValueRank: OneDimension
+  ArrayDimensions: [5]
+  Children:
+  - Name: SymbolName
+    Id: g=65e841abe329f3eff79fe8c495ebaac9
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Test10"
+- Name: Valve1
+  Id: g=610b9c91a08ff279bd49236b99078193
+  Type: VLV
+  DataType: VLV
+  Children:
+  - Name: Interlock_Text
+    Id: g=3f2e7c3dec79e2ac4b1dad90bb18bf15
+    Type: RAEtherNetIPTag
+    DataType: String
+    ValueRank: OneDimension
+    ArrayDimensions: [16]
+    Children:
+    - Name: SymbolName
+      Id: g=e29a24909f1ac6f9f9d0eb31153cefb5
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Valve1.Interlock_Text"
+  - Name: Permissive_Text
+    Id: g=68c30cc72dbdad0068cfa1af449f745e
+    Type: RAEtherNetIPTag
+    DataType: String
+    ValueRank: OneDimension
+    ArrayDimensions: [16]
+    Children:
+    - Name: SymbolName
+      Id: g=f6d92a920ac988ae78529e76f033081b
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Valve1.Permissive_Text"
+  - Name: Tagname
+    Id: g=bda2b9d1a745a3611682abea495ac915
+    Type: RAEtherNetIPTag
+    DataType: String
+    Children:
+    - Name: SymbolName
+      Id: g=184f96828a22d0a1356a4f06f6001b47
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Valve1.Tagname"
+  - Name: Valve
+    Id: g=f0de5d9e1f827f1aabfa5c95a753bd9a
+    Type: Valve
+    DataType: Valve
+    Children:
+    - Name: All_Interlock_OK
+      Id: g=60f3180834798670bad2a9567ebe81f2
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=0e7737a35731c0abbf9709b45e4297a9
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Valve1.Valve.All_Interlock_OK"
+    - Name: All_Permissive_OK
+      Id: g=70656ad0ae0de0b1ef889a5306c7f0c1
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=48697a14c5967a101ba9f68406eb25f0
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Valve1.Valve.All_Permissive_OK"
+    - Name: Auto_On_Cmd
+      Id: g=08b47d27e54291278d1c0a28b8aeb75d
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=3bdde7d64c87dbbb89611d646ea3458a
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Valve1.Valve.Auto_On_Cmd"
+    - Name: Auto_On_Cmd_from_Logic
+      Id: g=b8fe125205d95075113d46a350635bc8
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=70ff953d8df4931c5ef119a6a85ffbb2
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Valve1.Valve.Auto_On_Cmd_from_Logic"
+    - Name: Auto_Selected_Bit
+      Id: g=284197de4e3bbb11082e009bf8c9154c
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=bd2d0711e085668efb233afd6e966279
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Valve1.Valve.Auto_Selected_Bit"
+    - Name: Autro_Selection_PB
+      Id: g=cfa59ff8d61c638cf0e3becc3318d8db
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=a3c6e169983d889a4cc52a76c6cc47d3
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Valve1.Valve.Autro_Selection_PB"
+    - Name: Close_FB_Check_Time
+      Id: g=fa716e8128dd817c7047e32c20e310d5
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Id: g=bd0b173bc8b3a9deeb6d8d8f299a632a
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Valve1.Valve.Close_FB_Check_Time"
+    - Name: Close_FB_Fault
+      Id: g=89ff6aa69f095f9c8a371ba4454a0e6a
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=959d1c55c55fa205eeca7a7d5539eb87
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Valve1.Valve.Close_FB_Fault"
+    - Name: EnableIn
+      Id: g=b5fa65605c762c9cc391de9f248d91df
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=04dad45e92a3b3fae9cd1c25da5b9e1a
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Valve1.Valve.EnableIn"
+    - Name: EnableOut
+      Id: g=f55ae2cb1174444ea205e60ee9ba105c
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=ce72ca9e1b389ddc0c1b358b0fc3b45d
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Valve1.Valve.EnableOut"
+    - Name: Feedback_fault
+      Id: g=ac2a3b893b2e9c963dd39e589afcaa47
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=bdf1776760b25ebea37d70f9f6c493e4
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Valve1.Valve.Feedback_fault"
+    - Name: Has_Interlock_Bit
+      Id: g=cba66501adedd7bfa7f79acd7598cb01
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=7675ab08a56a68146eabd6a780580955
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Valve1.Valve.Has_Interlock_Bit"
+    - Name: Has_Permissive_Bit
+      Id: g=cf2e919d5465b01eaa0522dcd78598aa
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=2c7d37d4a4925907ce24a344f363c75c
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Valve1.Valve.Has_Permissive_Bit"
+    - Name: Has_Speed_Ref
+      Id: g=1bc4050e90800277684c61c41ac3e960
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=d61cf92687a81f257cdfb37e968d5435
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Valve1.Valve.Has_Speed_Ref"
+    - Name: Interlock_Bit
+      Id: g=9309ca1eb03eb84ad6a9a6a1fc5de5f6
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Id: g=0fa69e1b4eab25b57b2a2f8a40b8aac6
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Valve1.Valve.Interlock_Bit"
+    - Name: Interlock_Bypass_Bit
+      Id: g=55b607b54db2811c9cbbe8af57a0228a
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Id: g=55229d4021a1f10a88e7a05b9a5ebcea
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Valve1.Valve.Interlock_Bypass_Bit"
+    - Name: Interlock_Enable_Bit
+      Id: g=4d791beab27128c67abe041bd12be9e0
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Id: g=6431e52ed250b849253a4e4148db65ee
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Valve1.Valve.Interlock_Enable_Bit"
+    - Name: Manual_On_Cmd
+      Id: g=cae128b65449ad9f5b3e62e92e58529e
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=48d98d21aabb3ec324cc37a3a7221e9a
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Valve1.Valve.Manual_On_Cmd"
+    - Name: Manual_Selected_Bit
+      Id: g=0af3874b5fdbf2c21810d8f72caa0b21
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=c6cf84ed69027da2eca968ceab810822
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Valve1.Valve.Manual_Selected_Bit"
+    - Name: Manual_Selection_PB
+      Id: g=7fd2ef0f9d6cffd7d3c3207b4a5f20e6
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=b4cfdeba89cf80ff051aae1a38302d99
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Valve1.Valve.Manual_Selection_PB"
+    - Name: Manual_Start_PB
+      Id: g=242b21bde81379270011f5039d9e42ba
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=16a5e2b838dfc7656c78bbc9028886fa
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Valve1.Valve.Manual_Start_PB"
+    - Name: Manual_Stop_PB
+      Id: g=a34a0a4f4b5174b44a9479711d23905f
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=5af87d7b5615efa1931a140d30fa59be
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Valve1.Valve.Manual_Stop_PB"
+    - Name: Motor_Speed_Ref
+      Id: g=091429c7711e0583caa86095191dd1a2
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Id: g=1dc61ab1e612f4eed0c1d0448fa6ff1c
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Valve1.Valve.Motor_Speed_Ref"
+    - Name: Open_FB_Check_Time
+      Id: g=06ec81a3a62beafc096450e5d9a4778b
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Id: g=b921d89585b56c3517b65f7c16cda8d1
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Valve1.Valve.Open_FB_Check_Time"
+    - Name: Open_FB_Fault
+      Id: g=9303276aaa78975fa2c7f7dbf073766f
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=79360b77fc6540c8794e57ba0e7fa790
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Valve1.Valve.Open_FB_Fault"
+    - Name: Permissive_Bit
+      Id: g=c9b9176d28541c97f7e64f346a55930d
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Id: g=0e4e7a302082da8f55cbad4e65410c80
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Valve1.Valve.Permissive_Bit"
+    - Name: Permissive_Bypass_Bit
+      Id: g=41443f388759cd0984b371ebb801914d
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Id: g=82c0ad687af390140dc8ef8ac7a5469b
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Valve1.Valve.Permissive_Bypass_Bit"
+    - Name: Permissive_Enable_Bit
+      Id: g=1cc935d90925f2ca3be0d620197a5856
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Id: g=06065b396e35dd210fec8df367d2f2b4
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Valve1.Valve.Permissive_Enable_Bit"
+    - Name: Reset_PB
+      Id: g=e14424ffd7431263fd8ce4a9aa7efc62
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=9dc29781b2b90cb09defd466dbfd9f71
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Valve1.Valve.Reset_PB"
+    - Name: Status_Blink_Bit
+      Id: g=589bb1d4fef874bd199915b3925cca10
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=c06616da847678b5cb3d0d3e701e1249
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Valve1.Valve.Status_Blink_Bit"
+    - Name: System_First_Scan
+      Id: g=8a4b07b9410317ba4a91a25906e9a769
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=f214df048f70c550e9db6ec7cf4c8943
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Valve1.Valve.System_First_Scan"
+    - Name: Valve_Close_FB
+      Id: g=95199eeb7591ed840f2a73eef014c17a
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=498e736a55e8b5f7516f90e689e56671
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Valve1.Valve.Valve_Close_FB"
+    - Name: Valve_Close_FB_Input
+      Id: g=21e7fc7eac2100c04ad9717115f36766
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=494265084e58bcdef74cd7f39c599063
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Valve1.Valve.Valve_Close_FB_Input"
+    - Name: Valve_Has_Close_FB
+      Id: g=cb3076f2f815b61fd8c1b4bfa3633498
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=7b538fbaebb56828164469b9a2cab152
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Valve1.Valve.Valve_Has_Close_FB"
+    - Name: Valve_Has_Open_FB
+      Id: g=4cea3614d452304ae03b9137377eedb7
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=cbadc040d2ea9b27fca7f1ed5f5756b4
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Valve1.Valve.Valve_Has_Open_FB"
+    - Name: Valve_On_Cmd
+      Id: g=1eba35baa424422c23c40eb8a3a6c9bd
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=d10ffd764fe57bffe473b626d768573e
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Valve1.Valve.Valve_On_Cmd"
+    - Name: Valve_Open_FB
+      Id: g=64eb2168389b292423688833052dd815
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=1972d2650702cdcea005258bcb07d1a1
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Valve1.Valve.Valve_Open_FB"
+    - Name: Valve_Open_FB_Input
+      Id: g=855e3de4eeb11ded2fb9a49595d9c338
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=447316a3eb5d484254253255e5724d75
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Valve1.Valve.Valve_Open_FB_Input"
+    - Name: Valve_Status
+      Id: g=ad56722487e6b886021cdb41aa3fb158
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Id: g=49425784d5dde0191093f0b9e1e6623b
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Valve1.Valve.Valve_Status"
+- Name: Test2
+  Id: g=3e37c48a4e6d7e4da32255f870ed84ae
+  Type: MTR
+  DataType: MTR
+  Children:
+  - Name: Interlock_Text
+    Id: g=31d4942dda09ab1b3ef5fc1b769b74fe
+    Type: RAEtherNetIPTag
+    DataType: String
+    ValueRank: OneDimension
+    ArrayDimensions: [16]
+    Children:
+    - Name: SymbolName
+      Id: g=0bc193d279206c633b4926c1a56f2cd3
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Test2.Interlock_Text"
+  - Name: Motor
+    Id: g=0f899abb48fa68c6ad90b02411fb14a0
+    Type: Motor
+    DataType: Motor
+    Children:
+    - Name: All_Interlock_OK
+      Id: g=ca8d5be4b200d26ed62092ed544815ff
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=ad2045c889817956cadcb393676f68d6
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Test2.Motor.All_Interlock_OK"
+    - Name: All_Permissive_OK
+      Id: g=7e236dd7c5845ccb9889d2ed7c897404
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=8833eb35987775ac5c5d37c254305ba0
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Test2.Motor.All_Permissive_OK"
+    - Name: Auto_On_Cmd
+      Id: g=bfa2bf2ad44a19f4a8c6532b321fccbc
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=7c679ef9d3a56535e3d0e8c0763f26bc
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Test2.Motor.Auto_On_Cmd"
+    - Name: Auto_On_Cmd_from_Logic
+      Id: g=8ddbcce78e7b893d56cffbbc7a13dd6a
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=656ea5b4036e4340521422069b324247
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Test2.Motor.Auto_On_Cmd_from_Logic"
+    - Name: Auto_Selected_Bit
+      Id: g=506264d3091db5e5a7fcd74412c24abe
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=840bf01af7ca3c9a4520b9fb1fe317e3
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Test2.Motor.Auto_Selected_Bit"
+    - Name: Autro_Selection_PB
+      Id: g=a77520d4c4c0ab00f07b0e5cb4973f4d
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=661c03970fabecc714c0d8d790ae325c
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Test2.Motor.Autro_Selection_PB"
+    - Name: EnableIn
+      Id: g=5c41e63abc65666151699a91f3096945
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=89325dc511c19190fe07f3c312e20695
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Test2.Motor.EnableIn"
+    - Name: EnableOut
+      Id: g=35d85ea107fe6e704bd6b1e7aeb884d0
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=488d733e4284848091959d7215a6af19
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Test2.Motor.EnableOut"
+    - Name: Has_Interlock_Bit
+      Id: g=bfb04b694ab0ffaf2f900366b79b37d8
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=5533efe68f19b3106327d1c517b9ef3a
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Test2.Motor.Has_Interlock_Bit"
+    - Name: Has_Permissive_Bit
+      Id: g=32e392069ef492930c082423a9253248
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=2bd8cc91ca1a6e9bf7ddbd81ddfa0e24
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Test2.Motor.Has_Permissive_Bit"
+    - Name: Has_Speed_Ref
+      Id: g=daecbaae7fad3dbe909ecde28a859f52
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=9152c3a0eb994f96690610c300fa114c
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Test2.Motor.Has_Speed_Ref"
+    - Name: Interlock_Bit
+      Id: g=0dd13bea01881ec0e0086de4bb7d1747
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Id: g=df419a736f216c173a04dde0c1a5f048
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Test2.Motor.Interlock_Bit"
+    - Name: Interlock_Bypass_Bit
+      Id: g=48bd7484066ffb785418dca3f5c404ad
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Id: g=e5b272656b87c6e908dc5fe476593033
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Test2.Motor.Interlock_Bypass_Bit"
+    - Name: Interlock_Enable_Bit
+      Id: g=82a0f421755b8fa122a72ce0f9a4634a
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Id: g=34dda650a58cd48cfe549d1cbf40bc0d
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Test2.Motor.Interlock_Enable_Bit"
+    - Name: Manual_On_Cmd
+      Id: g=6f97b6c28956cd357bfe7f2e78cf346f
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=65ebc9173ce787d31eacb880a906a6ea
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Test2.Motor.Manual_On_Cmd"
+    - Name: Manual_Selected_Bit
+      Id: g=d26a50892a6e7eb5ccec087f7daf3936
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=37fe3456e865bc8bd678e7fa20f63f07
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Test2.Motor.Manual_Selected_Bit"
+    - Name: Manual_Selection_PB
+      Id: g=6c1ffa4ec4d6d79a3403695076d7dfab
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=25e0904ef40e7cd41f59f8869453869d
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Test2.Motor.Manual_Selection_PB"
+    - Name: Manual_Start_PB
+      Id: g=90155e0f75351fefc4bcf2d36b85b5f6
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=3be7f4b898a6dc891d82bb3f78adc3cf
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Test2.Motor.Manual_Start_PB"
+    - Name: Manual_Stop_PB
+      Id: g=efeda136c448722fccc971add02f6e18
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=c0649cb407da3755ce8de24d0e02ca03
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Test2.Motor.Manual_Stop_PB"
+    - Name: Motor_On_Cmd
+      Id: g=3e7d9e992a8cc15068230303ea60cd9b
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=1203f42a04aae262fc3246c6888d858d
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Test2.Motor.Motor_On_Cmd"
+    - Name: Motor_Run_FB
+      Id: g=102f430451a68536b780b42fcbdba13a
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=5d037846da1d5d6e8525a7e0a9e964ab
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Test2.Motor.Motor_Run_FB"
+    - Name: Motor_Speed_Ref
+      Id: g=ab2822bb9a08340f1c05c53e79df7180
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Id: g=94ce55b5b4a142bd765783ce6cfbc166
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Test2.Motor.Motor_Speed_Ref"
+    - Name: Motor_Speed_Ref1
+      Id: g=4860538f6abc6803768df3b478fdb4b0
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Id: g=16fa75306678026554f76b19d4d8b2a9
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Test2.Motor.Motor_Speed_Ref1"
+    - Name: Motor_Status
+      Id: g=09022e0fd0461264784df351cd01aabb
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Id: g=f6ef98ea7c8fcc26aa74fcbe56892b4e
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Test2.Motor.Motor_Status"
+    - Name: Permissive_Bit
+      Id: g=1bc85df16f909dfc0be66b8bb5a407e6
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Id: g=c398a7e6db44f02503a5a67097710457
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Test2.Motor.Permissive_Bit"
+    - Name: Permissive_Bypass_Bit
+      Id: g=3bf22f8f4c7df70cd04e4f8bf5ebe244
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Id: g=1fb60154ce8ed4c8300c33279fe7aef0
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Test2.Motor.Permissive_Bypass_Bit"
+    - Name: Permissive_Enable_Bit
+      Id: g=b950d8fd12f2ff4c3c9a2ab892d25ede
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Id: g=48d030e141d417f10b4c65a154eaab84
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Test2.Motor.Permissive_Enable_Bit"
+    - Name: Reset_PB
+      Id: g=1c58a5b6e2f738fac25881471457b9e3
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=7a87bbf11c711cab81e1b5888d62ab2f
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Test2.Motor.Reset_PB"
+    - Name: Run_FB_Check_Time
+      Id: g=fa9a0d85110ef5af8e80319c71cc320d
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Id: g=2d5aaf211e36f8e006ecddcd692e0beb
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Test2.Motor.Run_FB_Check_Time"
+    - Name: Run_FB_Fault
+      Id: g=95968fb7aa52a1cb4b7285b33491da96
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=5647380c033fb382b065d28ed5dd96fe
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Test2.Motor.Run_FB_Fault"
+    - Name: Status_Blink_Bit
+      Id: g=7f2fb1dc6dd4570fcba97c5f43377170
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=dfce39c8a1fdebe1097bdc3965e82952
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Test2.Motor.Status_Blink_Bit"
+    - Name: System_First_Scan
+      Id: g=a80b736aa6408f5ef9a7df78ec74b24f
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=26e8a3274f63ba1590be65ee2464a1fa
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Test2.Motor.System_First_Scan"
+  - Name: Permissive_Text
+    Id: g=424a061faeda816e76f02318128236ec
+    Type: RAEtherNetIPTag
+    DataType: String
+    ValueRank: OneDimension
+    ArrayDimensions: [16]
+    Children:
+    - Name: SymbolName
+      Id: g=640d7cd17022fc8e571b89f467bf4f77
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Test2.Permissive_Text"
+  - Name: Tagname
+    Id: g=7648408e0c66ca582bf0789bee3a7046
+    Type: RAEtherNetIPTag
+    DataType: String
+    Children:
+    - Name: SymbolName
+      Id: g=46772f710d2951c7cb4df257bc9b1f5c
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Test2.Tagname"
+- Name: Digital_input
+  Id: g=625a4254bad35327475cc0a18685ef78
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  ValueRank: OneDimension
+  ArrayDimensions: [2]
+  Children:
+  - Name: SymbolName
+    Id: g=9958f1cb32471fc0d70db3e747c7cf5a
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Digital_input"
+- Name: ro_feed_pump
+  Id: g=a8f022042d0aa59e7372a6157c9b2779
+  Type: MTR
+  DataType: MTR
+  Children:
+  - Name: Interlock_Text
+    Id: g=28b4f22714e6bc62b2eed2ef64c4d219
+    Type: RAEtherNetIPTag
+    DataType: String
+    ValueRank: OneDimension
+    ArrayDimensions: [16]
+    Children:
+    - Name: SymbolName
+      Id: g=64358f3efc191f4967b2c590f6e10870
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "ro_feed_pump.Interlock_Text"
+  - Name: Motor
+    Id: g=e8efa85f2cfa1c8f55f4af313245cde2
+    Type: Motor
+    DataType: Motor
+    Children:
+    - Name: All_Interlock_OK
+      Id: g=9c47ef256550865f1e58c19718a4ea25
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=c106e2670014a7b94573d4db9e9a7154
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "ro_feed_pump.Motor.All_Interlock_OK"
+    - Name: All_Permissive_OK
+      Id: g=c9044d9ad4f6a95d398044bee9ab61f5
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=eb6f1256c5ce1c52ff2227a5f1ae6fb9
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "ro_feed_pump.Motor.All_Permissive_OK"
+    - Name: Auto_On_Cmd
+      Id: g=40ca30ea0d6423b3a284905db66e4fcc
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=906eab9ca5c7175148c6c71be75a19d1
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "ro_feed_pump.Motor.Auto_On_Cmd"
+    - Name: Auto_On_Cmd_from_Logic
+      Id: g=81d8b4380a8b814a17db38a4179766a3
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=4f0ef7ec376ff729a91414265997736d
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "ro_feed_pump.Motor.Auto_On_Cmd_from_Logic"
+    - Name: Auto_Selected_Bit
+      Id: g=95bb44bd0efafd2f22eb1c1ff0e9494d
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=7f2fbbea21df17ab104ed88de6697aa9
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "ro_feed_pump.Motor.Auto_Selected_Bit"
+    - Name: Autro_Selection_PB
+      Id: g=d2bfb162622901cbefa74d7683fe652f
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=2da8cab84ac34cda028a9bee9c9a180c
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "ro_feed_pump.Motor.Autro_Selection_PB"
+    - Name: EnableIn
+      Id: g=d1f6083f9c2c8beb4ee1b5551a6cd926
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=9fc15bd70996d5e79268503124dcdecb
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "ro_feed_pump.Motor.EnableIn"
+    - Name: EnableOut
+      Id: g=ac16f5972dfd7dcb024e7ba5cdb81ecc
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=db095064f2ef2a94401c76b8a0bcfcbe
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "ro_feed_pump.Motor.EnableOut"
+    - Name: Has_Interlock_Bit
+      Id: g=dd6272e6918912d3ba708e6062e48e8c
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=299e75bac23d789b35808a20d2fa943e
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "ro_feed_pump.Motor.Has_Interlock_Bit"
+    - Name: Has_Permissive_Bit
+      Id: g=c1de5003971c8a568f6a7b35a97be6df
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=74a10b82a1cba4f9ebb151d6038cd57a
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "ro_feed_pump.Motor.Has_Permissive_Bit"
+    - Name: Has_Speed_Ref
+      Id: g=c31899187235252b16c7b27a5abaf57e
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=fc89297b936ada4d989fc7b97bcd8891
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "ro_feed_pump.Motor.Has_Speed_Ref"
+    - Name: Interlock_Bit
+      Id: g=6f7a9380c92dd99556fb80d3bb4bbee7
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Id: g=88c27051108f5dcb606ca9b41c8e801e
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "ro_feed_pump.Motor.Interlock_Bit"
+    - Name: Interlock_Bypass_Bit
+      Id: g=f0feccb3f7130ada748ab8cb940ce6d7
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Id: g=fdf39aacd1513e01e21134ca0a1d8f7a
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "ro_feed_pump.Motor.Interlock_Bypass_Bit"
+    - Name: Interlock_Enable_Bit
+      Id: g=e680ee94f10b56e6edef1705a9b8a193
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Id: g=8d94c7c030ed249bdd3d93fed3713df3
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "ro_feed_pump.Motor.Interlock_Enable_Bit"
+    - Name: Manual_On_Cmd
+      Id: g=7823ed8e43e204510010afb29e652cd6
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=513459700bdc42ae9ab4744337a1b90f
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "ro_feed_pump.Motor.Manual_On_Cmd"
+    - Name: Manual_Selected_Bit
+      Id: g=d80fde17aeb10a70eba50569f854c4f7
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=b3bc8d609a74022810df325198119fc4
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "ro_feed_pump.Motor.Manual_Selected_Bit"
+    - Name: Manual_Selection_PB
+      Id: g=5fd277b2a13228f40f209b881be2e32a
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=070bcd8bec8d494f07007b053a666a3c
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "ro_feed_pump.Motor.Manual_Selection_PB"
+    - Name: Manual_Start_PB
+      Id: g=56b86c736a5bda452344c16f2fc71940
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=b2eed68a1d77e4c8ecebbd6770be23c7
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "ro_feed_pump.Motor.Manual_Start_PB"
+    - Name: Manual_Stop_PB
+      Id: g=ef0f2e9dd3ab70fc8ce56f8e44068c30
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=22bc7c494096b1539cf7a064668be2b0
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "ro_feed_pump.Motor.Manual_Stop_PB"
+    - Name: Motor_Has_Run_FB
+      Id: g=e2fdf20de28478b5903d06df2e9518ab
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=f0dd3f7ebdd2a2d0c7d4615bb4f22e92
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "ro_feed_pump.Motor.Motor_Has_Run_FB"
+    - Name: Motor_On_Cmd
+      Id: g=f323d9a383902446a764de3b3a174173
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=0ff1c74e7224293993288eec6e527dda
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "ro_feed_pump.Motor.Motor_On_Cmd"
+    - Name: Motor_Run_FB
+      Id: g=75cbc47809d2aa93529280d20ebb50bc
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=2b5313ef9ff1516172abdf102f76cd36
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "ro_feed_pump.Motor.Motor_Run_FB"
+    - Name: Motor_Run_FB_Input
+      Id: g=b84b1ac9769eb13e4cd781493db759a9
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=a043ef8408bc85e218cd9d6718c45ea7
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "ro_feed_pump.Motor.Motor_Run_FB_Input"
+    - Name: Motor_Speed_Ref
+      Id: g=77647ba218961412197c8981e55a2ec3
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Id: g=4c2452de6012a2dbf897cb78dd26ebce
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "ro_feed_pump.Motor.Motor_Speed_Ref"
+    - Name: Motor_Speed_Ref1
+      Id: g=4e2942ef80785ac25e567a23627a85b7
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Id: g=6c74e6cc3ec6e3e5a503a9abd30d9d48
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "ro_feed_pump.Motor.Motor_Speed_Ref1"
+    - Name: Motor_Status
+      Id: g=4962812c49f35c3a01fcdead9571ac90
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Id: g=4ad5ae2c6eb50c35c3be6cf3e546d336
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "ro_feed_pump.Motor.Motor_Status"
+    - Name: Permissive_Bit
+      Id: g=b51e2b291c8412bb5dc908c0d3aa7388
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Id: g=7c0980832cb50fe28942dade24ee64d7
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "ro_feed_pump.Motor.Permissive_Bit"
+    - Name: Permissive_Bypass_Bit
+      Id: g=5d0b61362ad958af248a976121be5185
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Id: g=db2d318c8647b2dd73d9f63b9307df52
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "ro_feed_pump.Motor.Permissive_Bypass_Bit"
+    - Name: Permissive_Enable_Bit
+      Id: g=c714eb7582ff75c1cfb70097931316b9
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Id: g=5bdc5a78143ae5a473f3080269ec9fb3
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "ro_feed_pump.Motor.Permissive_Enable_Bit"
+    - Name: Reset_PB
+      Id: g=e8ea41c9cdb61aad6ae31bd6a2c2802e
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=ede4053b72a3b21c7b67117f5b5599bc
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "ro_feed_pump.Motor.Reset_PB"
+    - Name: Run_FB_Check_Time
+      Id: g=833ce6f38f6f17f69f4374d8a714999a
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Id: g=3fe2e94832bfc978125f0b7bfd687087
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "ro_feed_pump.Motor.Run_FB_Check_Time"
+    - Name: Run_FB_Fault
+      Id: g=e0d1e83a5a1049f8f9fdb3be066d69fe
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=4741e0dca7be567c47d41515c10bcc50
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "ro_feed_pump.Motor.Run_FB_Fault"
+    - Name: Status_Blink_Bit
+      Id: g=05d83f30e39f98ac2a78629bbb8c597f
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=a484a4001c14e4da2c757a8e6d86d6d6
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "ro_feed_pump.Motor.Status_Blink_Bit"
+    - Name: System_First_Scan
+      Id: g=2d0d471638c1aa18603e1d4d2bc2e4d5
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=dab27ef8f1da5e53662530b9a6ea265a
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "ro_feed_pump.Motor.System_First_Scan"
+  - Name: Permissive_Text
+    Id: g=bd6fae12062946f0b4ad8f86bb424e17
+    Type: RAEtherNetIPTag
+    DataType: String
+    ValueRank: OneDimension
+    ArrayDimensions: [16]
+    Children:
+    - Name: SymbolName
+      Id: g=43a25c2fad67940d3a219f0df65bd3fe
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "ro_feed_pump.Permissive_Text"
+  - Name: Tagname
+    Id: g=037023397070f40d996a2aee77e45fe3
+    Type: RAEtherNetIPTag
+    DataType: String
+    Children:
+    - Name: SymbolName
+      Id: g=30281c074faf85979bf39fb2843e4712
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "ro_feed_pump.Tagname"
+- Name: Auto_Sel_PB
+  Id: g=db004fb9b44b5b3073b0c5b7499b1bfe
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Id: g=a69f35fd80f2e9530c9328d2623e7fb6
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Auto_Sel_PB"
+- Name: Ph_Correction_Pump
+  Id: g=a2b0b2a55b52b3bb2c59f8e134455656
+  Type: MTR
+  DataType: MTR
+  Children:
+  - Name: Interlock_Text
+    Id: g=7b1a39576bf0fad28f94e26b782f2cbe
+    Type: RAEtherNetIPTag
+    DataType: String
+    ValueRank: OneDimension
+    ArrayDimensions: [16]
+    Children:
+    - Name: SymbolName
+      Id: g=761284528a9d170c65485079bbaf5eb6
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Ph_Correction_Pump.Interlock_Text"
+  - Name: Motor
+    Id: g=c15e5779c3c8ea4f124ea83c621f32bd
+    Type: Motor
+    DataType: Motor
+    Children:
+    - Name: All_Interlock_OK
+      Id: g=323ceefc584362cc75f2117710334bbe
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=b9f0bf7800ff2691effb90dbb2f9bcef
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ph_Correction_Pump.Motor.All_Interlock_OK"
+    - Name: All_Permissive_OK
+      Id: g=848a079119967d0beba392af2b9df0b6
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=b430a809006fcf747305317508c11220
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ph_Correction_Pump.Motor.All_Permissive_OK"
+    - Name: Auto_On_Cmd
+      Id: g=941f07dbd7d027a2d59a12f85b1a4c4d
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=9732437c633a1a3b98cafb2475a7bb75
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ph_Correction_Pump.Motor.Auto_On_Cmd"
+    - Name: Auto_On_Cmd_from_Logic
+      Id: g=17b45970c8e850337bd8ece548fb5a76
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=86b6cac32741620106bfe84ea20dcbf7
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ph_Correction_Pump.Motor.Auto_On_Cmd_from_Logic"
+    - Name: Auto_Selected_Bit
+      Id: g=3ea43cbf08a6144da60a9a8813bb2893
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=dc6f60d68bfe7db19ee8fa3260e826d5
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ph_Correction_Pump.Motor.Auto_Selected_Bit"
+    - Name: Autro_Selection_PB
+      Id: g=fdce893ffb200f9428a622fe1834a05d
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=4f04add3c9c29b18a42223b0a72239d0
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ph_Correction_Pump.Motor.Autro_Selection_PB"
+    - Name: EnableIn
+      Id: g=a38daa9ebba5863251b93a36c1bbb9be
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=916c441eed4adb82bf9bcf6f6e10fac2
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ph_Correction_Pump.Motor.EnableIn"
+    - Name: EnableOut
+      Id: g=8094ccfede59fe2e306ff46514f91c2c
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=27ea1781896af6327e943fc0b18ff7b2
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ph_Correction_Pump.Motor.EnableOut"
+    - Name: Has_Interlock_Bit
+      Id: g=6747deaf0c94cb91e56640ad46b710be
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=55d9cc00d48f8bb0a64be250279970e8
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ph_Correction_Pump.Motor.Has_Interlock_Bit"
+    - Name: Has_Permissive_Bit
+      Id: g=d28238368760c9192ec192e439938f91
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=e8bc33f7e04ba579f721ee84962ba199
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ph_Correction_Pump.Motor.Has_Permissive_Bit"
+    - Name: Has_Speed_Ref
+      Id: g=865b07bfbc8f351df5fe0c3b3f75f3f7
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=73aefb3d9cf20aede6759d23d2113f9a
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ph_Correction_Pump.Motor.Has_Speed_Ref"
+    - Name: Interlock_Bit
+      Id: g=a89fd1a30b0ed32ed5686f04d08e90a2
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Id: g=f4f2cdf7dd416d4491bf384f4c2ba99c
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ph_Correction_Pump.Motor.Interlock_Bit"
+    - Name: Interlock_Bypass_Bit
+      Id: g=6b40b2d169d6fa731b9085d8b6884321
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Id: g=cb61ad15df3988b8ddc426ef46d35b0c
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ph_Correction_Pump.Motor.Interlock_Bypass_Bit"
+    - Name: Interlock_Enable_Bit
+      Id: g=03affddc963547b67b7c57b9da3c4361
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Id: g=df5fc6251794683c7bc270c5cb64d5c5
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ph_Correction_Pump.Motor.Interlock_Enable_Bit"
+    - Name: Manual_On_Cmd
+      Id: g=6d52c2caf122da15295f09a6cf0e055f
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=b947f4971cedfc4cc968c8004f95b98c
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ph_Correction_Pump.Motor.Manual_On_Cmd"
+    - Name: Manual_Selected_Bit
+      Id: g=963c9fa52804a2d08f8c926f7fac9e3b
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=b4892e8dc1a5ec60f37ad0c560806b45
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ph_Correction_Pump.Motor.Manual_Selected_Bit"
+    - Name: Manual_Selection_PB
+      Id: g=a1966e109d8bf36d7dff0cf16da45deb
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=09453001b6915dbd1bf28fe8b4082ad8
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ph_Correction_Pump.Motor.Manual_Selection_PB"
+    - Name: Manual_Start_PB
+      Id: g=aa829f7dee2123da67df1fae6abce119
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=af112451dc01881e01b86ac3bbcd4e77
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ph_Correction_Pump.Motor.Manual_Start_PB"
+    - Name: Manual_Stop_PB
+      Id: g=dacaed2ed4ac03aaf0c9cd3475bc76fb
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=d913514fa3fc2ae8fa58ff5be2b3c230
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ph_Correction_Pump.Motor.Manual_Stop_PB"
+    - Name: Motor_Has_Run_FB
+      Id: g=6c1dde3b1bc3636f399cc8fdf27f8a2f
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=c4336feee21c3ee40f6d3987f3676d2f
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ph_Correction_Pump.Motor.Motor_Has_Run_FB"
+    - Name: Motor_On_Cmd
+      Id: g=0be56cb34782e3d6e06d38b2f79af1a0
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=b0d9dcd65b049e5b7c421e66b2a165be
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ph_Correction_Pump.Motor.Motor_On_Cmd"
+    - Name: Motor_Run_FB
+      Id: g=b84c33b7cf56c5cfe6d90d9de285095e
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=78ee6461c95715823245a97f84deea48
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ph_Correction_Pump.Motor.Motor_Run_FB"
+    - Name: Motor_Run_FB_Input
+      Id: g=da6c48ca577cf878d6636d47e5cda0b8
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=66e8fa649929065950bce7ef320d8c63
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ph_Correction_Pump.Motor.Motor_Run_FB_Input"
+    - Name: Motor_Speed_Ref
+      Id: g=42d2e9056d9d3c22a03ba39ff58efb87
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Id: g=352e8251bb7afe58d0598a540a4bcab4
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ph_Correction_Pump.Motor.Motor_Speed_Ref"
+    - Name: Motor_Speed_Ref1
+      Id: g=4406cb8ca3e87683ba4a60588b8fd89f
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Id: g=63b6730c9bf848de104c6f777c969065
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ph_Correction_Pump.Motor.Motor_Speed_Ref1"
+    - Name: Motor_Status
+      Id: g=337ff769c866bceb930a93c9c5da82da
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Id: g=ecbc8be587e7e1fb06577961889c648e
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ph_Correction_Pump.Motor.Motor_Status"
+    - Name: Permissive_Bit
+      Id: g=d8b314d168601f0a0fe5cfb39ababcea
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Id: g=dad338bae552faaa048e145f69a187d0
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ph_Correction_Pump.Motor.Permissive_Bit"
+    - Name: Permissive_Bypass_Bit
+      Id: g=1c7b9da16911ed75b043d50b3f2d532a
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Id: g=2d215812cf5d29b1c1c9ede283d59d67
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ph_Correction_Pump.Motor.Permissive_Bypass_Bit"
+    - Name: Permissive_Enable_Bit
+      Id: g=9be948873f42ca7f17ee51f8cc6f92e1
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Id: g=d21665a4af459dd8430c2e586086514c
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ph_Correction_Pump.Motor.Permissive_Enable_Bit"
+    - Name: Reset_PB
+      Id: g=14b9e4d8505ea5d23fbc2374bc7616ed
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=0e78c1cc8db8c3297d2f00a99b6fc866
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ph_Correction_Pump.Motor.Reset_PB"
+    - Name: Run_FB_Check_Time
+      Id: g=8a43ff0dff71dea7a6cd73d90b39e6b8
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Id: g=a4110507a828dd8a6a44e1e9f0444b37
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ph_Correction_Pump.Motor.Run_FB_Check_Time"
+    - Name: Run_FB_Fault
+      Id: g=2ea30fab0a1600964fc3d0f9a3951111
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=6359d37e2332a7ca14945fa2798a6a3e
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ph_Correction_Pump.Motor.Run_FB_Fault"
+    - Name: Status_Blink_Bit
+      Id: g=fd6057610af53b3c51d32e1fd70c6cb4
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=ccd2725993c711b932c66eeb62ce49ce
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ph_Correction_Pump.Motor.Status_Blink_Bit"
+    - Name: System_First_Scan
+      Id: g=1f2c3aa343fca1f7b230f482e7f1b13d
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=fee9a0d2472a2b727a8beda244dd4495
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ph_Correction_Pump.Motor.System_First_Scan"
+  - Name: Permissive_Text
+    Id: g=79c515d554ecca4639d81a43e5bccc34
+    Type: RAEtherNetIPTag
+    DataType: String
+    ValueRank: OneDimension
+    ArrayDimensions: [16]
+    Children:
+    - Name: SymbolName
+      Id: g=a05f81e9f38c202c7ce779011be45798
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Ph_Correction_Pump.Permissive_Text"
+  - Name: Tagname
+    Id: g=573d7b51d70a1a162163f6a32ef3c81b
+    Type: RAEtherNetIPTag
+    DataType: String
+    Children:
+    - Name: SymbolName
+      Id: g=4ea64f37ba17873df0a6aa893d0c1450
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Ph_Correction_Pump.Tagname"
+- Name: Ants_Correction_Pump
+  Id: g=17b82ca984e1101a1e6c2c5127c195fe
+  Type: MTR
+  DataType: MTR
+  Children:
+  - Name: Interlock_Text
+    Id: g=4fb9265e463cf1240d736701cd1bc02a
+    Type: RAEtherNetIPTag
+    DataType: String
+    ValueRank: OneDimension
+    ArrayDimensions: [16]
+    Children:
+    - Name: SymbolName
+      Id: g=35e7b8ab10baf5b03086cb757271bc49
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Ants_Correction_Pump.Interlock_Text"
+  - Name: Motor
+    Id: g=d5c697524b577c7f3d699f1733830787
+    Type: Motor
+    DataType: Motor
+    Children:
+    - Name: All_Interlock_OK
+      Id: g=c477b53cca3ba8d03f14a92b6051618c
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=87d0fabeddbc258103c1fd9cfb8b709f
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ants_Correction_Pump.Motor.All_Interlock_OK"
+    - Name: All_Permissive_OK
+      Id: g=314443a7490f8294f0ee4aca0a40e9e3
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=625f116125e0c0c7d4d33fd60562b4ab
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ants_Correction_Pump.Motor.All_Permissive_OK"
+    - Name: Auto_On_Cmd
+      Id: g=8b6630bc986cc12a9fd7457bc2d822ac
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=f9bfeec4016c66ca097ae0a6dafa1219
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ants_Correction_Pump.Motor.Auto_On_Cmd"
+    - Name: Auto_On_Cmd_from_Logic
+      Id: g=efaf2fdefd486c83820e7e77a667c944
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=afd031805a6fbc5938520d572aacf287
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ants_Correction_Pump.Motor.Auto_On_Cmd_from_Logic"
+    - Name: Auto_Selected_Bit
+      Id: g=5a2799d25558ce783c546211f8dc905f
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=1919577e19a4deb4c6df2e37c90a7621
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ants_Correction_Pump.Motor.Auto_Selected_Bit"
+    - Name: Autro_Selection_PB
+      Id: g=7889cfa6ff0d9ffbb1683505b4b0c480
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=2082d8e9c3ac57a6bafb363bdc6485ca
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ants_Correction_Pump.Motor.Autro_Selection_PB"
+    - Name: EnableIn
+      Id: g=bb7027d4392cafbbf5e9c473393ed8d7
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=b608c86eba3cb7d53022aea6d41bf6ca
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ants_Correction_Pump.Motor.EnableIn"
+    - Name: EnableOut
+      Id: g=b791793d2f97ff4aa0340e3f864a1462
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=75ce42960e23cbe3408d34b446f10a9c
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ants_Correction_Pump.Motor.EnableOut"
+    - Name: Has_Interlock_Bit
+      Id: g=8d33188fd83350a2cdb363b350969287
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=d2bee4d81a724bde69bbff7db790c9a7
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ants_Correction_Pump.Motor.Has_Interlock_Bit"
+    - Name: Has_Permissive_Bit
+      Id: g=f1321292284dcd6bc9711dd2c718a1ec
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=aa720853888cbc941400682933cc6db1
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ants_Correction_Pump.Motor.Has_Permissive_Bit"
+    - Name: Has_Speed_Ref
+      Id: g=1a3b929ecce70ff82a9d0e19eec9e52a
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=92005602b187a5d9febef3403e8adbdf
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ants_Correction_Pump.Motor.Has_Speed_Ref"
+    - Name: Interlock_Bit
+      Id: g=b23653446b0608e3672e2409df666d56
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Id: g=5a72b193e0ac1be22f473a701f32381c
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ants_Correction_Pump.Motor.Interlock_Bit"
+    - Name: Interlock_Bypass_Bit
+      Id: g=778e891fc42465bb762506c0938106f0
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Id: g=7cd73c4b242835d75ab77a1df75c0339
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ants_Correction_Pump.Motor.Interlock_Bypass_Bit"
+    - Name: Interlock_Enable_Bit
+      Id: g=28a63de33c8b36b3f83ac9f61403ea95
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Id: g=7ee377d1a2c79f2e35dfc397ad645282
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ants_Correction_Pump.Motor.Interlock_Enable_Bit"
+    - Name: Manual_On_Cmd
+      Id: g=4f403df31d091016a5e2679178098798
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=5a1c026813ebb25c2d577e71017865a0
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ants_Correction_Pump.Motor.Manual_On_Cmd"
+    - Name: Manual_Selected_Bit
+      Id: g=52689aa2a52cdbd315690b76a3354c3d
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=b0059eef73ac19d725ebc9d1e7216912
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ants_Correction_Pump.Motor.Manual_Selected_Bit"
+    - Name: Manual_Selection_PB
+      Id: g=f50f1cd43f536052c8638ddde8592e1c
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=8409f8d620c733a2a971f151f347481e
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ants_Correction_Pump.Motor.Manual_Selection_PB"
+    - Name: Manual_Start_PB
+      Id: g=bbb783142a521650ba14c766c9b1f074
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=27dcfe0132d6599d0d5a0226b5b05831
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ants_Correction_Pump.Motor.Manual_Start_PB"
+    - Name: Manual_Stop_PB
+      Id: g=beb73bdebbe2e8aeb54e3ca54d4a16b0
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=d3a0d3008d3adcf8079e172c1f14348c
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ants_Correction_Pump.Motor.Manual_Stop_PB"
+    - Name: Motor_Has_Run_FB
+      Id: g=7ff70027e90a5f00bb5324f47afc8962
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=2ebd97069f882648c7235883f1e1ab1e
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ants_Correction_Pump.Motor.Motor_Has_Run_FB"
+    - Name: Motor_On_Cmd
+      Id: g=0dfa877bf067528d02d0da5476e175cd
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=a2d7e6f33366edfef02701b53f3b9960
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ants_Correction_Pump.Motor.Motor_On_Cmd"
+    - Name: Motor_Run_FB
+      Id: g=74130052559cab06ac08024dc5084470
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=feb3325137801b9f7310989e723d5dea
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ants_Correction_Pump.Motor.Motor_Run_FB"
+    - Name: Motor_Run_FB_Input
+      Id: g=55fb990065b56bb3599fdc645babb514
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=d7bd62606990c36d70804428e1546060
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ants_Correction_Pump.Motor.Motor_Run_FB_Input"
+    - Name: Motor_Speed_Ref
+      Id: g=bdad12b058147648a547908f0fde2016
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Id: g=ae1fd4f8b6fec8e6d2ecaae308e9c133
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ants_Correction_Pump.Motor.Motor_Speed_Ref"
+    - Name: Motor_Speed_Ref1
+      Id: g=42e88c54aaeabc9c3ad4d9fc25ccb5ec
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Id: g=444790edf2e83f5f143e6f448d0fc38e
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ants_Correction_Pump.Motor.Motor_Speed_Ref1"
+    - Name: Motor_Status
+      Id: g=14185e349e1e8eb21fdb23e6cb9ccf72
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Id: g=cfdec879bfde5b080059108b74b27c2f
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ants_Correction_Pump.Motor.Motor_Status"
+    - Name: Permissive_Bit
+      Id: g=3366d7c43709d1ff51f7aa76e7492a69
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Id: g=0e451e28c23cdce0f8f4ab26b56fd838
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ants_Correction_Pump.Motor.Permissive_Bit"
+    - Name: Permissive_Bypass_Bit
+      Id: g=83bb5b2534fe047fcf4241a8a133557d
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Id: g=5fde0783956a4804ebb18396560a2b1f
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ants_Correction_Pump.Motor.Permissive_Bypass_Bit"
+    - Name: Permissive_Enable_Bit
+      Id: g=b9e51624acbb8b632df784111bfaa66f
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Id: g=217221ee4390955168b4af178a7af520
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ants_Correction_Pump.Motor.Permissive_Enable_Bit"
+    - Name: Reset_PB
+      Id: g=27b1e9f00286033ab5f5f391af30fe54
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=8f0c6d58672574c463a29179a8d631db
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ants_Correction_Pump.Motor.Reset_PB"
+    - Name: Run_FB_Check_Time
+      Id: g=47e98e4af90184f42492f08e728a33f8
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Id: g=ee62057ed6a37174327519ec7e497fe9
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ants_Correction_Pump.Motor.Run_FB_Check_Time"
+    - Name: Run_FB_Fault
+      Id: g=0553a4e3677c722d94021d1438349a78
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=7ad1f13f57c1caf649a254f49329ea59
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ants_Correction_Pump.Motor.Run_FB_Fault"
+    - Name: Status_Blink_Bit
+      Id: g=d9902cd6f251d88c516bc054966ce84a
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=573ec82d59c2ed1d7bf50c75674e031a
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ants_Correction_Pump.Motor.Status_Blink_Bit"
+    - Name: System_First_Scan
+      Id: g=d4b0026de88d9c674478e2b39e10a1cd
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=1063b30ed5f3726310f2c2b46f9393a6
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ants_Correction_Pump.Motor.System_First_Scan"
+  - Name: Permissive_Text
+    Id: g=d3aeff83c21fa57d8ac19fe86f1d6a9d
+    Type: RAEtherNetIPTag
+    DataType: String
+    ValueRank: OneDimension
+    ArrayDimensions: [16]
+    Children:
+    - Name: SymbolName
+      Id: g=82d48143aa5065cd3bc3a98af81dba5c
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Ants_Correction_Pump.Permissive_Text"
+  - Name: Tagname
+    Id: g=20b4063e008a0d585772b9d30e3810cb
+    Type: RAEtherNetIPTag
+    DataType: String
+    Children:
+    - Name: SymbolName
+      Id: g=cc149827524c53db9515793e9d9d7f1a
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Ants_Correction_Pump.Tagname"
+- Name: Pre_RO_UV
+  Id: g=1851412b52841bb9bdc636e19a1bc720
+  Type: MTR
+  DataType: MTR
+  Children:
+  - Name: Interlock_Text
+    Id: g=73b2ce0da9a4be71e93a889ffa764aba
+    Type: RAEtherNetIPTag
+    DataType: String
+    ValueRank: OneDimension
+    ArrayDimensions: [16]
+    Children:
+    - Name: SymbolName
+      Id: g=a47abf54a11498309e3b226f6a5443eb
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Pre_RO_UV.Interlock_Text"
+  - Name: Motor
+    Id: g=0832f30aee111faacdd6a907e9ee590a
+    Type: Motor
+    DataType: Motor
+    Children:
+    - Name: All_Interlock_OK
+      Id: g=f4c7829309db10f7fc9b862127042ef1
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=aa8f1bb8c3a2afd8fca2c307ad4bf698
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Pre_RO_UV.Motor.All_Interlock_OK"
+    - Name: All_Permissive_OK
+      Id: g=bad6f7d8d704b42f277c20df4e754b70
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=f063108c7ae3e9c09ee8cec6bc48ac7a
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Pre_RO_UV.Motor.All_Permissive_OK"
+    - Name: Auto_On_Cmd
+      Id: g=f6a0a39f2b9e057668c4e7ea4205c85f
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=cb5d01a5facdd5e8704ee36d3f8dc2f9
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Pre_RO_UV.Motor.Auto_On_Cmd"
+    - Name: Auto_On_Cmd_from_Logic
+      Id: g=cc07300be8e35d406dc918ac70244a27
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=cbeb6f1a2d67625111e29a33ae28a153
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Pre_RO_UV.Motor.Auto_On_Cmd_from_Logic"
+    - Name: Auto_Selected_Bit
+      Id: g=1979046135365de96fa42fc66bbe5558
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=2063935afff9e2a468b6f63c4229ea73
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Pre_RO_UV.Motor.Auto_Selected_Bit"
+    - Name: Autro_Selection_PB
+      Id: g=5a04008820d6754c9fec3562cc4b8d09
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=64aeec99052251ef54961ff84e0d4098
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Pre_RO_UV.Motor.Autro_Selection_PB"
+    - Name: EnableIn
+      Id: g=2a38c1278f9498210338c37baf69a1d5
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=a05035132d85b9966a4ad37e090cfee7
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Pre_RO_UV.Motor.EnableIn"
+    - Name: EnableOut
+      Id: g=5400be3a7dc84cf5438e78937571f548
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=100bc976b1978f47ffc7f2e5b91a8258
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Pre_RO_UV.Motor.EnableOut"
+    - Name: Has_Interlock_Bit
+      Id: g=d689c0ddc865edcb97b72b0ac5967591
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=b808f01a0e7e0a56b4bcb6b33e742085
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Pre_RO_UV.Motor.Has_Interlock_Bit"
+    - Name: Has_Permissive_Bit
+      Id: g=a7fd6d35dc54b201a661847bc27f0ea2
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=fb9275ea45c98ae31b3eff2b6ab3164b
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Pre_RO_UV.Motor.Has_Permissive_Bit"
+    - Name: Has_Speed_Ref
+      Id: g=1bc3ac4a4a9d4a28be75043343a62c23
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=8156cb134078e6da96b2b2191f659e3e
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Pre_RO_UV.Motor.Has_Speed_Ref"
+    - Name: Interlock_Bit
+      Id: g=77f2285dc193e61fc382ecc1308ef05b
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Id: g=ce77d2e9cdc3cea589604c0c089f1e85
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Pre_RO_UV.Motor.Interlock_Bit"
+    - Name: Interlock_Bypass_Bit
+      Id: g=cc7932441ee9ecb80d8f8fea739db2cf
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Id: g=41b56f77e8af657cc6b19a5b2848a095
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Pre_RO_UV.Motor.Interlock_Bypass_Bit"
+    - Name: Interlock_Enable_Bit
+      Id: g=300d23b699143ad2715281747e56e486
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Id: g=9863d0d7bd633d2320e0b199dde33900
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Pre_RO_UV.Motor.Interlock_Enable_Bit"
+    - Name: Manual_On_Cmd
+      Id: g=6100db949cfcff0b931f4565e4335307
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=f608c13e8c5c7c5ce29591d0d8c42e6a
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Pre_RO_UV.Motor.Manual_On_Cmd"
+    - Name: Manual_Selected_Bit
+      Id: g=8f7c18db50b7a9e41bb231fca20c01ea
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=20292e99c441eb9af342207bb26d2aa8
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Pre_RO_UV.Motor.Manual_Selected_Bit"
+    - Name: Manual_Selection_PB
+      Id: g=2c46fad0890accfc6ddb478c537fff6a
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=9df4026f074f6216d831a3eee19d0cf3
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Pre_RO_UV.Motor.Manual_Selection_PB"
+    - Name: Manual_Start_PB
+      Id: g=9ff46e9b7b6b5a44dab989f28efd7ce3
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=06a0b85e503ddbc0ed51d2c2bc50bb5d
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Pre_RO_UV.Motor.Manual_Start_PB"
+    - Name: Manual_Stop_PB
+      Id: g=259890dc93178b54b8053ee5f6cca7c5
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=dc8876101d47d12072268915882c43b7
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Pre_RO_UV.Motor.Manual_Stop_PB"
+    - Name: Motor_Has_Run_FB
+      Id: g=0e843be7a8890576775c6ff22b34ae94
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=247ec7f3748fe741a710c5f3269405c5
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Pre_RO_UV.Motor.Motor_Has_Run_FB"
+    - Name: Motor_On_Cmd
+      Id: g=289ef36befc2774f7ab1e7126ceb768d
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=2d3de0c7e7f7449b6963bf67890124b0
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Pre_RO_UV.Motor.Motor_On_Cmd"
+    - Name: Motor_Run_FB
+      Id: g=dadfe9d824d0356289d8edf094a4635d
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=c6db4a099160446994aa195609c6c253
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Pre_RO_UV.Motor.Motor_Run_FB"
+    - Name: Motor_Run_FB_Input
+      Id: g=c30af23ea6ddce8c03033755c82ca8d2
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=2317544627e18eba223991dce8f1a08f
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Pre_RO_UV.Motor.Motor_Run_FB_Input"
+    - Name: Motor_Speed_Ref
+      Id: g=76285a15af5373193c935b6848347c86
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Id: g=406e59f88c905521131df82e4cc2df53
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Pre_RO_UV.Motor.Motor_Speed_Ref"
+    - Name: Motor_Speed_Ref1
+      Id: g=ba2465a32f87fa21bd176ba90a0b4335
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Id: g=561127ec352e3e56dbd53ee0c9eeea93
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Pre_RO_UV.Motor.Motor_Speed_Ref1"
+    - Name: Motor_Status
+      Id: g=5aeedccc694a46b0c8cfac6edb38bc85
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Id: g=d2d82410e1c34fc27f260e1e859f3d82
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Pre_RO_UV.Motor.Motor_Status"
+    - Name: Permissive_Bit
+      Id: g=f2f45538c6cfd5e89d346f746b62c9bb
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Id: g=51c0299c817e410e00892860698b4971
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Pre_RO_UV.Motor.Permissive_Bit"
+    - Name: Permissive_Bypass_Bit
+      Id: g=1fbd943636e02057bc7168a0e31f966b
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Id: g=ee86fa13b45e625d56add5b1b6262e55
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Pre_RO_UV.Motor.Permissive_Bypass_Bit"
+    - Name: Permissive_Enable_Bit
+      Id: g=e07333a18409371924af2eaa7a41a859
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Id: g=e84a3615765b4c586d27b15dae49aa43
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Pre_RO_UV.Motor.Permissive_Enable_Bit"
+    - Name: Reset_PB
+      Id: g=7f04109b9ab1e9dd7a7361a8074d7dcb
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=81bc14b751bb066c561798e25b2fa997
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Pre_RO_UV.Motor.Reset_PB"
+    - Name: Run_FB_Check_Time
+      Id: g=84ad4ad688223313245c8d3ff58209bc
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Id: g=61315093fe7df3e5f6bc05e8f26a73fb
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Pre_RO_UV.Motor.Run_FB_Check_Time"
+    - Name: Run_FB_Fault
+      Id: g=234fa86cefc8d6b77843d18a10e092ce
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=453fbb0577ed31580717325e0d1ee518
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Pre_RO_UV.Motor.Run_FB_Fault"
+    - Name: Status_Blink_Bit
+      Id: g=0ff2092541115f49897e1710388f6779
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=db659cb66c1f488ba2e0cd0e6fbe047b
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Pre_RO_UV.Motor.Status_Blink_Bit"
+    - Name: System_First_Scan
+      Id: g=7761a7aeee00b42dfecfabde66520f16
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=dc93bd5a7240843d0f077a24a78abb61
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Pre_RO_UV.Motor.System_First_Scan"
+  - Name: Permissive_Text
+    Id: g=515cfb02067fadf974c35e5415cdeba1
+    Type: RAEtherNetIPTag
+    DataType: String
+    ValueRank: OneDimension
+    ArrayDimensions: [16]
+    Children:
+    - Name: SymbolName
+      Id: g=0d6156de73ac2d79288074d61cc1ae0a
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Pre_RO_UV.Permissive_Text"
+  - Name: Tagname
+    Id: g=6a6f3ebc79c82cbd8b7f957fae313f23
+    Type: RAEtherNetIPTag
+    DataType: String
+    Children:
+    - Name: SymbolName
+      Id: g=6cb496bd73297ce12704c33603129eff
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Pre_RO_UV.Tagname"
+- Name: RO_Feedflow_PID
+  Id: g=3c6c785a1aaf10a17fcaa7661e4b8a23
+  Type: PID_Type
+  DataType: PID_Type
+  Children:
+  - Name: Manual_PB
+    Id: g=000f1ab653e646debdf77b8bb611989f
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Id: g=d072922b83e09afeaae207502be607bd
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "RO_Feedflow_PID.Manual_PB"
+  - Name: Manual_Val
+    Id: g=93874488d5b481386c5d3805108c0d6d
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Id: g=3285222a91bed1ddd55a6e142753024e
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "RO_Feedflow_PID.Manual_Val"
+  - Name: PID_Bit
+    Id: g=03119dd595192ff8a8e07abb191fe7f8
+    Type: PID
+    DataType: PID
+    ReferenceType: HasComponent
+    Children:
+    - Name: BIAS
+      Id: g=c78e17f3363168d42c8f61da6c57799c
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Id: g=3a1f7a4c5de829b96ab237b398f8ceb5
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RO_Feedflow_PID.PID_Bit.BIAS"
+    - Name: CA
+      Id: g=a39632fd7380b3853d764877ab617eff
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=f4c21552989ceb6136fec87f3387bba9
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RO_Feedflow_PID.PID_Bit.CA"
+    - Name: CL
+      Id: g=0505983b9d6c7812a640da8600a41b1f
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=9594217766003f9df93dc0384139bf93
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RO_Feedflow_PID.PID_Bit.CL"
+    - Name: CT
+      Id: g=2fafbd6c171b96f384a86d9df18d5090
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=a039a6e4cc45360cfba23792f508570b
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RO_Feedflow_PID.PID_Bit.CT"
+    - Name: CTL
+      Id: g=3fe2ff0e3f2799f27abf4afa68f66296
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Id: g=d84d78655aeb2234514c2d88a2ea93ed
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RO_Feedflow_PID.PID_Bit.CTL"
+    - Name: DATA
+      Id: g=5eb7b73d3370ad62edcb52f542d9736d
+      Type: RAEtherNetIPTag
+      DataType: Float
+      ValueRank: OneDimension
+      ArrayDimensions: [17]
+      Children:
+      - Name: SymbolName
+        Id: g=dfd2f21f4a9890c165a992198281c9f7
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RO_Feedflow_PID.PID_Bit.DATA"
+    - Name: DB
+      Id: g=d1c1d193fcd24f417f30a9bce5bd6cdd
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Id: g=e6fbc1ebd80b53e46a457760d79741d4
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RO_Feedflow_PID.PID_Bit.DB"
+    - Name: DOE
+      Id: g=a6cfdceafec4a2687394545c0b7ae121
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=c83d3299d679aa42eed351ffc8a4d908
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RO_Feedflow_PID.PID_Bit.DOE"
+    - Name: DVDB
+      Id: g=49e4a9faf97aa73bcae5fe44ec049fa1
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Id: g=107345baf7655745671b36022031f39c
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RO_Feedflow_PID.PID_Bit.DVDB"
+    - Name: DVN
+      Id: g=03fd3c79f908bf8b96fb0d3475946c3f
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Id: g=61d5548a9b302864ac099aab9ad49ed9
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RO_Feedflow_PID.PID_Bit.DVN"
+    - Name: DVNA
+      Id: g=f1a334c64bc9ead09bad1c6e0f139c5e
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=74f4982061643dddb1af5fdf1ad5d248
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RO_Feedflow_PID.PID_Bit.DVNA"
+    - Name: DVP
+      Id: g=e9e587b2b29064c01e30061431a4b4a1
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Id: g=dce674dd810ae0882539f31845f71a5a
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RO_Feedflow_PID.PID_Bit.DVP"
+    - Name: DVPA
+      Id: g=5583b6266d6e8d18552fa98808ec642d
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=ca88f206d040097d0b3a5e90c5b167ba
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RO_Feedflow_PID.PID_Bit.DVPA"
+    - Name: EN
+      Id: g=8eb9eec1d4600ddcc939843f1c3aed6d
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=5f3d07908563228709c8aa051da9c78e
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RO_Feedflow_PID.PID_Bit.EN"
+    - Name: ERR
+      Id: g=fc9c5620d468bebdb1bb74e377f34ea7
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Id: g=f900ee8a06b3c67b4bf1a5094df14c01
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RO_Feedflow_PID.PID_Bit.ERR"
+    - Name: EWD
+      Id: g=170455515fe5999f52c5768e1d34fe0b
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=537d8453954b5049db7cff2a7c1d0e81
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RO_Feedflow_PID.PID_Bit.EWD"
+    - Name: INI
+      Id: g=277a9822560cf1175f58d696ebfc3514
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=765ae83738f7726c40890b4da21a1d9c
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RO_Feedflow_PID.PID_Bit.INI"
+    - Name: KD
+      Id: g=d6e8eabeec53b500561e86909fc90b22
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Id: g=0a97b478b29fa17995059c4174e44e25
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RO_Feedflow_PID.PID_Bit.KD"
+    - Name: KI
+      Id: g=4892bb7cdaad6d3f2a2f066d758f6831
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Id: g=00f543e9f83227b4f1d32ffa3d730456
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RO_Feedflow_PID.PID_Bit.KI"
+    - Name: KP
+      Id: g=80d90d59a6e939438d72732129c7bc8b
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Id: g=6f14c0b7c9aa25073cd64367b7a47ebf
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RO_Feedflow_PID.PID_Bit.KP"
+    - Name: MAXCV
+      Id: g=d2da5177fe0c7d2ea000ff14a97f9898
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Id: g=8cbd63dbaa4958ac019941a3e6d79afb
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RO_Feedflow_PID.PID_Bit.MAXCV"
+    - Name: MAXI
+      Id: g=0a94d5a0aba54a97798c9fd7661ea7ba
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Id: g=4ecdd9972cc759694266c9eae2fdb48c
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RO_Feedflow_PID.PID_Bit.MAXI"
+    - Name: MAXO
+      Id: g=2006f5c23aa59fdea7c21b3507731f1c
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Id: g=07e19b5ce263c6414fe317442adbb7c4
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RO_Feedflow_PID.PID_Bit.MAXO"
+    - Name: MAXS
+      Id: g=1a4a013591a3a84ff9a169c2222589c1
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Id: g=008bc8a7b201b89081d98a57cd24d0df
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RO_Feedflow_PID.PID_Bit.MAXS"
+    - Name: MAXTIE
+      Id: g=5cc130363176e219a9ce12d787430ee8
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Id: g=255f7958db3184275b293062ed48669b
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RO_Feedflow_PID.PID_Bit.MAXTIE"
+    - Name: MINCV
+      Id: g=7884488806fa1c358cfdfa947fc890be
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Id: g=47babc170e6abd11809b48bfa4d91876
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RO_Feedflow_PID.PID_Bit.MINCV"
+    - Name: MINI
+      Id: g=62b30d4ee8564682171a34a5606dc011
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Id: g=976a23b77080591978a00222e26f422f
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RO_Feedflow_PID.PID_Bit.MINI"
+    - Name: MINO
+      Id: g=42838ed724155acc02a7986462f99660
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Id: g=2da2082b6b623e53d78682617d47c505
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RO_Feedflow_PID.PID_Bit.MINO"
+    - Name: MINS
+      Id: g=bf7551dbf9221bfb26a07413585ef5f8
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Id: g=4ad998be419a0e1f2be78ba0bea84bc9
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RO_Feedflow_PID.PID_Bit.MINS"
+    - Name: MINTIE
+      Id: g=014010c01483fe8797366eb7793744b5
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Id: g=cc3e1dcdf9ec3bc41c7320e32bc5dd47
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RO_Feedflow_PID.PID_Bit.MINTIE"
+    - Name: MO
+      Id: g=8df488fbdf570d458bfc1a15c761bd74
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=878aac68df118d4708c78fe66b0e8c7d
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RO_Feedflow_PID.PID_Bit.MO"
+    - Name: NDF
+      Id: g=6135f1793ccfb51a114a02772c68a860
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=79eafc7913fc4d057ff8c91d07dd15f6
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RO_Feedflow_PID.PID_Bit.NDF"
+    - Name: NOBC
+      Id: g=f4304628a398c577f29790e4ce839a21
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=862ddaa6aecc5a7096bbf4f992caaaba
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RO_Feedflow_PID.PID_Bit.NOBC"
+    - Name: NOZC
+      Id: g=5a2ee7fdba67f042148069b9d81ec208
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=3e56f0ad2d31313032a88d284f3b21e0
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RO_Feedflow_PID.PID_Bit.NOZC"
+    - Name: OLH
+      Id: g=f469db7dde5d7dfd9b71e97d4904d720
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=37a3de63d58dfa3ff75a9d7c0de2a423
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RO_Feedflow_PID.PID_Bit.OLH"
+    - Name: OLL
+      Id: g=879c031fcc9a273923c4d25c9a00aeb3
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=0871f0f5955ef425efa6bbc7e8962f52
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RO_Feedflow_PID.PID_Bit.OLL"
+    - Name: OUT
+      Id: g=021a2708c1bb364af9f7ccf6873c80d8
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Id: g=bdeaafc0925c6a93ba798a98c88940ab
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RO_Feedflow_PID.PID_Bit.OUT"
+    - Name: PE
+      Id: g=03ac691c5d426200a52e0e382b03365d
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=a03f45bd40e6c480af4594f4093f2a55
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RO_Feedflow_PID.PID_Bit.PE"
+    - Name: PV
+      Id: g=67b0d89b8014552df7608da703aaedf1
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Id: g=a52e20db802b16237ad819b343cd2bf6
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RO_Feedflow_PID.PID_Bit.PV"
+    - Name: PVDB
+      Id: g=eafb263ea61e4169ea4048ea0f8e48ae
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Id: g=261b75dfc1d7e104a9332cb3702e2b20
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RO_Feedflow_PID.PID_Bit.PVDB"
+    - Name: PVH
+      Id: g=4783734009ad075d7b9c0fce9ff37d31
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Id: g=0dc00025d7c3cffbe30b0879366afa7d
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RO_Feedflow_PID.PID_Bit.PVH"
+    - Name: PVHA
+      Id: g=054af448f96ba0b22ab20631a0135f4c
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=09ea65a91af5d37291a9fd0a86902c05
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RO_Feedflow_PID.PID_Bit.PVHA"
+    - Name: PVL
+      Id: g=aab98776fc3b87b3a0c6265bedac5f97
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Id: g=0cdc348f463fbcb1e4e9d31ab8edabb3
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RO_Feedflow_PID.PID_Bit.PVL"
+    - Name: PVLA
+      Id: g=00b6ee6afe0c55bd8f2fb944dc29939c
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=c72cb5f68e1fb3d60f51c344ac455303
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RO_Feedflow_PID.PID_Bit.PVLA"
+    - Name: PVT
+      Id: g=4433aa491cb42e422fc547fa71a40eb2
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=0b0b9bdf85ab0c50dfdfa049a2497290
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RO_Feedflow_PID.PID_Bit.PVT"
+    - Name: SO
+      Id: g=5d1221a3cdda0c1bf892e3f6ea41549b
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Id: g=831f1540c064c4db205bc6c5cf6907a7
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RO_Feedflow_PID.PID_Bit.SO"
+    - Name: SP
+      Id: g=4ca961e43d178049a12fdf6fd2bfa987
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Id: g=04578841525edf30dee502e2619f394f
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RO_Feedflow_PID.PID_Bit.SP"
+    - Name: SPOR
+      Id: g=e52ffcd11e638f6622199ce367a22e9a
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=b1931bf3bc292c9b22a75bd50988dd8e
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RO_Feedflow_PID.PID_Bit.SPOR"
+    - Name: SWM
+      Id: g=f8a2065f3bd514f88d17ab0853117bf8
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=998323a68bf49197b13078bbdded628c
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RO_Feedflow_PID.PID_Bit.SWM"
+    - Name: TIE
+      Id: g=f9c31fe46ac9f366b8d1aed7f692b784
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Id: g=d3acf149afe8721efbf694a2d69dc0b0
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RO_Feedflow_PID.PID_Bit.TIE"
+    - Name: UPD
+      Id: g=dde2d092bee03a20e40edc669dc90883
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Id: g=d82ed70a4347b7ea1268d4678fdeaf15
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RO_Feedflow_PID.PID_Bit.UPD"
+  - Name: PV_High_Limit
+    Id: g=4b2b672e34defbdfe5607e30533f281f
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Id: g=6ef8efa9dca8d2203a5c7d03b317e232
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "RO_Feedflow_PID.PV_High_Limit"
+  - Name: PV_Low_Limit
+    Id: g=57155e0a0378e85e94a28d9524ee1cf1
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Id: g=c90fe9851065f397d969e788d22b4344
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "RO_Feedflow_PID.PV_Low_Limit"
+  - Name: Tagname
+    Id: g=5155df59d9086c5561ac6cf8bb851234
+    Type: RAEtherNetIPTag
+    DataType: String
+    Children:
+    - Name: SymbolName
+      Id: g=deed1250295b47a098a2b1204769f006
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "RO_Feedflow_PID.Tagname"
+- Name: Ph_PID
+  Id: g=2cfefb8d9317f4423da6ef838fc5c29a
+  Type: PID_Type
+  DataType: PID_Type
+  Children:
+  - Name: Manual_PB
+    Id: g=babf3c675bcc12507d32520cccebdb7c
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Id: g=84d1339a846438bfc73110b452637222
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Ph_PID.Manual_PB"
+  - Name: Manual_Val
+    Id: g=2980bce6204d331e0f4f6d895f333476
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Id: g=73eab90e3c35f55b82460acf0d0ba120
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Ph_PID.Manual_Val"
+  - Name: PID_Bit
+    Id: g=4d2698cceb8f3cbc6e9609c614080151
+    Type: PID
+    DataType: PID
+    ReferenceType: HasComponent
+    Children:
+    - Name: BIAS
+      Id: g=5958766d7d32cde959d5b2c54b69804c
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Id: g=506161415c7463f09e1983d714798522
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ph_PID.PID_Bit.BIAS"
+    - Name: CA
+      Id: g=1904c4c0e64934879bb7fe14d280b739
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=c34f5744173265191e6bb4b048560257
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ph_PID.PID_Bit.CA"
+    - Name: CL
+      Id: g=c4701a5c04d67f7521aad91dd38756b5
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=7c60399c12a1b1b8750a3e1f6f525b11
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ph_PID.PID_Bit.CL"
+    - Name: CT
+      Id: g=424cce1b1b3eef1b72ca64a64e1c2beb
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=8222b73616cddebd9fc269da057f34ee
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ph_PID.PID_Bit.CT"
+    - Name: CTL
+      Id: g=9f61fd42fc0702fc363da2523dd033d7
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Id: g=13cdb9cd3d45cbd31e377959d5100963
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ph_PID.PID_Bit.CTL"
+    - Name: DATA
+      Id: g=5f5ffd7cd8846f9f32b80c2e14e1ac6d
+      Type: RAEtherNetIPTag
+      DataType: Float
+      ValueRank: OneDimension
+      ArrayDimensions: [17]
+      Children:
+      - Name: SymbolName
+        Id: g=84ab5e1c4756db4f7416bc10865540c8
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ph_PID.PID_Bit.DATA"
+    - Name: DB
+      Id: g=f6fff0b5b3777d5f878b857b730b102f
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Id: g=70c0d31b19d5b1ea7d8714aa7af7a2af
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ph_PID.PID_Bit.DB"
+    - Name: DOE
+      Id: g=c0c6a3048dc123b277a274d55debedc0
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=3ca149ff3523a58fb554338fff72017f
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ph_PID.PID_Bit.DOE"
+    - Name: DVDB
+      Id: g=d62198393ec9e96e78aae3c6f983486d
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Id: g=a69e4535793038ce8415d53396a8b894
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ph_PID.PID_Bit.DVDB"
+    - Name: DVN
+      Id: g=a829b6844474d14d750b81136c21b2bd
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Id: g=7f33c8a4d368a1eb3b0103b2d8c84747
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ph_PID.PID_Bit.DVN"
+    - Name: DVNA
+      Id: g=f8d2d96914761ce1b9e89936cbc5002c
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=f19ece586ab361c97ef8ca63710602c4
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ph_PID.PID_Bit.DVNA"
+    - Name: DVP
+      Id: g=f8752010b86a591acb57726343519a38
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Id: g=763b16fe3db7f806624f849018096ae7
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ph_PID.PID_Bit.DVP"
+    - Name: DVPA
+      Id: g=56702eeec9958c6f1aceec2af34d0fc8
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=3c058da7502058fa236a2f836bc57b42
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ph_PID.PID_Bit.DVPA"
+    - Name: EN
+      Id: g=ed816f8fb379ed42e28e2c35f07220cd
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=77d242b99df985b3d2c44158473bd973
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ph_PID.PID_Bit.EN"
+    - Name: ERR
+      Id: g=4bce822bf0811ba7ad8a5ddf465aaab5
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Id: g=72c470b91592bddd334ce2c2f6abdbc6
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ph_PID.PID_Bit.ERR"
+    - Name: EWD
+      Id: g=dd0a5c2bdc88cb8e3a792ca38ec2d404
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=44f889797608c50f8b0871576d168943
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ph_PID.PID_Bit.EWD"
+    - Name: INI
+      Id: g=2e94d69c0a47bad40d1953e0e42cd445
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=70a2f3c6609df82ef0866ea8d28e9551
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ph_PID.PID_Bit.INI"
+    - Name: KD
+      Id: g=a1516b5e7f3218b3ce792389b9e92fee
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Id: g=c1dfe320e5dc7f9788e86edf55bab458
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ph_PID.PID_Bit.KD"
+    - Name: KI
+      Id: g=5c05bfe59e708c3ee23086cc456e7bd0
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Id: g=37d1a68c338bb5ee9cb66d238b5ffae5
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ph_PID.PID_Bit.KI"
+    - Name: KP
+      Id: g=82da11c771747bf3fb6d04abd4773d87
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Id: g=6e55083d788b28745ce650792f0ee012
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ph_PID.PID_Bit.KP"
+    - Name: MAXCV
+      Id: g=33d2caca36d29b0c9178c200f5253720
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Id: g=00c8c8c6bd8c28dd2ab3f600d54d017f
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ph_PID.PID_Bit.MAXCV"
+    - Name: MAXI
+      Id: g=a48bfc0fed22cd444ece2acdaf823b06
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Id: g=2d819503d9e268fe0b90df039d1dd448
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ph_PID.PID_Bit.MAXI"
+    - Name: MAXO
+      Id: g=947a4b111f028f96c96d50f6899a71b0
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Id: g=9c4519102de4a3ef4bcca53f010def16
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ph_PID.PID_Bit.MAXO"
+    - Name: MAXS
+      Id: g=805e345ad29c057037d97723f0da0551
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Id: g=0bee2568d145cb322134a786c3a588c3
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ph_PID.PID_Bit.MAXS"
+    - Name: MAXTIE
+      Id: g=c6ba9006dc68d277668f8fc8502c81ed
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Id: g=46f06cfbf3eb08163f378c80b8a676f2
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ph_PID.PID_Bit.MAXTIE"
+    - Name: MINCV
+      Id: g=f48e3e4ccc602081108ec74ff336234c
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Id: g=c8abfe71803a4bc395996113da3bbe8c
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ph_PID.PID_Bit.MINCV"
+    - Name: MINI
+      Id: g=a2fcd570be86a82445cb730b9510680d
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Id: g=adb711482ec29d57d29e882302455fc9
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ph_PID.PID_Bit.MINI"
+    - Name: MINO
+      Id: g=db956f8d132e0a87150705d711669128
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Id: g=df8bf2bcc33c299cf4d5f8d20268b902
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ph_PID.PID_Bit.MINO"
+    - Name: MINS
+      Id: g=4e6638deb859c95ae0d0d8463430f1ec
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Id: g=9f3f5887385525cbb9b92688a8d4fb73
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ph_PID.PID_Bit.MINS"
+    - Name: MINTIE
+      Id: g=226a103fbeb77b4745a9518599417171
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Id: g=16cbbfbd6bdf61a38dbbe3e6850f9389
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ph_PID.PID_Bit.MINTIE"
+    - Name: MO
+      Id: g=fdd486614b00835062474058fd49023d
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=af96422e75111cf60731abf0f9f17a2f
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ph_PID.PID_Bit.MO"
+    - Name: NDF
+      Id: g=a6bf885d20f51bad73655669645065a1
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=66954b204996afda9300451fbb6b353d
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ph_PID.PID_Bit.NDF"
+    - Name: NOBC
+      Id: g=9c1269eacb97b6cb8ac807ca145f19dc
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=1edec67aafd56193b32dd32f04fd408e
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ph_PID.PID_Bit.NOBC"
+    - Name: NOZC
+      Id: g=96714d73daef14e703d53f1b537d6b2d
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=4bde9ed4c7ba1388e9435a05b7eb6b60
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ph_PID.PID_Bit.NOZC"
+    - Name: OLH
+      Id: g=d29113ed14e94b445d0d995afebd1e6b
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=7d84613c394a364a66898fcfc731569a
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ph_PID.PID_Bit.OLH"
+    - Name: OLL
+      Id: g=c04290b070f0a71e1daa59caf85c6d07
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=f3fdb21d56cf3add458052d1a7803126
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ph_PID.PID_Bit.OLL"
+    - Name: OUT
+      Id: g=7ece46ae601c80c233b6f65e7558f098
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Id: g=31bdb8aa92f25a8e09b3cd5b92a59a65
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ph_PID.PID_Bit.OUT"
+    - Name: PE
+      Id: g=d4ed0322015db86e0ab776c1e1d3edce
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=46fe56f3a87f0efe90e8360e97041aed
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ph_PID.PID_Bit.PE"
+    - Name: PV
+      Id: g=5ca484b8c98f1851a4717f65a71c9da3
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Id: g=3b746f1494072d1605477e1c236bb071
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ph_PID.PID_Bit.PV"
+    - Name: PVDB
+      Id: g=e7f55eac0453501e8e0181345f4d165a
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Id: g=395d3e24a30a718ed666904b0ddbb14a
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ph_PID.PID_Bit.PVDB"
+    - Name: PVH
+      Id: g=a20da75874128f95fe8dfe2fbc96cde6
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Id: g=2836af19e0c33f07bb4f3498b1c0807c
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ph_PID.PID_Bit.PVH"
+    - Name: PVHA
+      Id: g=21b077213bcdf0bff00b55254c90b1df
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=30ed66d2277aab24864cb37267014f5f
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ph_PID.PID_Bit.PVHA"
+    - Name: PVL
+      Id: g=4a200e763e06119943f2b385fb21bdfc
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Id: g=24dfb5b09cea756c89737b545a32fcfc
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ph_PID.PID_Bit.PVL"
+    - Name: PVLA
+      Id: g=fcd5753a851b354f1598ae71f9514074
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=83b7c0e916df6681d7c6c91ae879d344
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ph_PID.PID_Bit.PVLA"
+    - Name: PVT
+      Id: g=3e65c9353253fbae9dee60418f96a6e1
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=9233cd6b68361ed7da6188c497a1b9bd
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ph_PID.PID_Bit.PVT"
+    - Name: SO
+      Id: g=1f6795e0b41ce351d13740b355a810b7
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Id: g=99af1e8501e815c8aa0f21fe308a7214
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ph_PID.PID_Bit.SO"
+    - Name: SP
+      Id: g=c2cde52c8b435f7e9785e0dc09347303
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Id: g=9109e4132477036bb177d9a8c9b00f4c
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ph_PID.PID_Bit.SP"
+    - Name: SPOR
+      Id: g=efc8afbfc438841677ddcaf094286439
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=27dd77e856bc05cb29803fd8ff9d5737
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ph_PID.PID_Bit.SPOR"
+    - Name: SWM
+      Id: g=f81dec8786aa3865e31f0c2eda7eff11
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=049f5477e197d4785311013835e91674
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ph_PID.PID_Bit.SWM"
+    - Name: TIE
+      Id: g=02debb5df8b55d877d215efcd048aa15
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Id: g=19a64c35f6ccfc5172043d8df9710544
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ph_PID.PID_Bit.TIE"
+    - Name: UPD
+      Id: g=3091e07b4c7d5892b3ca129a803750d5
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Id: g=dd591f20dfd3e66b925db1c9e911aa1e
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ph_PID.PID_Bit.UPD"
+  - Name: PV_High_Limit
+    Id: g=702d2f8363a2c133142a076e99726dab
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Id: g=63ec2be8657c105357b6f2808dd07276
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Ph_PID.PV_High_Limit"
+  - Name: PV_Low_Limit
+    Id: g=02691afa30615df901b1f4782eb5cd6f
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Id: g=83e480300d0b7385d12ccabce1cba471
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Ph_PID.PV_Low_Limit"
+  - Name: Tagname
+    Id: g=bd05c136107d37fb4d7e03d62a81c0a0
+    Type: RAEtherNetIPTag
+    DataType: String
+    Children:
+    - Name: SymbolName
+      Id: g=94a439b683377a12b39f2628c4e693c6
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Ph_PID.Tagname"
+- Name: Per_Pressure
+  Id: g=ccfcbb591b012bc0aebc5287a48c785a
+  Type: SCP
+  DataType: SCP
+  Children:
+  - Name: scale
+    Id: g=784dac3ca31868489d276e0be26c7edd
+    Type: Scaling
+    DataType: Scaling
+    ReferenceType: HasComponent
+    Children:
+    - Name: alm_chk_time
+      Id: g=3e8b3c3d7ef6376837abc08412ac45c4
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Id: g=af18a4155370721ad2d39ab0d19631a8
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Per_Pressure.scale.alm_chk_time"
+    - Name: Enable_Alm
+      Id: g=352dd47e5bd449bc08324c5494a2d6fd
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Id: g=25ed2464ee5f62dbe1405dad29544233
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Per_Pressure.scale.Enable_Alm"
+    - Name: enable_force_bit
+      Id: g=7480eee200cc295a93741800e6d7ed23
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=d545ed47aab9bb8fefb8058829969d24
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Per_Pressure.scale.enable_force_bit"
+    - Name: EnableIn
+      Id: g=a58a67facfed1584a1e8181faade9540
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=9c34d26c9eb96a745c2fde6b17f172fb
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Per_Pressure.scale.EnableIn"
+    - Name: EnableOut
+      Id: g=75b86a827b114a1cf70b4d2b0c24458b
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=2ec6f794a052a0a6bf38ed1b949607df
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Per_Pressure.scale.EnableOut"
+    - Name: force_val
+      Id: g=58734bc7e92d20bb7adef9bdcd95c4d0
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Id: g=a948bec5e81f98c02f72c94b694912e5
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Per_Pressure.scale.force_val"
+    - Name: H_Alm_Bit
+      Id: g=89f0981fb06fc6dfa473a1439e2f1d94
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=8743c6dd5cf5dc233a1e15849ccad17d
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Per_Pressure.scale.H_Alm_Bit"
+    - Name: H_Limit
+      Id: g=abf81e9c53f7255f0ebd03f4b7066bdb
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Id: g=1f0dab7f27d81b15c9e47373de85d885
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Per_Pressure.scale.H_Limit"
+    - Name: HH_Alm_Bit
+      Id: g=86c07f05e35e99f41f797af84ba771a0
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=6780bff08af742dd9b906d7c37cb2e48
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Per_Pressure.scale.HH_Alm_Bit"
+    - Name: HH_Limit
+      Id: g=f4286207c739e23266193afdc792a816
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Id: g=083fb00384d5d327bce273c8926a54b6
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Per_Pressure.scale.HH_Limit"
+    - Name: Input
+      Id: g=1519ea61332172f6a7445b418c2ca146
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Id: g=32350d1e4a9315ba5e18049611f2fbd3
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Per_Pressure.scale.Input"
+    - Name: L_Alm_Bit
+      Id: g=6ae03fdb29cdffc05f8f47faefc4c746
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=9a3a28735f80d3e42b79cd49c694c338
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Per_Pressure.scale.L_Alm_Bit"
+    - Name: LL_Alm_Bit
+      Id: g=bdcb8b9b4456e1b8e33760e40918d8de
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=78ed86d37515757620191c7026214015
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Per_Pressure.scale.LL_Alm_Bit"
+    - Name: LL_Limit
+      Id: g=37525f3727625eed1e9efabe50ff0409
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Id: g=8fd41744bf3debcd5a97127a18d2c92a
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Per_Pressure.scale.LL_Limit"
+    - Name: Low_Limit
+      Id: g=ff2444da4ad690aac83830712939b759
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Id: g=64cb195405ac9c1bfcbd8d19f3d11b07
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Per_Pressure.scale.Low_Limit"
+    - Name: Output
+      Id: g=4064f0332d6116af734649765b1b0145
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Id: g=46e7102c1f679c44160e6cacb1d58809
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Per_Pressure.scale.Output"
+    - Name: Raw_Max
+      Id: g=e9a1de3341aeb0f2ec9427c3f8b6c0d9
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Id: g=0811533314333444c7ea5829a2ee9f4d
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Per_Pressure.scale.Raw_Max"
+    - Name: Raw_Min
+      Id: g=bd8ca82ea51baeec1677c43bdcdcacd6
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Id: g=aaafe13f2cb4d7cd69fe0341c3ecceb5
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Per_Pressure.scale.Raw_Min"
+    - Name: reset_alm_pb
+      Id: g=c4df49c20b64208e27bf12d446c885e7
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=40e96e59f5d2b10402a20e0a4488327c
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Per_Pressure.scale.reset_alm_pb"
+    - Name: Scl_Max
+      Id: g=a969de463d178a1c13c3eed71e18d030
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Id: g=05ae2e8f58a5f0b25dd163d37637ef14
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Per_Pressure.scale.Scl_Max"
+    - Name: Scl_Min
+      Id: g=a2c5a805918c5e677d4131c182f35057
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Id: g=c5a8e5bfca73cff353635ef7bd21c191
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Per_Pressure.scale.Scl_Min"
+  - Name: tag_name
+    Id: g=9099aa8cddc1a839db29b0e30391ee15
+    Type: RAEtherNetIPTag
+    DataType: String
+    Children:
+    - Name: SymbolName
+      Id: g=be2bab0da79f22bc43ffdbde01db54ac
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Per_Pressure.tag_name"
+- Name: Raw_Water_Lvl
+  Id: g=2877170ebad5b377e3adb1fafff6026e
+  Type: SCP
+  DataType: SCP
+  Children:
+  - Name: scale
+    Id: g=9550f4a4293d9d57676ba1ca53e49d96
+    Type: Scaling
+    DataType: Scaling
+    ReferenceType: HasComponent
+    Children:
+    - Name: alm_chk_time
+      Id: g=bd4da39c1b2ab494ec979681bdb99500
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Id: g=9d1faa58d41376d22c0d9c9504dc785b
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Raw_Water_Lvl.scale.alm_chk_time"
+    - Name: Enable_Alm
+      Id: g=942f74f0513109350578ac240f4bbff6
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Id: g=e8a2bf84fa42a8943cd323beee6d83aa
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Raw_Water_Lvl.scale.Enable_Alm"
+    - Name: enable_force_bit
+      Id: g=e2260139985b02668784fd75efb720ed
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=32a07aa00394b6318a60aff113dfa2c7
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Raw_Water_Lvl.scale.enable_force_bit"
+    - Name: EnableIn
+      Id: g=88a0c767b26ef2e70e52fb731a32b600
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=1b42edf1fd13430e63abb0957c1bd8c0
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Raw_Water_Lvl.scale.EnableIn"
+    - Name: EnableOut
+      Id: g=40de209c5890827b0b80ffd5b2226660
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=36c99237b9b895d27f74e0e2fbbea324
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Raw_Water_Lvl.scale.EnableOut"
+    - Name: force_val
+      Id: g=82b2c4ebdbae7b53f22b6f4c06dce3ad
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Id: g=e003b56efc0e8a1412b032d320221a84
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Raw_Water_Lvl.scale.force_val"
+    - Name: H_Alm_Bit
+      Id: g=b5923a826672a8906cebcf6a1f773bbf
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=1a44c361a8e8f9817448580491969719
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Raw_Water_Lvl.scale.H_Alm_Bit"
+    - Name: H_Limit
+      Id: g=c599acddfdf3a2f08acd80437263b099
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Id: g=c1e833487d67192185fbcacb53809320
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Raw_Water_Lvl.scale.H_Limit"
+    - Name: HH_Alm_Bit
+      Id: g=6ead4dc2a20580db2814cbf67a3fa660
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=c7f74bc7c047a940619c8d38e9a6ba58
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Raw_Water_Lvl.scale.HH_Alm_Bit"
+    - Name: HH_Limit
+      Id: g=de48fbc18c6b2edf6ac3018abccd606e
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Id: g=01f2e7c49b5693cffe3444dff3385990
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Raw_Water_Lvl.scale.HH_Limit"
+    - Name: Input
+      Id: g=62fb1fa348775e7536fac87a8bbafac6
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Id: g=6037889baf89ab9dbe6618589f5b78da
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Raw_Water_Lvl.scale.Input"
+    - Name: L_Alm_Bit
+      Id: g=fcbbaf6163b7a1447be6aa89c2e83c25
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=512d2092d3d16a9b6be0d2fc8f2954de
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Raw_Water_Lvl.scale.L_Alm_Bit"
+    - Name: LL_Alm_Bit
+      Id: g=70f689996f28ad72699216d7fae43267
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=8db24687a43a009d292623992dc089aa
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Raw_Water_Lvl.scale.LL_Alm_Bit"
+    - Name: LL_Limit
+      Id: g=feb5bc07175bf65cfae5c2a38a78806f
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Id: g=fac3ec56e5a8622a3d351e0db8120300
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Raw_Water_Lvl.scale.LL_Limit"
+    - Name: Low_Limit
+      Id: g=f39566a2f76a0a6bd42c6f937de1f77d
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Id: g=f2d7657716f25e0efdf2ed79809f1fa7
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Raw_Water_Lvl.scale.Low_Limit"
+    - Name: Output
+      Id: g=4e6735c86fecb45a00046a85324e8229
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Id: g=1b4f23997884a5493cc84d53681738c9
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Raw_Water_Lvl.scale.Output"
+    - Name: Raw_Max
+      Id: g=2f8c28870f67c6663e6a8263d031f1e5
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Id: g=659d81479b8dec308cefe16639fe6dcc
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Raw_Water_Lvl.scale.Raw_Max"
+    - Name: Raw_Min
+      Id: g=4f31c2a1e176f5e7e8257a776bb42cc7
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Id: g=456b53cf229d6425b01595cb2d629a51
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Raw_Water_Lvl.scale.Raw_Min"
+    - Name: reset_alm_pb
+      Id: g=e03481e7e6758954f30f79e68591b0b3
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=8eee252acc1191497ece278e914a0a42
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Raw_Water_Lvl.scale.reset_alm_pb"
+    - Name: Scl_Max
+      Id: g=007c1496ff376fd361969bb9fad3c44b
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Id: g=af27adcc38f8635f98b044a7746b45c4
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Raw_Water_Lvl.scale.Scl_Max"
+    - Name: Scl_Min
+      Id: g=1317d8f6d0aa0c4b24b87a6f453c07a4
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Id: g=cc542a59c3882a6243ca70d8e0e82cca
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Raw_Water_Lvl.scale.Scl_Min"
+  - Name: tag_name
+    Id: g=47a40286f1e2ebcd132e30b245d1e4ae
+    Type: RAEtherNetIPTag
+    DataType: String
+    Children:
+    - Name: SymbolName
+      Id: g=a6b16e7d9fe92ca6973e9e2d6d5e8ecd
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Raw_Water_Lvl.tag_name"
+- Name: ONS_R1
+  Id: g=934922a1d115197e8b2cb65ab7598dca
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Id: g=d1d39325a089a1f8949377413f2ab7fa
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "ONS_R1"
+- Name: Transfer_bit
+  Id: g=4b017f12041e91a0b332116036ba6c45
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Id: g=57a50ad4b284f757b1a5bf9084613c5f
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Transfer_bit"
+- Name: OCT_Transfer_PB
+  Id: g=a2d9a340ddc95a596fa0590ee0368bb2
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Id: g=505f50f98721a92009fe6e9b417f6971
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "OCT_Transfer_PB"
+- Name: Raw_Water_Fill
+  Id: g=213ba299c44fdc828e548a21283d8ea2
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Id: g=2fa1e336bbc251f45e8209b23b1cf990
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Raw_Water_Fill"
+- Name: Raw_Water_Fill_PB
+  Id: g=f3f18fb5f06d9225c579e92b0acfae0d
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Id: g=24e4f94b5ed45974c73d2e3a46d61bbc
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Raw_Water_Fill_PB"
+- Name: LP_START_FLUSH_TIME
+  Id: g=3dc50ee1a70a3a915f3984539c8e5c46
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Id: g=0f2a3e8d65be15ed51ea470e5f63dfd8
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "LP_START_FLUSH_TIME"
+- Name: HP_START_FLUSH_TIME
+  Id: g=bd1ace787ecee75d0f9013e9ee2a0757
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Id: g=2b38632cde8b4b0ac7e67d337a1b1a16
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "HP_START_FLUSH_TIME"
+- Name: HP_STOP_FLUSH_TIME
+  Id: g=79b9ddda11e85b350b4ca797bd42a376
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Id: g=91dffe0742d5ad92cc8f198049dbb490
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "HP_STOP_FLUSH_TIME"
+- Name: LP_STOP_FLUSH_TIME
+  Id: g=87e4f0ee53099755eb9db75a3b9c358b
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Id: g=56869551f9c64bd4fae940f53dcd95e2
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "LP_STOP_FLUSH_TIME"
+- Name: Emg_Start_PB
+  Id: g=6338c50c9fdfa418e2cef5929a49dabe
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Id: g=d749923f069dcade1ebb91dea76f23b9
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Emg_Start_PB"
+- Name: Emg_Stop_PB
+  Id: g=e7b96a374ad8d31506ef27ba14777d88
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Id: g=8a16c0c3b1b61788ce7855d01e01ca91
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Emg_Stop_PB"
+- Name: Report_Test1
+  Id: g=16ebf99f7899aa10fbf1d67e653c5bce
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Children:
+  - Name: SymbolName
+    Id: g=c08d050827b64f4231590d0776c86633
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Report_Test1"
+- Name: Format
+  Id: g=9dddb042855393221ce033718b13beb4
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Id: g=3cc209be7ae9146f2d1aa8683bb3146d
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Format"
+- Name: RO_Status_Text
+  Id: g=8b504bf996f44065fca5962050df81b1
+  Type: RAEtherNetIPTag
+  DataType: String
+  Children:
+  - Name: SymbolName
+    Id: g=f9495f1096f659ceafca88085e0a32cd
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "RO_Status_Text"

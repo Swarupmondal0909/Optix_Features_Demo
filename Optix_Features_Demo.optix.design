@@ -1,0 +1,282 @@
+Project:
+ Name: Optix_Features_Demo_Design
+ ProjectNamespaceIndex: 85
+ Description: ''
+ Company: ''
+ Copyright: ''
+ FormatVersion: 1
+ ProductVersion: 1.4
+ CoreVersion: 3.0
+ Dependencies:
+  2:
+   Uri: Optix_Features_Demo
+   RelativePath: Optix_Features_Demo.optix
+  3:
+   Uri: '6b8ac26fc4a679997d677b0dbb940952#urn:PF4GLZM3:FactoryTalkLinxGatewayOPCUAServer'
+   ServerUri: 6b8ac26fc4a679997d677b0dbb940952
+  4:
+   Uri: '9d85292c6745c2f49f7bc5244cbe1049#FTLGW_Server_RolePermision_Namespace'
+   ServerUri: 9d85292c6745c2f49f7bc5244cbe1049
+  5:
+   Uri: '6b8ac26fc4a679997d677b0dbb940952#http://www.softing.com/OPCUA_Toolkit'
+   ServerUri: 6b8ac26fc4a679997d677b0dbb940952
+  6:
+   Uri: '1e71c183fe0b563cc174aa07cde6e775#http://opcfoundation.org/UA/DI/'
+   ServerUri: 1e71c183fe0b563cc174aa07cde6e775
+  7:
+   Uri: '47bb6879cdf5bd23e80428efda7addf3#http://www.softing.com/OPCUA_Toolkit'
+   ServerUri: 47bb6879cdf5bd23e80428efda7addf3
+  8:
+   Uri: 'fd2df23ed1321dd5ec5cfce424a26cb6#http://www.softing.com/OPCUA_Toolkit'
+   ServerUri: fd2df23ed1321dd5ec5cfce424a26cb6
+  9:
+   Uri: '1e71c183fe0b563cc174aa07cde6e775#urn:SIMATIC.S7-1500.OPC-UAServer:PLCSim Advanced'
+   ServerUri: 1e71c183fe0b563cc174aa07cde6e775
+  10:
+   Uri: '9d85292c6745c2f49f7bc5244cbe1049#urn:PF4GLZM3:FactoryTalkLinxGatewayOPCUAServer'
+   ServerUri: 9d85292c6745c2f49f7bc5244cbe1049
+  11:
+   Uri: '47bb6879cdf5bd23e80428efda7addf3#FTLGW_Server_RolePermision_Namespace'
+   ServerUri: 47bb6879cdf5bd23e80428efda7addf3
+  12:
+   Uri: 'cd6b251d488afae5823b956574b44c3c#urn:SIMATIC.S7-1500.OPC-UAServer:PLCSim Advanced'
+   ServerUri: cd6b251d488afae5823b956574b44c3c
+  13:
+   Uri: 'cf1a52fe430e97ac92539777e18abf9e#urn:PF4GLZM3:FactoryTalkLinxGatewayOPCUAServer'
+   ServerUri: cf1a52fe430e97ac92539777e18abf9e
+  14:
+   Uri: 'cf1a52fe430e97ac92539777e18abf9e#FTLGW_Server_Namespace'
+   ServerUri: cf1a52fe430e97ac92539777e18abf9e
+  15:
+   Uri: 'cd6b251d488afae5823b956574b44c3c#http://www.siemens.com/simatic-s7-opcua'
+   ServerUri: cd6b251d488afae5823b956574b44c3c
+  16:
+   Uri: '1e71c183fe0b563cc174aa07cde6e775#http://www.siemens.com/simatic-s7-opcua'
+   ServerUri: 1e71c183fe0b563cc174aa07cde6e775
+  17:
+   Uri: 'fd2df23ed1321dd5ec5cfce424a26cb6#urn:PF4GLZM3:FactoryTalkLinxGatewayOPCUAServer'
+   ServerUri: fd2df23ed1321dd5ec5cfce424a26cb6
+  18:
+   Uri: 'cd6b251d488afae5823b956574b44c3c#http://opcfoundation.org/UA/DI/'
+   ServerUri: cd6b251d488afae5823b956574b44c3c
+  19:
+   Uri: '47bb6879cdf5bd23e80428efda7addf3#urn:PF4GLZM3:FactoryTalkLinxGatewayOPCUAServer'
+   ServerUri: 47bb6879cdf5bd23e80428efda7addf3
+  20:
+   Uri: '47bb6879cdf5bd23e80428efda7addf3#FTLGW_Server_Namespace'
+   ServerUri: 47bb6879cdf5bd23e80428efda7addf3
+  21:
+   Uri: 'fd2df23ed1321dd5ec5cfce424a26cb6#FTLGW_Server_Namespace'
+   ServerUri: fd2df23ed1321dd5ec5cfce424a26cb6
+  22:
+   Uri: '9d85292c6745c2f49f7bc5244cbe1049#FTLGW_Server_CustomDefine_Namespace'
+   ServerUri: 9d85292c6745c2f49f7bc5244cbe1049
+  23:
+   Uri: 'a89f45629fbbfac1b430ccf62cc348de#FTLGW_Server_CustomDefine_Namespace'
+   ServerUri: a89f45629fbbfac1b430ccf62cc348de
+  24:
+   Uri: '9d85292c6745c2f49f7bc5244cbe1049#FTLGW_Server_Namespace'
+   ServerUri: 9d85292c6745c2f49f7bc5244cbe1049
+  25:
+   Uri: '6b8ac26fc4a679997d677b0dbb940952#FTLGW_Server_RolePermision_Namespace'
+   ServerUri: 6b8ac26fc4a679997d677b0dbb940952
+  26:
+   Uri: '9d85292c6745c2f49f7bc5244cbe1049#http://www.softing.com/OPCUA_Toolkit'
+   ServerUri: 9d85292c6745c2f49f7bc5244cbe1049
+  27:
+   Uri: '7228728a3424657d841652cb98d6862e#FTLGW_Server_Namespace'
+   ServerUri: 7228728a3424657d841652cb98d6862e
+  28:
+   Uri: 'a89f45629fbbfac1b430ccf62cc348de#FTLGW_Server_Namespace'
+   ServerUri: a89f45629fbbfac1b430ccf62cc348de
+  29:
+   Uri: '7228728a3424657d841652cb98d6862e#FTLGW_Server_CustomDefine_Namespace'
+   ServerUri: 7228728a3424657d841652cb98d6862e
+  30:
+   Uri: 'a89f45629fbbfac1b430ccf62cc348de#urn:PF4GLZM3:FactoryTalkLinxGatewayOPCUAServer'
+   ServerUri: a89f45629fbbfac1b430ccf62cc348de
+  31:
+   Uri: '7228728a3424657d841652cb98d6862e#http://opcfoundation.org/UA/'
+   ServerUri: 7228728a3424657d841652cb98d6862e
+  32:
+   Uri: '47bb6879cdf5bd23e80428efda7addf3#http://opcfoundation.org/UA/'
+   ServerUri: 47bb6879cdf5bd23e80428efda7addf3
+  33:
+   Uri: 'cf1a52fe430e97ac92539777e18abf9e#FTLGW_Server_CustomDefine_Namespace'
+   ServerUri: cf1a52fe430e97ac92539777e18abf9e
+  34:
+   Uri: '7228728a3424657d841652cb98d6862e#http://www.softing.com/OPCUA_Toolkit'
+   ServerUri: 7228728a3424657d841652cb98d6862e
+  35:
+   Uri: 'cf1a52fe430e97ac92539777e18abf9e#http://www.softing.com/OPCUA_Toolkit'
+   ServerUri: cf1a52fe430e97ac92539777e18abf9e
+  36:
+   Uri: 'cf1a52fe430e97ac92539777e18abf9e#FTLGW_Server_RolePermision_Namespace'
+   ServerUri: cf1a52fe430e97ac92539777e18abf9e
+  37:
+   Uri: 'cf1a52fe430e97ac92539777e18abf9e#http://opcfoundation.org/UA/'
+   ServerUri: cf1a52fe430e97ac92539777e18abf9e
+  38:
+   Uri: '47bb6879cdf5bd23e80428efda7addf3#FTLGW_Server_CustomDefine_Namespace'
+   ServerUri: 47bb6879cdf5bd23e80428efda7addf3
+  39:
+   Uri: '7228728a3424657d841652cb98d6862e#urn:PF4GLZM3:FactoryTalkLinxGatewayOPCUAServer'
+   ServerUri: 7228728a3424657d841652cb98d6862e
+  40:
+   Uri: '7228728a3424657d841652cb98d6862e#FTLGW_Server_RolePermision_Namespace'
+   ServerUri: 7228728a3424657d841652cb98d6862e
+  41:
+   Uri: 'aad56a4b085a1d0d3e609778bbcdbf53#http://www.softing.com/OPCUA_Toolkit'
+   ServerUri: aad56a4b085a1d0d3e609778bbcdbf53
+  42:
+   Uri: 'a89f45629fbbfac1b430ccf62cc348de#http://opcfoundation.org/UA/'
+   ServerUri: a89f45629fbbfac1b430ccf62cc348de
+  43:
+   Uri: '6b8ac26fc4a679997d677b0dbb940952#FTLGW_Server_Namespace'
+   ServerUri: 6b8ac26fc4a679997d677b0dbb940952
+  44:
+   Uri: '6b8ac26fc4a679997d677b0dbb940952#FTLGW_Server_CustomDefine_Namespace'
+   ServerUri: 6b8ac26fc4a679997d677b0dbb940952
+  45:
+   Uri: 'fd2df23ed1321dd5ec5cfce424a26cb6#http://opcfoundation.org/UA/'
+   ServerUri: fd2df23ed1321dd5ec5cfce424a26cb6
+  46:
+   Uri: 'fd2df23ed1321dd5ec5cfce424a26cb6#FTLGW_Server_RolePermision_Namespace'
+   ServerUri: fd2df23ed1321dd5ec5cfce424a26cb6
+  47:
+   Uri: 'fd2df23ed1321dd5ec5cfce424a26cb6#FTLGW_Server_CustomDefine_Namespace'
+   ServerUri: fd2df23ed1321dd5ec5cfce424a26cb6
+  48:
+   Uri: '203610a0d1aefea1118d6a996b466412#FTLGW_Server_RolePermision_Namespace'
+   ServerUri: 203610a0d1aefea1118d6a996b466412
+  49:
+   Uri: '758e8bfda3cd9c8748b948de6bf171fa#FTLGW_Server_CustomDefine_Namespace'
+   ServerUri: 758e8bfda3cd9c8748b948de6bf171fa
+  50:
+   Uri: 'a89f45629fbbfac1b430ccf62cc348de#http://www.softing.com/OPCUA_Toolkit'
+   ServerUri: a89f45629fbbfac1b430ccf62cc348de
+  51:
+   Uri: 'aad56a4b085a1d0d3e609778bbcdbf53#FTLGW_Server_Namespace'
+   ServerUri: aad56a4b085a1d0d3e609778bbcdbf53
+  52:
+   Uri: 'a89f45629fbbfac1b430ccf62cc348de#FTLGW_Server_RolePermision_Namespace'
+   ServerUri: a89f45629fbbfac1b430ccf62cc348de
+  53:
+   Uri: 'aad56a4b085a1d0d3e609778bbcdbf53#urn:PF4GLZM3:FactoryTalkLinxGatewayOPCUAServer'
+   ServerUri: aad56a4b085a1d0d3e609778bbcdbf53
+  54:
+   Uri: '758e8bfda3cd9c8748b948de6bf171fa#FTLGW_Server_Namespace'
+   ServerUri: 758e8bfda3cd9c8748b948de6bf171fa
+  55:
+   Uri: '758e8bfda3cd9c8748b948de6bf171fa#urn:PF4GLZM3:FactoryTalkLinxGatewayOPCUAServer'
+   ServerUri: 758e8bfda3cd9c8748b948de6bf171fa
+  56:
+   Uri: '758e8bfda3cd9c8748b948de6bf171fa#http://www.softing.com/OPCUA_Toolkit'
+   ServerUri: 758e8bfda3cd9c8748b948de6bf171fa
+  57:
+   Uri: '203610a0d1aefea1118d6a996b466412#FTLGW_Server_CustomDefine_Namespace'
+   ServerUri: 203610a0d1aefea1118d6a996b466412
+  58:
+   Uri: '203610a0d1aefea1118d6a996b466412#http://opcfoundation.org/UA/'
+   ServerUri: 203610a0d1aefea1118d6a996b466412
+  59:
+   Uri: '758e8bfda3cd9c8748b948de6bf171fa#FTLGW_Server_RolePermision_Namespace'
+   ServerUri: 758e8bfda3cd9c8748b948de6bf171fa
+  60:
+   Uri: '203610a0d1aefea1118d6a996b466412#urn:PF4GLZM3:FactoryTalkLinxGatewayOPCUAServer'
+   ServerUri: 203610a0d1aefea1118d6a996b466412
+  61:
+   Uri: '203610a0d1aefea1118d6a996b466412#FTLGW_Server_Namespace'
+   ServerUri: 203610a0d1aefea1118d6a996b466412
+  62:
+   Uri: '203610a0d1aefea1118d6a996b466412#http://www.softing.com/OPCUA_Toolkit'
+   ServerUri: 203610a0d1aefea1118d6a996b466412
+  63:
+   Uri: 'aad56a4b085a1d0d3e609778bbcdbf53#FTLGW_Server_RolePermision_Namespace'
+   ServerUri: aad56a4b085a1d0d3e609778bbcdbf53
+  64:
+   Uri: 'aad56a4b085a1d0d3e609778bbcdbf53#FTLGW_Server_CustomDefine_Namespace'
+   ServerUri: aad56a4b085a1d0d3e609778bbcdbf53
+  65:
+   Uri: 'aad56a4b085a1d0d3e609778bbcdbf53#http://opcfoundation.org/UA/'
+   ServerUri: aad56a4b085a1d0d3e609778bbcdbf53
+  66:
+   Uri: 'b2d9e1a9e6bd80c54d9dd1491a74f679#urn:PF4GLZM3:FactoryTalkLinxGatewayOPCUAServer'
+   ServerUri: b2d9e1a9e6bd80c54d9dd1491a74f679
+  67:
+   Uri: 'b2d9e1a9e6bd80c54d9dd1491a74f679#FTLGW_Server_Namespace'
+   ServerUri: b2d9e1a9e6bd80c54d9dd1491a74f679
+  68:
+   Uri: 'b2d9e1a9e6bd80c54d9dd1491a74f679#http://www.softing.com/OPCUA_Toolkit'
+   ServerUri: b2d9e1a9e6bd80c54d9dd1491a74f679
+  69:
+   Uri: 'b2d9e1a9e6bd80c54d9dd1491a74f679#FTLGW_Server_RolePermision_Namespace'
+   ServerUri: b2d9e1a9e6bd80c54d9dd1491a74f679
+  70:
+   Uri: 'b2d9e1a9e6bd80c54d9dd1491a74f679#FTLGW_Server_CustomDefine_Namespace'
+   ServerUri: b2d9e1a9e6bd80c54d9dd1491a74f679
+  71:
+   Uri: 'b2d9e1a9e6bd80c54d9dd1491a74f679#http://opcfoundation.org/UA/'
+   ServerUri: b2d9e1a9e6bd80c54d9dd1491a74f679
+  72:
+   Uri: '2b34283d7d0fd6d5a7a1d2fb01a8293a#FTLGW_Server_CustomDefine_Namespace'
+   ServerUri: 2b34283d7d0fd6d5a7a1d2fb01a8293a
+  73:
+   Uri: '2b34283d7d0fd6d5a7a1d2fb01a8293a#urn:PF4GLZM3:FactoryTalkLinxGatewayOPCUAServer'
+   ServerUri: 2b34283d7d0fd6d5a7a1d2fb01a8293a
+  74:
+   Uri: '2b34283d7d0fd6d5a7a1d2fb01a8293a#FTLGW_Server_Namespace'
+   ServerUri: 2b34283d7d0fd6d5a7a1d2fb01a8293a
+  75:
+   Uri: '2b34283d7d0fd6d5a7a1d2fb01a8293a#http://www.softing.com/OPCUA_Toolkit'
+   ServerUri: 2b34283d7d0fd6d5a7a1d2fb01a8293a
+  76:
+   Uri: '2b34283d7d0fd6d5a7a1d2fb01a8293a#FTLGW_Server_RolePermision_Namespace'
+   ServerUri: 2b34283d7d0fd6d5a7a1d2fb01a8293a
+  77:
+   Uri: '2b34283d7d0fd6d5a7a1d2fb01a8293a#http://opcfoundation.org/UA/'
+   ServerUri: 2b34283d7d0fd6d5a7a1d2fb01a8293a
+  78:
+   Uri: 'urn:FTOptix:CoreBase'
+   Module: FTOptix.CoreBase
+   Version: 4.0
+  79:
+   Uri: 'urn:FTOptix:CoreBase:Net'
+   Module: FTOptix.CoreBase.Net
+   Version: 1.1
+  80:
+   Uri: 'urn:FTOptix:TagImporter'
+   Module: FTOptix.TagImporter
+   Version: 1.0
+  81:
+   Uri: 'urn:FTOptix:OPCUAImporter'
+   Module: FTOptix.OPCUAImporter
+   Version: 1.0
+  82:
+   Uri: 'urn:FTOptix:RAEtherNetIPTagImporter'
+   Module: FTOptix.RAEtherNetIPTagImporter
+   Version: 1.0
+  83:
+   Uri: 'urn:FTOptix:S7TiaProfinetTagImporter'
+   Module: FTOptix.S7TiaProfinetTagImporter
+   Version: 1.0
+  84:
+   Uri: 'urn:FTOptix:NetLogic'
+   Module: FTOptix.NetLogic
+   Version: 3.0
+ Statistics:
+  TotalNodeCount: 17
+  Objects: 4
+  ObjectTypes: 0
+  Variables: 13
+  VariableTypes: 0
+  DataTypes: 0
+  Methods: 0
+  References: 0
+  ReferenceTypes: 0
+  Files: 4
+ Nodes:
+ - File: DesignTimeNodes/CommDrivers/RAEtherNet_IPDriver1/Optix_Demo/TagImporter.yaml
+ - File: DesignTimeNodes/CommDrivers/S7TIAPROFINETDriver1/S7TIAPROFINETStation1/TagImporter.yaml
+ - File: 'DesignTimeNodes/OPC-UA/FTView_SE_Client/OPCUATagImporter.yaml'
+ - File: 'DesignTimeNodes/OPC-UA/S7_1500_TIA_Client/OPCUATagImporter.yaml'

@@ -1,0 +1,2413 @@
+Name: Alarms
+Id: g=3293e7cd8de0bb06cc725e017a984470
+Type: AlarmsCategoryFolder
+Children:
+- Name: HPP Interlock
+  Id: g=3cdb0ba7c58669dc10bc5d4802ce00e1
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=44e0b0120f085198ae7e7a45ae6f97a1
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 1.0
+  - Name: InputValue
+    Id: g=a9d702615506c330224109d493e9de53
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=18932214907305460afd102cf6255ae0
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/RAEtherNet_IPDriver1/Optix_Demo/Tags/Program&:MainProgram/ro_hpp/Motor/All_Interlock_OK"
+      Children:
+      - Name: Mode
+        Id: g=e1a0ccee015098d8278bf887dc4d6522
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=c935cbb902f9c2abd9482a9da7886c24
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=104;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=cdf2ecdda295fc88ca612ee14c753461
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"RO HPP Interlock Fault"}
+  - Class: Reference
+    Target: ns=104;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=135
+    Direction: Forward
+- Name: HPP Permissive
+  Id: g=eb8a1d433b6dbd048af9f3062decab47
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=2a13ce815fc75b796c3aef316d3de094
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 1.0
+  - Name: InputValue
+    Id: g=8e83d7098a629d1736a04905a2676baf
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=0b22aba407ee4e5b95cec50c7d7ad574
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/RAEtherNet_IPDriver1/Optix_Demo/Tags/Program&:MainProgram/ro_hpp/Motor/All_Permissive_OK"
+      Children:
+      - Name: Mode
+        Id: g=c2265bd749736ca0709053101e6a05f8
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=57fcc42aa1f1ec82eb4c7b71a2f7bbb0
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=104;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=2072123a6a7ae42f7f6013bc15b4ddbe
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"RO HPP Permissive Fault"}
+  - Class: Reference
+    Target: ns=104;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=135
+    Direction: Forward
+- Name: RO CIP Pump Interlock
+  Id: g=db8897290746104e24026cac77349e59
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=01be99b3c7a1f0134114ffd45c8f7426
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 1.0
+  - Name: InputValue
+    Id: g=abdf0b5429e7f89e19c337348bbf3478
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=dd3d0d7b91d3ed472cc9426d6c534286
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/RAEtherNet_IPDriver1/Optix_Demo/Tags/Program&:MainProgram/ro_cip_pump/Motor/All_Interlock_OK"
+      Children:
+      - Name: Mode
+        Id: g=051f6be5d2595d7a9e1678b2c46acc27
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=f609c9e2978e6fb3b72160e0869b3fe3
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=104;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=9bb2d53ae407a5f7327f22954341555a
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"RO CIP Pump Interlock Fault"}
+  - Class: Reference
+    Target: ns=104;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=135
+    Direction: Forward
+- Name: RO CIP Pump Permissive
+  Id: g=e8687c148eb10c1c4ed8bd0c70b433ee
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=5417d965a8a5c4d30345368c5e80e49c
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 1.0
+  - Name: InputValue
+    Id: g=223639cfc62f86239904bdd1176879f0
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=a55c44c70bcb2e3b319ed009bd38ec9a
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/RAEtherNet_IPDriver1/Optix_Demo/Tags/Program&:MainProgram/ro_cip_pump/Motor/All_Permissive_OK"
+      Children:
+      - Name: Mode
+        Id: g=58b96d35783a2a2a82dae71c12efbe02
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=e62880b7bbb0acc37b8c6304e7cc7ae3
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=104;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=2935d221d80c505ac3de08f0445ddc98
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"RO CIP Pump Permissive Fault"}
+  - Class: Reference
+    Target: ns=104;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=135
+    Direction: Forward
+- Name: RO Feed Pump Interlock
+  Id: g=16206fdb65e1a40e9d4d23f2e5e3004d
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=1524a9a335b1241e8c0ca89668f60068
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 1.0
+  - Name: InputValue
+    Id: g=6789ff1fcd74cc66f5b1af5ef25d48d8
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=a9ece7c7c2399f48c6e2757999a577dd
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/RAEtherNet_IPDriver1/Optix_Demo/Tags/Controller Tags/ro_feed_pump/Motor/All_Interlock_OK"
+      Children:
+      - Name: Mode
+        Id: g=955e70c740655cd312e23b415fdc3c69
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=b499506533fcc1f888149cd4e3b8b006
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=104;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=49faf00cb00503009fed528c9e945d3b
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"RO Feed Pump Interlock Fault"}
+  - Class: Reference
+    Target: ns=104;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=135
+    Direction: Forward
+- Name: RO Feed Pump Permissive
+  Id: g=08a659f277961a22bc92ae7f301e6d05
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=4d8ec447f147bba0cda068c93ca4e2eb
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 1.0
+  - Name: InputValue
+    Id: g=acd19d604de9fc6aa119177c614b8e86
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=81b838d0fc935320b8bba6169f036b99
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/RAEtherNet_IPDriver1/Optix_Demo/Tags/Controller Tags/ro_feed_pump/Motor/All_Permissive_OK"
+      Children:
+      - Name: Mode
+        Id: g=c500f2dd0d741a528a66f4b03cded707
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=a2dfb70d49ab66c58cdc0105049a7ffd
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=104;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=cfc122091436feff43b15c8b4ebac5b7
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"RO Feed Pump Permissive Fault"}
+  - Class: Reference
+    Target: ns=104;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=135
+    Direction: Forward
+- Name: Ph Dosing Pump Interlock
+  Id: g=a7f317a01b83b076cc40055da09e12b8
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=03dbaf2932f050a043973ccea7452154
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 1.0
+  - Name: InputValue
+    Id: g=0012d0be3107de6a3b2d74c360c43b3a
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=aeba6e475e7e1966769396952430109b
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/RAEtherNet_IPDriver1/Optix_Demo/Tags/Controller Tags/Ph_Correction_Pump/Motor/All_Interlock_OK"
+      Children:
+      - Name: Mode
+        Id: g=9abd1e15be4d06a89c7d24c622f3412c
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=51012c4df651384570c45d8838ea8b5e
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=104;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=166e67a11a1462720416a0fa42c0d402
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Ph Dosing Pump Interlock Fault"}
+  - Class: Reference
+    Target: ns=104;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=135
+    Direction: Forward
+- Name: Ph Dosing Pump Permissive
+  Id: g=e7de397e9da36075f5c283ae15b2fc3a
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=847e61dfc98ac119d42d3286cb0e631f
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 1.0
+  - Name: InputValue
+    Id: g=c26f37cefe7ea61c3f66746a3ae3894a
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=a65333728117dc3e313fb56154fc7918
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/RAEtherNet_IPDriver1/Optix_Demo/Tags/Controller Tags/Ph_Correction_Pump/Motor/All_Permissive_OK"
+      Children:
+      - Name: Mode
+        Id: g=117245967c8377c95344c9c28c7cb69a
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=eec0df095057ff5383aff286fa36fd0b
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=104;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=e6386d08df9b0d75a52b5e8a216d6911
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Ph Dosing Pump Permissive Fault"}
+  - Class: Reference
+    Target: ns=104;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=135
+    Direction: Forward
+- Name: Ants Dosing Pump Interlock
+  Id: g=9063e787f0a0757fafdcc651a1451c18
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=36cb34bbbb69877635ef876abc3ee809
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 1.0
+  - Name: InputValue
+    Id: g=77a4477d069f0dccba29cdc6e6e27ddf
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=bd7cfd45b9ab1b34b496490f108d4630
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/RAEtherNet_IPDriver1/Optix_Demo/Tags/Controller Tags/Ants_Correction_Pump/Motor/All_Interlock_OK"
+      Children:
+      - Name: Mode
+        Id: g=04c598afe3a6da4b0a53cebf0dd53d51
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=b9003e743a84c142709f8f67bf52292f
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=104;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=04e4bb2528a35508f23816db1847f2fe
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Ants Dosing Pump Interlock Fault"}
+  - Class: Reference
+    Target: ns=104;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=135
+    Direction: Forward
+- Name: Ants Dosing Pump Permissive
+  Id: g=dfae3de62533f48f026ccf82150e4978
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=3bb4f23475856e226d708cd2ac0b54de
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 1.0
+  - Name: InputValue
+    Id: g=be9e19493afc7bcee30e2224075df581
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=bced1ebe6e1fa9d4b6c40a5f808ece4b
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/RAEtherNet_IPDriver1/Optix_Demo/Tags/Controller Tags/Ants_Correction_Pump/Motor/All_Permissive_OK"
+      Children:
+      - Name: Mode
+        Id: g=8ad849036608c3762d50dc69da7e42a0
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=2d71eae42e0a7fb924cf350d46dbb3da
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=104;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=47e7ff6c19162cb10480cc57e34b6445
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Ants Dosing Pump Permissive Fault"}
+  - Class: Reference
+    Target: ns=104;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=135
+    Direction: Forward
+- Name: RO UV Interlock
+  Id: g=a307fe1015ffd6c36b15c55605908503
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=4adbc2733dcdbb79c8c403930398f68e
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 1.0
+  - Name: InputValue
+    Id: g=f512792c069eded57607a0a5b02f150b
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=c71d81caa376b74477e85509531f4d1c
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/RAEtherNet_IPDriver1/Optix_Demo/Tags/Controller Tags/Pre_RO_UV/Motor/All_Interlock_OK"
+      Children:
+      - Name: Mode
+        Id: g=9ab39c76aa826a3022493b1f7a9881ce
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=a641c91e5f508ce5cd35a84ae8cf5811
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=104;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=025b828aa5bc0fbdbe91020231cc9bc3
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"RO UV Interlock Fault"}
+  - Class: Reference
+    Target: ns=104;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=135
+    Direction: Forward
+- Name: RO UV Permissive
+  Id: g=0beed060613015396b3ad5e978ab774c
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=ae67e9de20f2275b34d6f8c6b42ace57
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 1.0
+  - Name: InputValue
+    Id: g=ce636f01d1302d46ab0bd9b5ccc47c05
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=184e0c4d536f289cfe961189c35a0367
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/RAEtherNet_IPDriver1/Optix_Demo/Tags/Controller Tags/Pre_RO_UV/Motor/All_Permissive_OK"
+      Children:
+      - Name: Mode
+        Id: g=cb65b4a0e0123d32a9ecdddfe8b6dce4
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=31a50dc3c5adb7f616a805a7a81e68bf
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=104;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=10ca5e4f7ec98b6d85d4006d690a435a
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"RO UV Permissive Fault"}
+  - Class: Reference
+    Target: ns=104;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=135
+    Direction: Forward
+- Name: HPP Run Feedback Fault
+  Id: g=8f41c5ec028b77cb87a8ea731a9783b4
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=e41eae8a7ecad9d4b1623efbe9a98d31
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=b4eeba651a6bd0bb45e8fff01286680a
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=4a8a3e5c24ac4005daba51cc31019775
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/RAEtherNet_IPDriver1/Optix_Demo/Tags/Program&:MainProgram/ro_hpp/Motor/Run_FB_Fault"
+      Children:
+      - Name: Mode
+        Id: g=f95c94d9d27e2a1d40370ecea79b06e6
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=8f9d0d05259b6d28368b4d34f21e7a14
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=104;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=e678859935dcd26daa2bc0b89429c8e9
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"RO HPP Run Feedback Fault"}
+  - Class: Reference
+    Target: ns=104;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=135
+    Direction: Forward
+- Name: RO CIP Pump Run Feedback Fault
+  Id: g=c8191c67b000537024ff118ebe441152
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=27c0cbe119de8687ddb1224e95f3def4
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=466c3b8459ae1750a2cfff5ececd9c75
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=81bb734502e9d2331bd73b691352c292
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/RAEtherNet_IPDriver1/Optix_Demo/Tags/Program&:MainProgram/ro_cip_pump/Motor/Run_FB_Fault"
+      Children:
+      - Name: Mode
+        Id: g=fa14ed3dfec64d8b510d9ad447393453
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=4ce182c16813c08e8f74e34626e4b734
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=104;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=1add4d445206d82e79f617828d61807d
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"RO CIP Pump Run Feedback Fault"}
+  - Class: Reference
+    Target: ns=104;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=135
+    Direction: Forward
+- Name: RO Feed Pump Run Feedback Fault
+  Id: g=7e208044082169537f5f5d5156eeb66c
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=0fdf760398865d32a3ae740b417df8f3
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=7fdc06ebd1d89d94f9c83ee3d56bdbb6
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=b4bfed6595f8d6ca164d15f6c9188460
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/RAEtherNet_IPDriver1/Optix_Demo/Tags/Controller Tags/ro_feed_pump/Motor/Run_FB_Fault"
+      Children:
+      - Name: Mode
+        Id: g=dcc7a3c57fce47a6a7aa1d6134067939
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=27861b305c57e8a8b0af200607fb86db
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=104;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=149441b5d9a446e6a0c3343e8447c6ce
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"RO Feed Pump Run Feedback Fault"}
+  - Class: Reference
+    Target: ns=104;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=135
+    Direction: Forward
+- Name: Ph Dosing Pump Run Feedback Fault
+  Id: g=f82087a0ed7b95e274afc9b23053c4d9
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=c2f8c44c2abc80c3963ef4c250f19e88
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=049d0be1a8d0a82000c1f341ea478aaf
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=46cc4f5b1fb444577f60e73df0bc758b
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/RAEtherNet_IPDriver1/Optix_Demo/Tags/Controller Tags/Ph_Correction_Pump/Motor/Run_FB_Fault"
+      Children:
+      - Name: Mode
+        Id: g=5e5272d080b95ba2018300c2dce43a12
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=96a92337ccda75d4d23f1f04e3c0decd
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=104;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=09110f6b114c31f692dd9acf532c308a
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Ph Dosing Pump Run Feedback Fault"}
+  - Class: Reference
+    Target: ns=104;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=135
+    Direction: Forward
+- Name: Ants Dosing Pump Run Feedback Fault
+  Id: g=81847c82e3c7881a3a1775eba1d4c461
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=eff295ef1aece23ec20918ce17f8b7fa
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=16e67bf46ba69a61ae06918ab6fbeffc
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=7bacf0257ebbd604b2e56d9de20b9aa1
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/RAEtherNet_IPDriver1/Optix_Demo/Tags/Controller Tags/Ants_Correction_Pump/Motor/Run_FB_Fault"
+      Children:
+      - Name: Mode
+        Id: g=85859a057239f034b7a9c55564e1b2f3
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=b1d3fbe4b3ac14d6159e597b616b471e
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=104;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=4098d6b3fead2c6492eeffaabeb3b8c9
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Ants Dosing Pump Run Feedback Fault"}
+  - Class: Reference
+    Target: ns=104;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=135
+    Direction: Forward
+- Name: RO UV Run Feedback Fault
+  Id: g=b152ae28b86b016fe7969f56b29da9c0
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=c8a2b8a061c363043d3d4ecec90bf802
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=e8ffacd944ef481114abcbf1605a1724
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=2a04960682d8854ec0accadbb0dd8a00
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/RAEtherNet_IPDriver1/Optix_Demo/Tags/Controller Tags/Pre_RO_UV/Motor/Run_FB_Fault"
+      Children:
+      - Name: Mode
+        Id: g=1ccf3144188290d39ce45db84c7af40c
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=84aed6cd9ecc19dc693ef261fd02b1fc
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=104;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=b8b1b83f35d8bd401310b7d737290f7f
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"RO UV Run Feedback Fault"}
+  - Class: Reference
+    Target: ns=104;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=135
+    Direction: Forward
+- Name: CL Tank Inlet Valve Interlock
+  Id: g=a7ae42ed9b0201d91bd63774c16b238e
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=834007c1e269906138c9b35929b1a6c0
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 1.0
+  - Name: InputValue
+    Id: g=fa4ab45aef34cc57a9f12b021aee851f
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=ccda58deb3d45d58dfdf22eeb9edf58d
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/RAEtherNet_IPDriver1/Optix_Demo/Tags/Program&:MainProgram/cl_tk_inlet/Valve/All_Interlock_OK"
+      Children:
+      - Name: Mode
+        Id: g=bcaaae2773c05c9c6164f26b88a29966
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=0abd2939ec6b3b6dc8c24721f1864864
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=104;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=23b50b0f35f8470337568b6fb14d3070
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Cleaning Tank Inlet Valve Interlock Fault"}
+  - Class: Reference
+    Target: ns=104;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=135
+    Direction: Forward
+- Name: CL Tank Inlet Valve Permissive
+  Id: g=771348433167a5888f037561a1ed3d72
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=5b51d7f6634eeb67a8d386c9828cd1de
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 1.0
+  - Name: InputValue
+    Id: g=334e0d43b45654d18e93b756cbe533f1
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=929c30a070b9a9c40a20c9cc0f44c13f
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/RAEtherNet_IPDriver1/Optix_Demo/Tags/Program&:MainProgram/cl_tk_inlet/Valve/All_Permissive_OK"
+      Children:
+      - Name: Mode
+        Id: g=3e0188383fbbc058c742d0f6f28c9b7b
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=30652cb4e7353fd09fcd6ae9c3bd1676
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=104;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=bce10dc41e0d02648e8f2a4d04a294a4
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Cleaning Tank Inlet Valve Permissive Fault"}
+  - Class: Reference
+    Target: ns=104;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=135
+    Direction: Forward
+- Name: CL Tank Inlet Valve Open Feedback Fault
+  Id: g=65e9170a8faa9021c9c7f62c5feef21b
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=29d92641cc391d84412caa304bc45111
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=60ac4df12455c5273c77506c8ba31ff9
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=2a6193118cee7404af5f7ed9a3c883a8
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/RAEtherNet_IPDriver1/Optix_Demo/Tags/Program&:MainProgram/cl_tk_inlet/Valve/Open_FB_Fault"
+      Children:
+      - Name: Mode
+        Id: g=db9595f8954ffaf0c31db574c94188b2
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=856b119c4aa79c96f70e8f332c2609a1
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=104;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=73d2aa539f8012cebcd585f9bc2ccac8
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Cleaning Tank Inlet Valve Open Feedback Fault"}
+  - Class: Reference
+    Target: ns=104;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=135
+    Direction: Forward
+- Name: CL Tank Inlet Valve Close Feedback Fault
+  Id: g=ad97c4f091969c7db51c2a2588e144ec
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=0ba64c21741711d71b8fa6b8638f22ca
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=b196d6a6c831dac4a5faa95ed0ebdc3c
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=7f4d249e6b23b2cb95c351379d107580
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/RAEtherNet_IPDriver1/Optix_Demo/Tags/Program&:MainProgram/cl_tk_inlet/Valve/Close_FB_Fault"
+      Children:
+      - Name: Mode
+        Id: g=15c4687dc12a4997b4f445a2fa733812
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=e1c4ff6c3e6cd7ab43da2dfb2cd22304
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=104;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=88bac7a6ed6df0d0165ad1162df564a7
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Cleaning Tank Inlet Valve Close Feedback Fault"}
+  - Class: Reference
+    Target: ns=104;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=135
+    Direction: Forward
+- Name: Reject Sol Valve Interlock
+  Id: g=7de7aeff77d86270c304499535ddbf5e
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=359df3e82e4908b858cb6108100e5871
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 1.0
+  - Name: InputValue
+    Id: g=6ce65c4c0e0caca3d5354cf0460b9285
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=23de8af99f0bd2386d0bb9c12c338d46
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/RAEtherNet_IPDriver1/Optix_Demo/Tags/Program&:MainProgram/reject_sol/Valve/All_Interlock_OK"
+      Children:
+      - Name: Mode
+        Id: g=5b590ca69e7f10f623602fa793de20d6
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=0f64515b10213b0e1b501360a2f2ea31
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=104;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=7b5bf9fdcd3f5488f15b4ed1a17e0b7e
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Reject Sol Valve Interlock Fault"}
+  - Class: Reference
+    Target: ns=104;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=135
+    Direction: Forward
+- Name: Reject Sol Valve Permissive
+  Id: g=2f3757b42294739fcf32777205c7b110
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=08c23d20b3cf108ac0f514d81e1a1eeb
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 1.0
+  - Name: InputValue
+    Id: g=eb336a871568d55818ce4e168eb30657
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=a20a2a09bdcae25354d2088eacaea8f5
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/RAEtherNet_IPDriver1/Optix_Demo/Tags/Program&:MainProgram/reject_sol/Valve/All_Permissive_OK"
+      Children:
+      - Name: Mode
+        Id: g=a4deeb06dcd0aceb6d9486632c9fb7b9
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=f5d9e618af9d69d05743cd68f51053c0
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=104;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=3341e242b11d2b8cdfe621e176f83c1c
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Reject Sol Valve Permissive Fault"}
+  - Class: Reference
+    Target: ns=104;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=135
+    Direction: Forward
+- Name: Reject Sol Valve Open Feedback Fault
+  Id: g=3b91a7eba33d62aef08a9aead3feb3a1
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=6079efa0340c27a5bb029c73c54e3e36
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=1599f7be29fa7c73835c197bab6a945d
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=c26c83bde66c255662251c2d5c7be060
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/RAEtherNet_IPDriver1/Optix_Demo/Tags/Program&:MainProgram/reject_sol/Valve/Open_FB_Fault"
+      Children:
+      - Name: Mode
+        Id: g=765582e30569bf306c5b2ad245bd1220
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=d479f26394bbb59bb8b6c510b040b8f7
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=104;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=9f2c034f3954775e150c5b69319ca962
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Reject Sol Valve Open Feedback Fault"}
+  - Class: Reference
+    Target: ns=104;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=135
+    Direction: Forward
+- Name: Reject Sol Valve Close Feedback Fault
+  Id: g=40d13724076acbfd78ad4b0d767bd709
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=43b8568183209fb768b6f9f3cff21294
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=78c33f67ff13982becac8058e298db0c
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=fc36862a3338a9980a0adbeb776eae69
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/RAEtherNet_IPDriver1/Optix_Demo/Tags/Program&:MainProgram/reject_sol/Valve/Close_FB_Fault"
+      Children:
+      - Name: Mode
+        Id: g=863abe825f1e96d8518f5a814d2dbf63
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=15c468bcee9e116a92367dab53ffde0d
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=104;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=a705997638d4d25302f25b54b7452bd7
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Reject Sol Valve Close Feedback Fault"}
+  - Class: Reference
+    Target: ns=104;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=135
+    Direction: Forward
+- Name: Permeate Drain Valve Interlock
+  Id: g=ce5e2f6b005680cd157432eaa1a5af73
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=a256410b8b0db6f34f013a09cfda9d86
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 1.0
+  - Name: InputValue
+    Id: g=9ef13cd0799a7049e11d2d219b924b89
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=695ccc2daf2021f5595913fdb70a925e
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/RAEtherNet_IPDriver1/Optix_Demo/Tags/Program&:MainProgram/per_drain/Valve/All_Interlock_OK"
+      Children:
+      - Name: Mode
+        Id: g=2b575b4f1a7edf59a0c69ce92f7fbee5
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=4728c36c876361d2ddd95ab2eb56b1ef
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=104;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=9adaedc4dea3e590d9341e83d9aae2d9
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Permeate Drain Valve Interlock Fault"}
+  - Class: Reference
+    Target: ns=104;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=135
+    Direction: Forward
+- Name: Permeate Drain Valve Permissive
+  Id: g=5fd90fb0767470248ac78156f04bfa41
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=f29b145fe9ea8e8faa4f664341310020
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 1.0
+  - Name: InputValue
+    Id: g=e13c63b2ea1831bf323c9870f38e2a77
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=e1e347444648537cd45fda5019d6c5b5
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/RAEtherNet_IPDriver1/Optix_Demo/Tags/Program&:MainProgram/per_drain/Valve/All_Permissive_OK"
+      Children:
+      - Name: Mode
+        Id: g=23225cc72fd9c40a1b2232ac40c1db19
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=a39b0f6c03d84ed67fe2b50924b54b0a
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=104;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=792dff890ffd6eb91ab29863226506c8
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Permeate Drain Valve Permissive Fault"}
+  - Class: Reference
+    Target: ns=104;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=135
+    Direction: Forward
+- Name: Permeate Drain Valve Open Feedback Fault
+  Id: g=23e92275a94b434acd01a2b56db900ab
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=6b54796365c3ed0d425dca74cd0992ce
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=296f1a708e465696a96c4cc113e13d06
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=a2af25b14f95db0f19305953b2bbb18f
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/RAEtherNet_IPDriver1/Optix_Demo/Tags/Program&:MainProgram/per_drain/Valve/Open_FB_Fault"
+      Children:
+      - Name: Mode
+        Id: g=3bad9ef870ccbaf98da18dcf7433dc69
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=a22cbcaad44be0aa8442eddfea9054f3
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=104;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=b54df45adb28441306f7d62bef2410d2
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Permeate Drain Valve Open Feedback Fault"}
+  - Class: Reference
+    Target: ns=104;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=135
+    Direction: Forward
+- Name: Permeate Drain Valve Close Feedback Fault
+  Id: g=b623ddeb15949abb362349e1a137da11
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=bcc143e0620b382c8d6d27e4ccf93859
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=3e13416adeafb1ec9873479638630652
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=92351f3a8cd58160a0281ca91f8c7fdc
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/RAEtherNet_IPDriver1/Optix_Demo/Tags/Program&:MainProgram/per_drain/Valve/Close_FB_Fault"
+      Children:
+      - Name: Mode
+        Id: g=5e829718d17231f1d442fe0642d6852a
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=dd6d4ba0975f485221ad22d05b9e6391
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=104;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=1e8d2b8f6293e1708eadbc728e86237b
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Permeate Drain Valve Close Feedback Fault"}
+  - Class: Reference
+    Target: ns=104;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=135
+    Direction: Forward
+- Name: ORP Drum Valve Interlock
+  Id: g=04ecdd4c42f2fd00a18c23f33cff19b5
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=2ade933d367ece2567f7855d11a5fa55
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 1.0
+  - Name: InputValue
+    Id: g=a24fc2510ab434ae8a316843f462128a
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=afbc9746c2d3748d69764ac4ba4dc541
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/RAEtherNet_IPDriver1/Optix_Demo/Tags/Program&:MainProgram/orp_drum/Valve/All_Interlock_OK"
+      Children:
+      - Name: Mode
+        Id: g=28e8310e362e2abf04ab212377fcbe71
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=76d7fcd7c3f84b702a216ace07fc0d18
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=104;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=de1d382f58e64a34b7c4e5c0b5971ee7
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"ORP Drum Valve Interlock Fault"}
+  - Class: Reference
+    Target: ns=104;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=135
+    Direction: Forward
+- Name: ORP Drum Valve Permissive
+  Id: g=bf3a405abffed2281d582c5efc163ce4
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=9ab7621543177bbaf895c2b1e6da83ff
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 1.0
+  - Name: InputValue
+    Id: g=bd48a4fc868c125e51713c1acf7fa787
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=024ca5cb0f6ae2f3fb2d2f0b63f5ca3b
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/RAEtherNet_IPDriver1/Optix_Demo/Tags/Program&:MainProgram/orp_drum/Valve/All_Permissive_OK"
+      Children:
+      - Name: Mode
+        Id: g=f572706c77347d2d5a16e4e75a9d5f92
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=5c145b9467f104a05febaeb0ed49f357
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=104;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=070bcb9af7e343af23e1cd15463c0801
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"ORP Drum Valve Permissive Fault"}
+  - Class: Reference
+    Target: ns=104;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=135
+    Direction: Forward
+- Name: ORP Drum Valve Open Feedback Fault
+  Id: g=e9896b5f38586b1f9fdb289eda5e04b3
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=69eea0d5d89a1f68800f61dcaf33cce4
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=403df06f8b700b8dbd72b8562ecb2ae8
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=e5fc23f7de5a4b9c524cb22f0e76c692
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/RAEtherNet_IPDriver1/Optix_Demo/Tags/Program&:MainProgram/orp_drum/Valve/Open_FB_Fault"
+      Children:
+      - Name: Mode
+        Id: g=9089414925757bc1f6fc6c434f00a907
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=651a7f8e08260ffc78da374c79fcd04b
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=104;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=eaf52c8317bc9c063083e7616ef732f7
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"ORP Drum Valve Open Feedback Fault"}
+  - Class: Reference
+    Target: ns=104;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=135
+    Direction: Forward
+- Name: ORP Drum Valve Close Feedback Fault
+  Id: g=e81fdc895a2cc981eb4db9c85bf840bb
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=59a8d7046afc1eb9d819ea4a1fed32f5
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=c68d3f8ebfcc6da4b1550b4b01ad9497
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=cad87b669df0912e86cfc62df923cca5
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/RAEtherNet_IPDriver1/Optix_Demo/Tags/Program&:MainProgram/orp_drum/Valve/Close_FB_Fault"
+      Children:
+      - Name: Mode
+        Id: g=8abb62825ac69a8a4c622265edee4b96
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=ed98173ea939c90292038111005aa680
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=104;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=e24af570e4ab480ffd4b6adf87acf888
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"ORP Drum Valve Close Feedback Fault"}
+  - Class: Reference
+    Target: ns=104;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=135
+    Direction: Forward
+- Name: Stream Inlet Valve Interlock
+  Id: g=23086a7bc79d346ac6db3c920445cdde
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=c48b7491bce99bcaad0489cdd1443665
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 1.0
+  - Name: InputValue
+    Id: g=57ad550b6974aeb76141d1c59e4b4dfe
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=156c5bb44534b7008090fbc52b0a8177
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/RAEtherNet_IPDriver1/Optix_Demo/Tags/Program&:MainProgram/stream_inlet_vlv/Valve/All_Interlock_OK"
+      Children:
+      - Name: Mode
+        Id: g=c1cfe6a27cee01ceabea04f6b7797eeb
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=69c372f09257a55bfad9726f9af7fe94
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=104;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=4b600154f423d144fd8cd7dc197a793d
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Stream Inlet Valve Interlock Fault"}
+  - Class: Reference
+    Target: ns=104;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=135
+    Direction: Forward
+- Name: Stream Inlet Valve Permissive
+  Id: g=962f5d10b890a626135fca8ec777e314
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=206101e866c1620d6c980854411d48d5
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 1.0
+  - Name: InputValue
+    Id: g=26eeb02083f71aff25e882f90c5b53d6
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=2460874c537e7ed612d9c6b461f077a1
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/RAEtherNet_IPDriver1/Optix_Demo/Tags/Program&:MainProgram/stream_inlet_vlv/Valve/All_Permissive_OK"
+      Children:
+      - Name: Mode
+        Id: g=26c03ba23db24eced0c572a2995cc38f
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=580339706ed3c796fced714a28901723
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=104;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=3a891fdc90ef793ecc10ba451b2d4f23
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Stream Inlet Valve Permissive Fault"}
+  - Class: Reference
+    Target: ns=104;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=135
+    Direction: Forward
+- Name: |
+      Stream Inlet Valve Open Feedback Fault
+
+  Id: g=7854d19ae421cf78837cdca054423604
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=13334ff1032aa8d5215b0cee5fe3980d
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=6313e157eb335efbd3eb0db89850afa3
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=af56c9b8127d0bd2af7cc530726227d1
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/RAEtherNet_IPDriver1/Optix_Demo/Tags/Program&:MainProgram/stream_inlet_vlv/Valve/Open_FB_Fault"
+      Children:
+      - Name: Mode
+        Id: g=e998dda04a8ecf4a25ed9f63a30280f9
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=33b2de4987591a4da194f96c55b2e5f4
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=104;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=b7299be58390990a959283372bc766b0
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Stream Inlet Valve Open Feedback Fault\n"}
+  - Class: Reference
+    Target: ns=104;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=135
+    Direction: Forward
+- Name: Stream Inlet Valve Close Feedback Fault
+  Id: g=fa39385fcf831145bf8547942aea9c56
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=befb91f29246a2b964432e5c9022bdf1
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=a585acac07326d67e8ea838bea3331e9
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=bf2501b412981c952d325f3316ecbbde
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/RAEtherNet_IPDriver1/Optix_Demo/Tags/Program&:MainProgram/stream_inlet_vlv/Valve/Close_FB_Fault"
+      Children:
+      - Name: Mode
+        Id: g=a83341e3b6f2bd81f4027a40eba9b51f
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=a4369638d217aa8e51b579ba85f9b4cc
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=104;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=63815c147c9c9738f9bd28c2a263aa1e
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Stream Inlet Valve Close Feedback Fault\n"}
+  - Class: Reference
+    Target: ns=104;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=135
+    Direction: Forward
+- Name: Ph Dos Tnk low Lvl
+  Id: g=c8eab33638b8510fbbcbdc5694a5e80d
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=f4365493137c4d82f8174237c22749a0
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=6a74b8e31d031081e5468e94cf8cfb2a
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=89ea7a5b75c5fd8ee4bee03e7d7abbf8
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/RAEtherNet_IPDriver1/Optix_Demo/Tags/Program&:MainProgram/PH_CORRECTION_TANK_LVL_LOW"
+      Children:
+      - Name: Mode
+        Id: g=c5bd0d4d20d24fb597237846e498a018
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=53462e765fc767923bd281cfc8c5f318
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=104;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=7b3acea69e3f1a483cb6d19663b283e5
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Ph Dosing Tank Lvl Low"}
+  - Class: Reference
+    Target: ns=104;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=135
+    Direction: Forward
+- Name: Ants Dos Tnk low Lvl
+  Id: g=418c3cdc0101f637d86d87a9c85b5197
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=c6ff80df520e73512ae83891e035a16e
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=37b5f5b32c8201cfded14e65fab32528
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=93b02e6ec57adac6178a5410263b153d
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/RAEtherNet_IPDriver1/Optix_Demo/Tags/Program&:MainProgram/ANTS_DOS_TANK_LVL_LOW"
+      Children:
+      - Name: Mode
+        Id: g=70afb9b65a385fbc615483b78ec50275
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=a13f219c50442a59ce77321d09efb42e
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=104;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=52c0365dfbccdb9777fdee97e9896dfd
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Ants Dosing Tank Lvl Low"}
+  - Class: Reference
+    Target: ns=104;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=135
+    Direction: Forward
+- Name: Raw Water Tnk low Very Low
+  Id: g=53b85d08f8e339e77a0a65c736d7d9c1
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=9376e37121705764d199021312d989b4
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=82226954f4f4436bd6803b81387ca10a
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=0802a799d7845d69fea087fd384ab9b1
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/RAEtherNet_IPDriver1/Optix_Demo/Tags/Controller Tags/Raw_Water_Lvl/scale/LL_Alm_Bit"
+      Children:
+      - Name: Mode
+        Id: g=89a8a6209593d474a8948fc565557643
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=764b3800a5e5e2afa4f3d83008030fe4
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=104;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=42950c47b104079b663e3c6e933dbf87
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Raw Water Tank Lvl Very Low"}
+  - Class: Reference
+    Target: ns=104;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=135
+    Direction: Forward
+- Name: HPP Suc Pressure Low
+  Id: g=b48ac6a52be289aa0a568f38535839f0
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=fb04c5d53a2f1fd885bb936e0a6c3171
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=494dc114f2761afe3c919ce30c880122
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=fe8c2d454ba69500726c349f6455347e
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/RAEtherNet_IPDriver1/Optix_Demo/Tags/Program&:MainProgram/hpp_suc_pr/scale/L_Alm_Bit"
+      Children:
+      - Name: Mode
+        Id: g=518e6a9380175e1b246b1e365f36d0b2
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=b541924379cab3b32495b4001f250d91
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=104;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=727578b959647d960c164acff6b9c3af
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"HPP Suc Pressure Low"}
+  - Class: Reference
+    Target: ns=104;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=135
+    Direction: Forward
+- Name: Permeate Conductivity Out of Range
+  Id: g=3f35c0b0f99e2ba8fb68ba1fce85c37b
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=d06574543b20a686b8213a071d9b39a8
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=8b73e8d8c82cabf52044964f464018e7
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=72b9e296373a3014b3e63b7b01800afe
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/RAEtherNet_IPDriver1/Optix_Demo/Tags/Program&:MainProgram/per_cond_out_of_range"
+      Children:
+      - Name: Mode
+        Id: g=f9f1f0fe8f11afbffa10a92ff057c0af
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=2ee911c97699d040cb7eb2f2ef034cb3
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=104;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=96a103c921fd239fa9b173182e0d5a3c
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Permeate Conductivity Out of Range"}
+  - Class: Reference
+    Target: ns=104;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=135
+    Direction: Forward
+- Name: Permeate Ph Out of Range
+  Id: g=2d47bb92c251e150e0549c626d7785a3
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=5faa0770d50e357d58c8d5143d3ba617
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=4b4a4b061fb8ef697ac7d999ea645f8a
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=d7c3ba0340c2964cbc92094792bd3c64
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/RAEtherNet_IPDriver1/Optix_Demo/Tags/Program&:MainProgram/per_ph_out_of_range"
+      Children:
+      - Name: Mode
+        Id: g=6a4bebb144fedcd02f2ad97382b0dbf0
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=5571a321770b061f5ee5bf85da16fefe
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=104;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=96c44efbdf89278ba50e75388a277f4d
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Permeate Ph Out of Range"}
+  - Class: Reference
+    Target: ns=104;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=135
+    Direction: Forward
+- Name: RO Soft Emergency Activated
+  Id: g=a57f257bd5a607099ecfa5ed6f3021e3
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=f25e240e67fe8b29d9ab55775d982fce
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=66a26b4af3849c9d495c711b363959a1
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=f9f6cd48acfc96c57de4e04924e1a3aa
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/RAEtherNet_IPDriver1/Optix_Demo/Tags/Program&:MainProgram/HMI_EMG_STOP_FOR_RO"
+      Children:
+      - Name: Mode
+        Id: g=d33c7d211cd34775a3f06405e2bd2884
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=c44f1fba4f80af848226f7745ebce72c
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=104;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=ea7a46ee3fb6e0f01e2a89c44484f268
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"RO Soft Emergency Activated"}
+  - Class: Reference
+    Target: ns=104;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=104;i=135
+    Direction: Forward

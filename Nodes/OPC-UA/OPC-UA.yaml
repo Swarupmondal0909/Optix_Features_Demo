@@ -1,0 +1,57 @@
+Name: 'OPC-UA'
+Type: OPCUACategoryFolder
+Children:
+- File: S7_1500_TIA_Client/S7_1500_TIA_Client.yaml
+- Name: OPCUAServer
+  Type: OPCUAServer
+  Children:
+  - Name: EndpointURL
+    Type: PropertyType
+    DataType: ResourceUri
+    Value: "opc.tcp://localhost:59100"
+  - Name: NodesToPublish
+    Type: BaseObjectType
+    Children:
+    - Name: Configuration1
+      Type: NodesToPublishConfigurationEntry
+      Children:
+      - Name: Nodes
+        Type: BaseObjectType
+        Children:
+        - Name: Node1
+          Type: NodePointer
+          DataType: NodeId
+          Value: "/Objects/Optix_Features_Demo/CommDrivers/RAEtherNet_IPDriver1/Optix_Demo/Tags"
+          Children:
+          - Name: Kind
+            Type: PropertyType
+            DataType: NodeId
+          - Name: NodeClass
+            Type: PropertyType
+            DataType: NodePointerNodeClass
+            Value: 2
+      - Name: Users
+        Type: BaseObjectType
+        Children:
+        - Name: User1
+          Type: NodePointer
+          DataType: NodeId
+          Value: "/Objects/Users/Anonymous"
+          Children:
+          - Name: Kind
+            Type: PropertyType
+            DataType: NodeId
+            Value: "/Types/ObjectTypes/BaseObjectType/UserType"
+          - Name: NodeClass
+            Type: PropertyType
+            DataType: NodePointerNodeClass
+      - Name: PublishDynamicConfiguration
+        Type: BaseDataVariableType
+        DataType: Boolean
+  - Name: MinimumMessageSecurityMode
+    Type: PropertyType
+    DataType: ns=78;MessageSecurityModeEnum
+  - Name: MinimumSecurityPolicy
+    Type: PropertyType
+    DataType: ns=78;SecurityPolicyEnum
+- File: FTView_SE_Client/FTView_SE_Client.yaml

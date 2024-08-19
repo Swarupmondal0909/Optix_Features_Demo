@@ -1,0 +1,11 @@
+Name: Time Filter
+Type: FolderType
+Children:
+- Name: From
+  Type: BaseDataVariableType
+  DataType: DateTime
+  Value: "2024-01-01T00:00:00.0000000"
+- Name: To
+  Type: BaseDataVariableType
+  DataType: DateTime
+  Value: "2026-01-01T00:00:00.0000000"

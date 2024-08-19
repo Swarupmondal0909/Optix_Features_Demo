@@ -1,0 +1,1269 @@
+Name: DataTypes
+Type: FolderType
+Children:
+- Class: DataType
+  Name: MTR
+  Id: g=64e00579e545eb24106997714138baa3
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "MTR",
+    "DataType": {
+     "IdType": 2,
+     "Id": "64e00579e545eb24106997714138baa3",
+     "Namespace": 122
+    },
+    "Fields": [{
+      "Name": "Interlock_Text",
+      "DataType": {
+       "Id": 12
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [16]
+     },{
+      "Name": "Motor",
+      "DataType": {
+       "IdType": 2,
+       "Id": "cdc5c68d453620c2fcd2cadfe8764938",
+       "Namespace": 122
+      }
+     },{
+      "Name": "Permissive_Text",
+      "DataType": {
+       "Id": 12
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [16]
+     },{
+      "Name": "Tagname",
+      "DataType": {
+       "Id": 12
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"MTR"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: Motor
+  Id: g=cdc5c68d453620c2fcd2cadfe8764938
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "Motor",
+    "DataType": {
+     "IdType": 2,
+     "Id": "cdc5c68d453620c2fcd2cadfe8764938",
+     "Namespace": 122
+    },
+    "Fields": [{
+      "Name": "All_Interlock_OK",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "All_Permissive_OK",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Auto_On_Cmd",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Auto_On_Cmd_from_Logic",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Auto_Selected_Bit",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Autro_Selection_PB",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "EnableIn",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "EnableOut",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Has_Interlock_Bit",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Has_Permissive_Bit",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Has_Speed_Ref",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Interlock_Bit",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Interlock_Bypass_Bit",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Interlock_Enable_Bit",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Manual_On_Cmd",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Manual_Selected_Bit",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Manual_Selection_PB",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Manual_Start_PB",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Manual_Stop_PB",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Motor_Has_Run_FB",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Motor_On_Cmd",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Motor_Run_FB",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Motor_Run_FB_Input",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Motor_Speed_Ref",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Motor_Speed_Ref1",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Motor_Status",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Permissive_Bit",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Permissive_Bypass_Bit",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Permissive_Enable_Bit",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Reset_PB",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Run_FB_Check_Time",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Run_FB_Fault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Status_Blink_Bit",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "System_First_Scan",
+      "DataType": {
+       "Id": 1
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"Motor"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: PID_Type
+  Id: g=2161032b1af795340b041e96d7264f73
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "PID_Type",
+    "DataType": {
+     "IdType": 2,
+     "Id": "2161032b1af795340b041e96d7264f73",
+     "Namespace": 122
+    },
+    "Fields": [{
+      "Name": "Manual_PB",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Manual_Val",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "PID_Bit",
+      "DataType": {
+       "IdType": 2,
+       "Id": "d0983cb6340464465b81955d2c678cbc",
+       "Namespace": 122
+      }
+     },{
+      "Name": "PV_High_Limit",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "PV_Low_Limit",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Tagname",
+      "DataType": {
+       "Id": 12
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"PID_Type"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: SCP
+  Id: g=c56a5d83cd83640ee7097f12a1c98dfe
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "SCP",
+    "DataType": {
+     "IdType": 2,
+     "Id": "c56a5d83cd83640ee7097f12a1c98dfe",
+     "Namespace": 122
+    },
+    "Fields": [{
+      "Name": "scale",
+      "DataType": {
+       "IdType": 2,
+       "Id": "1a0c93b0b31bf7d9fba28ba821e5219f",
+       "Namespace": 122
+      }
+     },{
+      "Name": "tag_name",
+      "DataType": {
+       "Id": 12
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"SCP"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: VLV
+  Id: g=c9bda1d67da1d9c7f92e598e6e8b4fb6
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "VLV",
+    "DataType": {
+     "IdType": 2,
+     "Id": "c9bda1d67da1d9c7f92e598e6e8b4fb6",
+     "Namespace": 122
+    },
+    "Fields": [{
+      "Name": "Interlock_Text",
+      "DataType": {
+       "Id": 12
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [16]
+     },{
+      "Name": "Permissive_Text",
+      "DataType": {
+       "Id": 12
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [16]
+     },{
+      "Name": "Tagname",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "Valve",
+      "DataType": {
+       "IdType": 2,
+       "Id": "846010fbbae28bcad44b7988229e0220",
+       "Namespace": 122
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"VLV"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: raC_Dvc_PF525
+  Id: g=6104e89483420a5f639a100fa70c1851
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "raC_Dvc_PF525",
+    "DataType": {
+     "IdType": 2,
+     "Id": "6104e89483420a5f639a100fa70c1851",
+     "Namespace": 122
+    },
+    "Fields": [{
+      "Name": "Cfg_PercentFLATrendMax",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Cfg_PercentFLATrendMin",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Cfg_SpeedTrendMax",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Cfg_SpeedTrendMin",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Cmd_Activate",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Cmd_Deactivate",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Cmd_JogFwd",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Cmd_JogRev",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Cmd_ResetFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "EnableIn",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "EnableOut",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "HMI_Tab",
+      "DataType": {
+       "Id": 2
+      }
+     },{
+      "Name": "HMI_Version",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Inf_Lib",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "Inf_Type",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "Inp_MotorFLA",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "raC_Dvc_PF525",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Set_JogSpeed",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Sts_ActDir",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_Active",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_Available",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_bNotReady",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Sts_CmdDir",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_Connected",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_DI",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Sts_eDvcAction",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Sts_eEventType",
+      "DataType": {
+       "Id": 6
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [4]
+     },{
+      "Name": "Sts_eEventValue",
+      "DataType": {
+       "Id": 6
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [4]
+     },{
+      "Name": "Sts_eNotReady",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Sts_EventMessage",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "Sts_ExtensionEnabled",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Sts_Faulted",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_InhibitCmd",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_InhibitSet",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_Ready",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_tEventTimeD0",
+      "DataType": {
+       "Id": 6
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [7]
+     },{
+      "Name": "Sts_tEventTimeD1",
+      "DataType": {
+       "Id": 6
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [7]
+     },{
+      "Name": "Sts_tEventTimeD2",
+      "DataType": {
+       "Id": 6
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [7]
+     },{
+      "Name": "Sts_tEventTimeD3",
+      "DataType": {
+       "Id": 6
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [7]
+     },{
+      "Name": "Sts_Virtual",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_Warning",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_ZeroSpeed",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Val_CmdSpeed",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Val_FreqActual",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Val_MotorFLA",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Val_OutputCurrent",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Val_PercentFLA",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Wrk_bSts",
+      "DataType": {
+       "Id": 6
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"raC_Dvc_PF525"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: Valve
+  Id: g=846010fbbae28bcad44b7988229e0220
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "Valve",
+    "DataType": {
+     "IdType": 2,
+     "Id": "846010fbbae28bcad44b7988229e0220",
+     "Namespace": 122
+    },
+    "Fields": [{
+      "Name": "All_Interlock_OK",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "All_Permissive_OK",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Auto_On_Cmd",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Auto_On_Cmd_from_Logic",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Auto_Selected_Bit",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Autro_Selection_PB",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Close_FB_Check_Time",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Close_FB_Fault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "EnableIn",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "EnableOut",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Feedback_fault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Has_Interlock_Bit",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Has_Permissive_Bit",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Has_Speed_Ref",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Interlock_Bit",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Interlock_Bypass_Bit",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Interlock_Enable_Bit",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Manual_On_Cmd",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Manual_Selected_Bit",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Manual_Selection_PB",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Manual_Start_PB",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Manual_Stop_PB",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Motor_Speed_Ref",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Open_FB_Check_Time",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Open_FB_Fault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Permissive_Bit",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Permissive_Bypass_Bit",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Permissive_Enable_Bit",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Reset_PB",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Status_Blink_Bit",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "System_First_Scan",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Valve_Close_FB",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Valve_Close_FB_Input",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Valve_Has_Close_FB",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Valve_Has_Open_FB",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Valve_On_Cmd",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Valve_Open_FB",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Valve_Open_FB_Input",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Valve_Status",
+      "DataType": {
+       "Id": 6
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"Valve"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: Scaling
+  Id: g=1a0c93b0b31bf7d9fba28ba821e5219f
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "Scaling",
+    "DataType": {
+     "IdType": 2,
+     "Id": "1a0c93b0b31bf7d9fba28ba821e5219f",
+     "Namespace": 122
+    },
+    "Fields": [{
+      "Name": "alm_chk_time",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Enable_Alm",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "enable_force_bit",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "EnableIn",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "EnableOut",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "force_val",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "H_Alm_Bit",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "H_Limit",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "HH_Alm_Bit",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "HH_Limit",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Input",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "L_Alm_Bit",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "LL_Alm_Bit",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "LL_Limit",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Low_Limit",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Output",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Raw_Max",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Raw_Min",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "reset_alm_pb",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Scl_Max",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Scl_Min",
+      "DataType": {
+       "Id": 10
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"Scaling"}
+  ReferenceType: HasComponent
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: PID
+  Id: g=d0983cb6340464465b81955d2c678cbc
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "PID",
+    "DataType": {
+     "IdType": 2,
+     "Id": "d0983cb6340464465b81955d2c678cbc",
+     "Namespace": 122
+    },
+    "Fields": [{
+      "Name": "BIAS",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "CA",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "CL",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "CT",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "CTL",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "DATA",
+      "DataType": {
+       "Id": 10
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [17]
+     },{
+      "Name": "DB",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "DOE",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "DVDB",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "DVN",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "DVNA",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "DVP",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "DVPA",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "EN",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ERR",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "EWD",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "INI",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "KD",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "KI",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "KP",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "MAXCV",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "MAXI",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "MAXO",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "MAXS",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "MAXTIE",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "MINCV",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "MINI",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "MINO",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "MINS",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "MINTIE",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "MO",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "NDF",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "NOBC",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "NOZC",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "OLH",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "OLL",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "OUT",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "PE",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "PV",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "PVDB",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "PVH",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "PVHA",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "PVL",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "PVLA",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "PVT",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SO",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "SP",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "SPOR",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SWM",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "TIE",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "UPD",
+      "DataType": {
+       "Id": 10
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"PID"}
+  ReferenceType: HasComponent
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding

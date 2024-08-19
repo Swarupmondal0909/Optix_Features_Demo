@@ -1,0 +1,77 @@
+Name: ns=73;TagGroup01
+Id: ns=73;s=TagGroup01
+Type: FolderType
+DisplayName: {"LocaleId":"en","Text":"TagGroup01"}
+Description: {"LocaleId":"en","Text":"TagGroup01"}
+ReferenceType: Organizes
+Children:
+- Name: 'ns=73;Data_Test[0]'
+  Id: 'ns=73;s=TagGroup01#[Optix_UA_Server_Test]Data_Test[0]'
+  Type: BaseDataVariableType
+  DataType: Int32
+  DisplayName: {"LocaleId":"en","Text":"Data_Test[0]"}
+  ReferenceType: Organizes
+  Value: 10
+- Name: 'ns=73;Data_Test[1]'
+  Id: 'ns=73;s=TagGroup01#[Optix_UA_Server_Test]Data_Test[1]'
+  Type: BaseDataVariableType
+  DataType: Int32
+  DisplayName: {"LocaleId":"en","Text":"Data_Test[1]"}
+  ReferenceType: Organizes
+  Value: 20
+- Name: 'ns=73;Data_Test[2]'
+  Id: 'ns=73;s=TagGroup01#[Optix_UA_Server_Test]Data_Test[2]'
+  Type: BaseDataVariableType
+  DataType: Int32
+  DisplayName: {"LocaleId":"en","Text":"Data_Test[2]"}
+  ReferenceType: Organizes
+  Value: 30
+- Name: 'ns=73;Data_Test[3]'
+  Id: 'ns=73;s=TagGroup01#[Optix_UA_Server_Test]Data_Test[3]'
+  Type: BaseDataVariableType
+  DataType: Int32
+  DisplayName: {"LocaleId":"en","Text":"Data_Test[3]"}
+  ReferenceType: Organizes
+  Value: 40
+- Name: 'ns=73;Data_Test[4]'
+  Id: 'ns=73;s=TagGroup01#[Optix_UA_Server_Test]Data_Test[4]'
+  Type: BaseDataVariableType
+  DataType: Int32
+  DisplayName: {"LocaleId":"en","Text":"Data_Test[4]"}
+  ReferenceType: Organizes
+  Value: 50
+- Name: 'ns=73;Data_Test[5]'
+  Id: 'ns=73;s=TagGroup01#[Optix_UA_Server_Test]Data_Test[5]'
+  Type: BaseDataVariableType
+  DataType: Int32
+  DisplayName: {"LocaleId":"en","Text":"Data_Test[5]"}
+  ReferenceType: Organizes
+  Value: 60
+- Name: 'ns=73;Data_Test[6]'
+  Id: 'ns=73;s=TagGroup01#[Optix_UA_Server_Test]Data_Test[6]'
+  Type: BaseDataVariableType
+  DataType: Int32
+  DisplayName: {"LocaleId":"en","Text":"Data_Test[6]"}
+  ReferenceType: Organizes
+  Value: 70
+- Name: 'ns=73;Data_Test[7]'
+  Id: 'ns=73;s=TagGroup01#[Optix_UA_Server_Test]Data_Test[7]'
+  Type: BaseDataVariableType
+  DataType: Int32
+  DisplayName: {"LocaleId":"en","Text":"Data_Test[7]"}
+  ReferenceType: Organizes
+  Value: 80
+- Name: 'ns=73;Data_Test[8]'
+  Id: 'ns=73;s=TagGroup01#[Optix_UA_Server_Test]Data_Test[8]'
+  Type: BaseDataVariableType
+  DataType: Int32
+  DisplayName: {"LocaleId":"en","Text":"Data_Test[8]"}
+  ReferenceType: Organizes
+  Value: 90
+- Name: 'ns=73;Data_Test[9]'
+  Id: 'ns=73;s=TagGroup01#[Optix_UA_Server_Test]Data_Test[9]'
+  Type: BaseDataVariableType
+  DataType: Int32
+  DisplayName: {"LocaleId":"en","Text":"Data_Test[9]"}
+  ReferenceType: Organizes
+  Value: 100

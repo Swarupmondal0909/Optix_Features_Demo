@@ -1,0 +1,79 @@
+Name: Image
+Type: FolderType
+Children:
+- Name: Interlock_not_ok
+  Id: g=54bba62c1dfb1c9a5c5597cfa2bb768c
+  Supertype: Image
+  ReferenceType: HasComponent
+  Children:
+  - Name: Path
+    Type: BaseDataVariableType
+    DataType: ResourceUri
+    Value: "ns=122;%PROJECTDIR%/HMI Image Files/Nav_IntlkNotOK.png"
+  - Name: Width
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 50.0
+  - Name: Height
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 50.0
+- Name: Interlock_ok
+  Id: g=44b58817e82e04f099a02caa641bdf2b
+  Supertype: Image
+  ReferenceType: HasComponent
+  Children:
+  - Name: Path
+    Type: BaseDataVariableType
+    DataType: ResourceUri
+    Value: "ns=122;%PROJECTDIR%/HMI Image Files/Nav_IntlkOK.png"
+  - Name: Width
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 50.0
+  - Name: Height
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 50.0
+- Name: Permissive_not_ok
+  Id: g=62f574b387651b56db442fe1f6536e0f
+  Supertype: Image
+  ReferenceType: HasComponent
+  Children:
+  - Name: Path
+    Type: BaseDataVariableType
+    DataType: ResourceUri
+    Value: "file:///C:/Project/Optix test/Optix_Sample_Project/ProjectFiles/HMI Image Files/Nav_PermNotOK.png"
+  - Name: Width
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 50.0
+  - Name: Height
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 50.0
+- Name: Permissive_ok
+  Id: g=b9923d3f808a6b9bdb33ee373f5f5a13
+  Supertype: Image
+  ReferenceType: HasComponent
+  Children:
+  - Name: Path
+    Type: BaseDataVariableType
+    DataType: ResourceUri
+    Value: "ns=122;%PROJECTDIR%/HMI Image Files/Nav_PermOK.png"
+  - Name: Width
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 50.0
+  - Name: Height
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 50.0

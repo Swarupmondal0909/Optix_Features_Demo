@@ -1,0 +1,2913 @@
+Name: Base
+Type: FolderType
+Children:
+- Name: Valve_DialogBox
+  Id: g=fb2a6319e900457dbc90ed1b9650c4da
+  Supertype: Dialog
+  ReferenceType: HasComponent
+  Children:
+  - Class: Reference
+    Target: ns=82;i=519
+    Direction: Forward
+  - Name: Width
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 340.0
+  - Name: Height
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 400.0
+  - Name: Canvas
+    Type: Screen
+    Children:
+    - Name: Rectangle1
+      Type: Rectangle
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 50.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 50.0
+      - Name: BorderThickness
+        Type: BaseDataVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 2.0
+      - Name: HorizontalAlignment
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        ModellingRule: Optional
+        Value: 3
+      - Name: VerticalAlignment
+        Type: BaseVariableType
+        DataType: VerticalAlignment
+        ModellingRule: Optional
+        Value: 3
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: Optional
+        Value: "#b3b3b3"
+      - Name: FillColor
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: Optional
+        Value: "#e4e4e4"
+    - Name: VerticalLayout1
+      Type: ColumnLayout
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 50.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 50.0
+      - Name: HorizontalAlignment
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        ModellingRule: Optional
+        Value: 3
+      - Name: VerticalAlignment
+        Type: BaseVariableType
+        DataType: VerticalAlignment
+        ModellingRule: Optional
+        Value: 3
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 2.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 2.0
+      - Name: RightMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 2.0
+      - Name: BottomMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 2.0
+      - Name: Header
+        Type: Rectangle
+        Children:
+        - Name: Width
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 77.0
+        - Name: Height
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 40.0
+        - Name: BorderThickness
+          Type: BaseDataVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 1.0
+        - Name: HorizontalAlignment
+          Type: BaseVariableType
+          DataType: HorizontalAlignment
+          ModellingRule: Optional
+          Value: 3
+        - Name: TopMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+        - Name: FillColor
+          Type: BaseDataVariableType
+          DataType: Color
+          ModellingRule: Optional
+          Value: "#b9b9b9"
+        - Name: HeaderLayout
+          Type: RowLayout
+          Children:
+          - Name: Width
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 50.0
+          - Name: Height
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 50.0
+          - Name: HorizontalAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            ModellingRule: Optional
+            Value: 3
+          - Name: VerticalAlignment
+            Type: BaseVariableType
+            DataType: VerticalAlignment
+            ModellingRule: Optional
+            Value: 3
+          - Name: LeftMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 2.0
+          - Name: TopMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 2.0
+          - Name: RightMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 2.0
+          - Name: BottomMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 2.0
+          - Name: Header
+            Type: Label
+            Children:
+            - Name: Text
+              Type: BaseDataVariableType
+              DataType: LocalizedText
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "{Valve}/Tagname"
+            - Name: LeftMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+            - Name: TopMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 11.0
+            - Name: HorizontalAlignment
+              Type: BaseVariableType
+              DataType: HorizontalAlignment
+              ModellingRule: Optional
+              Value: 3
+            - Name: VerticalAlignment
+              Type: BaseVariableType
+              DataType: VerticalAlignment
+              ModellingRule: Optional
+              Value: 3
+            - Name: RightMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: -265.0
+            - Name: FontSize
+              Type: BaseDataVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 12.0
+            - Name: FontFamily
+              Type: BaseDataVariableType
+              DataType: Font
+              ModellingRule: Optional
+            - Name: FontItalic
+              Type: BaseDataVariableType
+              DataType: Boolean
+              ModellingRule: Optional
+            - Name: FontWeight
+              Type: BaseDataVariableType
+              DataType: FontWeightEnum
+              ModellingRule: Optional
+              Value: 700
+            - Name: TextHorizontalAlignment
+              Type: BaseVariableType
+              DataType: TextHorizontalAlignment
+              ModellingRule: Optional
+          - Name: Close
+            Type: Panel
+            Children:
+            - Name: Width
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 35.0
+            - Name: Height
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 35.0
+            - Name: LeftMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 265.0
+            - Name: TopMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+            - Name: Button1
+              Type: Button
+              Children:
+              - Name: Text
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                ModellingRule: Optional
+                Value: {"LocaleId":"en-US","Text":""}
+              - Name: HorizontalAlignment
+                Type: BaseVariableType
+                DataType: HorizontalAlignment
+                ModellingRule: Optional
+                Value: 3
+              - Name: VerticalAlignment
+                Type: BaseVariableType
+                DataType: VerticalAlignment
+                ModellingRule: Optional
+                Value: 3
+              - Name: ImagePosition
+                Type: BaseDataVariableType
+                DataType: Position
+                ModellingRule: Optional
+                Value: 4
+              - Name: ImagePath
+                Type: BaseDataVariableType
+                DataType: ResourceUri
+                ModellingRule: Optional
+                Value: "ns=122;%PROJECTDIR%/res/Nav_Close_Icon_border.svg"
+              - Name: MouseClickEventHandler1
+                Type: EventHandler
+                Children:
+                - Name: ListenEventType
+                  Type: PropertyType
+                  DataType: NodeId
+                  Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
+                - Name: MethodsToCall
+                  Type: BaseObjectType
+                  Children:
+                  - Name: MethodContainer1
+                    Type: BaseObjectType
+                    Children:
+                    - Name: ns=80;ObjectPointer
+                      Type: NodePointer
+                      DataType: NodeId
+                      Children:
+                      - Name: Kind
+                        Type: PropertyType
+                        DataType: NodeId
+                        Value: "/Types/ObjectTypes/BaseObjectType"
+                      - Name: DynamicLink
+                        Type: DynamicLink
+                        DataType: NodePath
+                        Value: "../../../../../../../../../..@NodeId"
+                        Children:
+                        - Name: Mode
+                          Type: BaseVariableType
+                          DataType: DynamicLinkMode
+                          ModellingRule: Optional
+                          Value: 2
+                    - Name: ns=80;Method
+                      Type: BaseDataVariableType
+                      DataType: String
+                      Value: "Close"
+                - Name: EventArguments
+                  Type: MouseClickEvent
+                  Children:
+                  - Name: EventId
+                    Type: PropertyType
+                    DataType: ByteString
+                  - Name: EventType
+                    Type: PropertyType
+                    DataType: NodeId
+                  - Name: SourceNode
+                    Type: PropertyType
+                    DataType: NodeId
+                  - Name: SourceName
+                    Type: PropertyType
+                    DataType: String
+                  - Name: Time
+                    Type: PropertyType
+                    DataType: UtcTime
+                  - Name: ReceiveTime
+                    Type: PropertyType
+                    DataType: UtcTime
+                  - Name: Message
+                    Type: PropertyType
+                    DataType: LocalizedText
+                  - Name: Severity
+                    Type: PropertyType
+                    DataType: UInt16
+            - Name: HorizontalAlignment
+              Type: BaseVariableType
+              DataType: HorizontalAlignment
+              ModellingRule: Optional
+      - Name: Banner
+        Type: Rectangle
+        Children:
+        - Name: Width
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 50.0
+        - Name: Height
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 40.0
+        - Name: BorderThickness
+          Type: BaseDataVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 1.0
+        - Name: HorizontalAlignment
+          Type: BaseVariableType
+          DataType: HorizontalAlignment
+          ModellingRule: Optional
+          Value: 3
+        - Name: VerticalAlignment
+          Type: BaseVariableType
+          DataType: VerticalAlignment
+          ModellingRule: Optional
+        - Name: FillColor
+          Type: BaseDataVariableType
+          DataType: Color
+          ModellingRule: Optional
+          Value: "#b3b3b3"
+        - Name: Label1
+          Type: Label
+          Children:
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Children:
+            - Name: KeyValueConverter1
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "{Valve}/Valve/Valve_Status"
+              - Name: ns=80;Pairs
+                Type: BaseObjectType
+                Children:
+                - Name: Pair
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Ready to start"
+                - Name: Pair1
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 1
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Interlock not ok"
+                - Name: Pair2
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 2
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Permissive not ok"
+                - Name: Pair3
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 3
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Both Interlock and Permissive not ok"
+                - Name: Pair4
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 4
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Open feedback fault"
+                - Name: Pair5
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 5
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Close feedback fault"
+                - Name: Pair6
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 6
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Opening"
+                - Name: Pair7
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 7
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Closing"
+                - Name: Pair8
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 8
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Opened"
+                - Name: Pair9
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 9
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Closed"
+          - Name: VerticalAlignment
+            Type: BaseVariableType
+            DataType: VerticalAlignment
+            ModellingRule: Optional
+            Value: 2
+          - Name: HorizontalAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            ModellingRule: Optional
+          - Name: FontSize
+            Type: BaseDataVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 12.0
+          - Name: FontItalic
+            Type: BaseDataVariableType
+            DataType: Boolean
+            ModellingRule: Optional
+          - Name: FontWeight
+            Type: BaseDataVariableType
+            DataType: FontWeightEnum
+            ModellingRule: Optional
+            Value: 700
+          - Name: LeftMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 2.0
+          - Name: TextColor
+            Type: BaseDataVariableType
+            DataType: Color
+            Value: "#000000"
+            Children:
+            - Name: KeyValueConverter1
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "{Valve}/Valve/Valve_Status"
+              - Name: ns=80;Pairs
+                Type: BaseObjectType
+                ModellingRule: None
+                Children:
+                - Name: Pair
+                  Type: ValueMapPair
+                  ModellingRule: None
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    ModellingRule: None
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Color
+                    ModellingRule: None
+                    Value: "#eb001b"
+                - Name: Pair1
+                  Type: ValueMapPair
+                  ModellingRule: None
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    ModellingRule: None
+                    Value: 1
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Color
+                    ModellingRule: None
+                    Value: "#eb001b"
+                - Name: Pair2
+                  Type: ValueMapPair
+                  ModellingRule: None
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    ModellingRule: None
+                    Value: 2
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Color
+                    ModellingRule: None
+                    Value: "#eb001b"
+                - Name: Pair3
+                  Type: ValueMapPair
+                  ModellingRule: None
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    ModellingRule: None
+                    Value: 3
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Color
+                    ModellingRule: None
+                    Value: "#eb001b"
+                - Name: Pair4
+                  Type: ValueMapPair
+                  ModellingRule: None
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    ModellingRule: None
+                    Value: 4
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Color
+                    ModellingRule: None
+                    Value: "#eb001b"
+                - Name: Pair5
+                  Type: ValueMapPair
+                  ModellingRule: None
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    ModellingRule: None
+                    Value: 5
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Color
+                    ModellingRule: None
+                    Value: "#eb001b"
+                - Name: Pair6
+                  Type: ValueMapPair
+                  ModellingRule: None
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    ModellingRule: None
+                    Value: 6
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Color
+                    ModellingRule: None
+                    Value: "#00ebd0"
+                - Name: Pair7
+                  Type: ValueMapPair
+                  ModellingRule: None
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    ModellingRule: None
+                    Value: 7
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Color
+                    ModellingRule: None
+                    Value: "#00eba9"
+                - Name: Pair8
+                  Type: ValueMapPair
+                  ModellingRule: None
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    ModellingRule: None
+                    Value: 8
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Color
+                    ModellingRule: None
+                    Value: "#00ff00"
+                - Name: Pair9
+                  Type: ValueMapPair
+                  ModellingRule: None
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    ModellingRule: None
+                    Value: 9
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Color
+                    ModellingRule: None
+                    Value: "#eb001b"
+          - Name: Blink
+            Type: BaseDataVariableType
+            DataType: Boolean
+            Children:
+            - Name: ConditionalConverter1
+              Type: ConditionalConverter
+              Children:
+              - Name: Condition
+                Type: BaseDataVariableType
+                DataType: Boolean
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "{Valve}/Valve/Status_Blink_Bit"
+              - Name: TrueValue
+                Type: BaseDataVariableType
+                DataType: Boolean
+                ReferenceType: HasParameter
+                ModellingRule: Optional
+                Value: true
+              - Name: FalseValue
+                Type: BaseDataVariableType
+                DataType: Boolean
+                ReferenceType: HasParameter
+                ModellingRule: Optional
+          - Name: Style
+            Type: BaseDataVariableType
+            DataType: String
+            ModellingRule: Optional
+            Value: "Default"
+      - Name: NavigationPanel1
+        Type: NavigationPanel
+        Children:
+        - Name: Panels
+          Type: BaseObjectType
+          Children:
+          - Name: Home
+            Type: NavigationPanelItem
+            Children:
+            - Name: Title
+              Type: BaseDataVariableType
+              DataType: LocalizedText
+              Value: {"LocaleId":"en-US","Text":"Home"}
+            - Name: Panel
+              Type: NodePointer
+              DataType: NodeId
+              Value: "/Objects/Optix_Features_Demo/UI/Faceplate/Valve_Display/Valve_Home"
+              Children:
+              - Name: Kind
+                Type: PropertyType
+                DataType: NodeId
+                Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
+            - Name: ImagePath
+              Type: BaseDataVariableType
+              DataType: ResourceUri
+              ModellingRule: Optional
+              Value: "ns=122;%PROJECTDIR%/HMI Image Files/Nav_Home.png"
+          - Name: Config
+            Type: NavigationPanelItem
+            Children:
+            - Name: Title
+              Type: BaseDataVariableType
+              DataType: LocalizedText
+              Value: {"LocaleId":"en-US","Text":"Config"}
+            - Name: Panel
+              Type: NodePointer
+              DataType: NodeId
+              Value: "/Objects/Optix_Features_Demo/UI/Faceplate/Valve_Display/Valve_Config"
+              Children:
+              - Name: Kind
+                Type: PropertyType
+                DataType: NodeId
+                Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
+            - Name: ImagePath
+              Type: BaseDataVariableType
+              DataType: ResourceUri
+              ModellingRule: Optional
+              Value: "ns=122;%PROJECTDIR%/HMI Image Files/Nav_Maint.png"
+          - Name: Permissive
+            Type: NavigationPanelItem
+            Children:
+            - Name: Title
+              Type: BaseDataVariableType
+              DataType: LocalizedText
+              Value: {"LocaleId":"en-US","Text":"Permissive"}
+            - Name: Panel
+              Type: NodePointer
+              DataType: NodeId
+              Value: "/Objects/Optix_Features_Demo/UI/Faceplate/Valve_Display/Valve_Permissive"
+              Children:
+              - Name: Kind
+                Type: PropertyType
+                DataType: NodeId
+                Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
+            - Name: ImagePath
+              Type: BaseDataVariableType
+              DataType: ResourceUri
+              Children:
+              - Name: ConditionalConverter1
+                Type: ConditionalConverter
+                Children:
+                - Name: Condition
+                  Type: BaseDataVariableType
+                  DataType: Boolean
+                  ReferenceType: HasSource
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Valve}/Valve/All_Permissive_OK"
+                - Name: TrueValue
+                  Type: BaseDataVariableType
+                  DataType: ResourceUri
+                  ReferenceType: HasParameter
+                  ModellingRule: Optional
+                  Value: "ns=122;%PROJECTDIR%/HMI Image Files/Nav_PermOK.png"
+                - Name: FalseValue
+                  Type: BaseDataVariableType
+                  DataType: ResourceUri
+                  ReferenceType: HasParameter
+                  ModellingRule: Optional
+                  Value: "ns=122;%PROJECTDIR%/HMI Image Files/Nav_PermNotOK.png"
+            - Name: Enabled
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "{Valve}/Valve/Has_Permissive_Bit"
+          - Name: Interlock
+            Type: NavigationPanelItem
+            Children:
+            - Name: Title
+              Type: BaseDataVariableType
+              DataType: LocalizedText
+              Value: {"LocaleId":"en-US","Text":"Interlock"}
+            - Name: Panel
+              Type: NodePointer
+              DataType: NodeId
+              Value: "/Objects/Optix_Features_Demo/UI/Faceplate/Valve_Display/Valve_Interlock"
+              Children:
+              - Name: Kind
+                Type: PropertyType
+                DataType: NodeId
+                Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
+            - Name: ImagePath
+              Type: BaseDataVariableType
+              DataType: ResourceUri
+              Children:
+              - Name: ConditionalConverter1
+                Type: ConditionalConverter
+                Children:
+                - Name: Condition
+                  Type: BaseDataVariableType
+                  DataType: Boolean
+                  ReferenceType: HasSource
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Valve}/Valve/All_Interlock_OK"
+                - Name: TrueValue
+                  Type: BaseDataVariableType
+                  DataType: ResourceUri
+                  ReferenceType: HasParameter
+                  ModellingRule: Optional
+                  Value: "ns=122;%PROJECTDIR%/HMI Image Files/Nav_IntlkOK.png"
+                - Name: FalseValue
+                  Type: BaseDataVariableType
+                  DataType: ResourceUri
+                  ReferenceType: HasParameter
+                  ModellingRule: Optional
+                  Value: "ns=122;%PROJECTDIR%/HMI Image Files/Nav_IntlkNotOK.png"
+            - Name: Enabled
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "{Valve}/Valve/Has_Interlock_Bit"
+        - Name: CurrentPanel
+          Type: NodePointer
+          DataType: NodeId
+          AccessLevel: Read
+          Children:
+          - Name: Kind
+            Type: PropertyType
+            DataType: NodeId
+            Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item"
+        - Name: CurrentTabIndex
+          Type: BaseDataVariableType
+          DataType: Int32
+        - Class: Reference
+          Target: ns=82;i=1181
+          Direction: Forward
+        - Class: Reference
+          Target: ns=82;i=1183
+          Direction: Forward
+        - Name: Width
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 300.0
+        - Name: Height
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 300.0
+        - Name: HorizontalAlignment
+          Type: BaseVariableType
+          DataType: HorizontalAlignment
+          ModellingRule: Optional
+          Value: 3
+        - Name: VerticalAlignment
+          Type: BaseVariableType
+          DataType: VerticalAlignment
+          ModellingRule: Optional
+          Value: 3
+        - Name: TabPosition
+          Type: BaseVariableType
+          DataType: NavigationPanelTabPositionEnum
+          ModellingRule: Optional
+          Value: 2
+        - Name: TabWidth
+          Type: BaseDataVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 50.0
+        - Name: TabHeight
+          Type: BaseDataVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 50.0
+  - Name: Modal
+    Type: BaseDataVariableType
+    DataType: Boolean
+    ModellingRule: Optional
+  - Name: MoveTarget
+    Type: NodePointer
+    DataType: NodeId
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "..@NodeId"
+  - Name: Valve
+    Type: Alias
+    DataType: NodeId
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Objects/Optix_Features_Demo/CommDrivers/RAEtherNet_IPDriver1/Optix_Demo/Types/VariableTypes/VLV"
+  - Name: ns=98;LockPassword
+    Type: BaseDataVariableType
+    DataType: PasswordHash
+    AccessLevel: Read
+    Value: 
+     {
+      "TypeId": {
+       "Id": 252,
+       "Namespace": 1
+      },
+      "Body": {
+       "Hash": [11,157,143,128,181,193,206,26,87,193,186,111,111,22,2,94,139,218,172,120,210,9,181,90,64,208,93,39,120,100,103,170],
+       "Salt": [210,61,8,100,189,236,18,33,32,160,57,181,58,197,52,247,22,113,18,35,244,98,206,64,168,34,79,127,180,104,140,104]
+      }
+     }
+- Name: Scaling
+  Id: g=913f5b8a2f240f279ec344a3801cbcd8
+  Supertype: Dialog
+  ReferenceType: HasComponent
+  Children:
+  - Class: Reference
+    Target: ns=82;i=519
+    Direction: Forward
+  - Name: Width
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 340.0
+  - Name: Height
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 400.0
+  - Name: Canvas
+    Type: Screen
+    Children:
+    - Name: Rectangle1
+      Type: Rectangle
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 50.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 50.0
+      - Name: BorderThickness
+        Type: BaseDataVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 2.0
+      - Name: HorizontalAlignment
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        ModellingRule: Optional
+        Value: 3
+      - Name: VerticalAlignment
+        Type: BaseVariableType
+        DataType: VerticalAlignment
+        ModellingRule: Optional
+        Value: 3
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: Optional
+        Value: "#b3b3b3"
+      - Name: FillColor
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: Optional
+        Value: "#e4e4e4"
+    - Name: VerticalLayout1
+      Type: ColumnLayout
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 50.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 50.0
+      - Name: HorizontalAlignment
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        ModellingRule: Optional
+        Value: 3
+      - Name: VerticalAlignment
+        Type: BaseVariableType
+        DataType: VerticalAlignment
+        ModellingRule: Optional
+        Value: 3
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 2.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 2.0
+      - Name: RightMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 2.0
+      - Name: BottomMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 2.0
+      - Name: Header
+        Type: Rectangle
+        Children:
+        - Name: Width
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 77.0
+        - Name: Height
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 40.0
+        - Name: BorderThickness
+          Type: BaseDataVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 1.0
+        - Name: HorizontalAlignment
+          Type: BaseVariableType
+          DataType: HorizontalAlignment
+          ModellingRule: Optional
+          Value: 3
+        - Name: TopMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+        - Name: FillColor
+          Type: BaseDataVariableType
+          DataType: Color
+          ModellingRule: Optional
+          Value: "#b9b9b9"
+        - Name: HeaderLayout
+          Type: RowLayout
+          Children:
+          - Name: Width
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 50.0
+          - Name: Height
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 50.0
+          - Name: HorizontalAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            ModellingRule: Optional
+            Value: 3
+          - Name: VerticalAlignment
+            Type: BaseVariableType
+            DataType: VerticalAlignment
+            ModellingRule: Optional
+            Value: 3
+          - Name: LeftMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 2.0
+          - Name: TopMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 2.0
+          - Name: RightMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 2.0
+          - Name: BottomMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 2.0
+          - Name: Header
+            Type: Label
+            Children:
+            - Name: Text
+              Type: BaseDataVariableType
+              DataType: LocalizedText
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "{Scaling}/tag_name"
+            - Name: LeftMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+            - Name: TopMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 11.0
+            - Name: HorizontalAlignment
+              Type: BaseVariableType
+              DataType: HorizontalAlignment
+              ModellingRule: Optional
+              Value: 3
+            - Name: VerticalAlignment
+              Type: BaseVariableType
+              DataType: VerticalAlignment
+              ModellingRule: Optional
+              Value: 3
+            - Name: RightMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: -265.0
+            - Name: FontSize
+              Type: BaseDataVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 12.0
+            - Name: FontFamily
+              Type: BaseDataVariableType
+              DataType: Font
+              ModellingRule: Optional
+            - Name: FontItalic
+              Type: BaseDataVariableType
+              DataType: Boolean
+              ModellingRule: Optional
+            - Name: FontWeight
+              Type: BaseDataVariableType
+              DataType: FontWeightEnum
+              ModellingRule: Optional
+              Value: 700
+            - Name: TextHorizontalAlignment
+              Type: BaseVariableType
+              DataType: TextHorizontalAlignment
+              ModellingRule: Optional
+          - Name: Close
+            Type: Panel
+            Children:
+            - Name: Width
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 35.0
+            - Name: Height
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 35.0
+            - Name: LeftMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 265.0
+            - Name: TopMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+            - Name: Button1
+              Type: Button
+              Children:
+              - Name: Text
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                ModellingRule: Optional
+                Value: {"LocaleId":"en-US","Text":""}
+              - Name: HorizontalAlignment
+                Type: BaseVariableType
+                DataType: HorizontalAlignment
+                ModellingRule: Optional
+                Value: 3
+              - Name: VerticalAlignment
+                Type: BaseVariableType
+                DataType: VerticalAlignment
+                ModellingRule: Optional
+                Value: 3
+              - Name: ImagePosition
+                Type: BaseDataVariableType
+                DataType: Position
+                ModellingRule: Optional
+                Value: 4
+              - Name: ImagePath
+                Type: BaseDataVariableType
+                DataType: ResourceUri
+                ModellingRule: Optional
+                Value: "ns=122;%PROJECTDIR%/res/Nav_Close_Icon_border.svg"
+              - Name: MouseClickEventHandler1
+                Type: EventHandler
+                Children:
+                - Name: ListenEventType
+                  Type: PropertyType
+                  DataType: NodeId
+                  Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
+                - Name: MethodsToCall
+                  Type: BaseObjectType
+                  Children:
+                  - Name: MethodContainer1
+                    Type: BaseObjectType
+                    Children:
+                    - Name: ns=80;ObjectPointer
+                      Type: NodePointer
+                      DataType: NodeId
+                      Children:
+                      - Name: Kind
+                        Type: PropertyType
+                        DataType: NodeId
+                        Value: "/Types/ObjectTypes/BaseObjectType"
+                      - Name: DynamicLink
+                        Type: DynamicLink
+                        DataType: NodePath
+                        Value: "../../../../../../../../../..@NodeId"
+                        Children:
+                        - Name: Mode
+                          Type: BaseVariableType
+                          DataType: DynamicLinkMode
+                          ModellingRule: Optional
+                          Value: 2
+                    - Name: ns=80;Method
+                      Type: BaseDataVariableType
+                      DataType: String
+                      Value: "Close"
+                - Name: EventArguments
+                  Type: MouseClickEvent
+                  Children:
+                  - Name: EventId
+                    Type: PropertyType
+                    DataType: ByteString
+                  - Name: EventType
+                    Type: PropertyType
+                    DataType: NodeId
+                  - Name: SourceNode
+                    Type: PropertyType
+                    DataType: NodeId
+                  - Name: SourceName
+                    Type: PropertyType
+                    DataType: String
+                  - Name: Time
+                    Type: PropertyType
+                    DataType: UtcTime
+                  - Name: ReceiveTime
+                    Type: PropertyType
+                    DataType: UtcTime
+                  - Name: Message
+                    Type: PropertyType
+                    DataType: LocalizedText
+                  - Name: Severity
+                    Type: PropertyType
+                    DataType: UInt16
+            - Name: HorizontalAlignment
+              Type: BaseVariableType
+              DataType: HorizontalAlignment
+              ModellingRule: Optional
+      - Name: NavigationPanel1
+        Type: NavigationPanel
+        Children:
+        - Name: Panels
+          Type: BaseObjectType
+          Children:
+          - Name: Home
+            Type: NavigationPanelItem
+            Children:
+            - Name: Title
+              Type: BaseDataVariableType
+              DataType: LocalizedText
+              Value: {"LocaleId":"en-US","Text":"Home"}
+            - Name: Panel
+              Type: NodePointer
+              DataType: NodeId
+              Value: "/Objects/Optix_Features_Demo/UI/Faceplate/Scaling_Display/Scaling_Home"
+              Children:
+              - Name: Kind
+                Type: PropertyType
+                DataType: NodeId
+                Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
+            - Name: ImagePath
+              Type: BaseDataVariableType
+              DataType: ResourceUri
+              ModellingRule: Optional
+              Value: "ns=122;%PROJECTDIR%/HMI Image Files/Nav_Home.png"
+          - Name: Config
+            Type: NavigationPanelItem
+            Children:
+            - Name: Title
+              Type: BaseDataVariableType
+              DataType: LocalizedText
+              Value: {"LocaleId":"en-US","Text":"Config"}
+            - Name: Panel
+              Type: NodePointer
+              DataType: NodeId
+              Value: "/Objects/Optix_Features_Demo/UI/Faceplate/Scaling_Display/Scaling_Config"
+              Children:
+              - Name: Kind
+                Type: PropertyType
+                DataType: NodeId
+                Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
+            - Name: ImagePath
+              Type: BaseDataVariableType
+              DataType: ResourceUri
+              ModellingRule: Optional
+              Value: "ns=122;%PROJECTDIR%/HMI Image Files/Nav_Maint.png"
+        - Name: CurrentPanel
+          Type: NodePointer
+          DataType: NodeId
+          AccessLevel: Read
+          Children:
+          - Name: Kind
+            Type: PropertyType
+            DataType: NodeId
+            Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item"
+        - Name: CurrentTabIndex
+          Type: BaseDataVariableType
+          DataType: Int32
+        - Name: Width
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 300.0
+        - Name: Height
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 300.0
+        - Name: HorizontalAlignment
+          Type: BaseVariableType
+          DataType: HorizontalAlignment
+          ModellingRule: Optional
+          Value: 3
+        - Name: VerticalAlignment
+          Type: BaseVariableType
+          DataType: VerticalAlignment
+          ModellingRule: Optional
+          Value: 3
+        - Name: TabPosition
+          Type: BaseVariableType
+          DataType: NavigationPanelTabPositionEnum
+          ModellingRule: Optional
+          Value: 2
+        - Name: TabWidth
+          Type: BaseDataVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 50.0
+        - Name: TabHeight
+          Type: BaseDataVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 50.0
+        - Class: Reference
+          Target: ns=82;i=1183
+        - Class: Reference
+          Target: ns=82;i=1181
+  - Name: Modal
+    Type: BaseDataVariableType
+    DataType: Boolean
+    ModellingRule: Optional
+  - Name: MoveTarget
+    Type: NodePointer
+    DataType: NodeId
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "..@NodeId"
+  - Name: Scaling
+    Type: Alias
+    DataType: NodeId
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Objects/Optix_Features_Demo/CommDrivers/RAEtherNet_IPDriver1/Optix_Demo/Types/VariableTypes/SCP"
+  - Name: ns=98;LockPassword
+    Type: BaseDataVariableType
+    DataType: PasswordHash
+    AccessLevel: Read
+    Value: 
+     {
+      "TypeId": {
+       "Id": 252,
+       "Namespace": 1
+      },
+      "Body": {
+       "Hash": [83,195,132,189,5,87,96,212,144,123,10,147,195,70,234,173,116,93,83,74,121,235,210,202,245,95,56,8,187,190,166,74],
+       "Salt": [190,162,34,58,148,105,146,239,189,32,234,230,199,218,149,187,141,1,139,93,238,199,162,39,228,16,130,91,27,100,116,27]
+      }
+     }
+- Name: PID
+  Id: g=d43419dca680f9a32318032004d13880
+  Supertype: Dialog
+  ReferenceType: HasComponent
+  Children:
+  - Class: Reference
+    Target: ns=82;i=519
+    Direction: Forward
+  - Name: Width
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 340.0
+  - Name: Height
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 400.0
+  - Name: Canvas
+    Type: Screen
+    Children:
+    - Name: Rectangle1
+      Type: Rectangle
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 50.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 50.0
+      - Name: BorderThickness
+        Type: BaseDataVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 2.0
+      - Name: HorizontalAlignment
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        ModellingRule: Optional
+        Value: 3
+      - Name: VerticalAlignment
+        Type: BaseVariableType
+        DataType: VerticalAlignment
+        ModellingRule: Optional
+        Value: 3
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: Optional
+        Value: "#b3b3b3"
+      - Name: FillColor
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: Optional
+        Value: "#e4e4e4"
+    - Name: VerticalLayout1
+      Type: ColumnLayout
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 50.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 50.0
+      - Name: HorizontalAlignment
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        ModellingRule: Optional
+        Value: 3
+      - Name: VerticalAlignment
+        Type: BaseVariableType
+        DataType: VerticalAlignment
+        ModellingRule: Optional
+        Value: 3
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 2.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 2.0
+      - Name: RightMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 2.0
+      - Name: BottomMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 2.0
+      - Name: Header
+        Type: Rectangle
+        Children:
+        - Name: Width
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 77.0
+        - Name: Height
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 40.0
+        - Name: BorderThickness
+          Type: BaseDataVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 1.0
+        - Name: HorizontalAlignment
+          Type: BaseVariableType
+          DataType: HorizontalAlignment
+          ModellingRule: Optional
+          Value: 3
+        - Name: TopMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+        - Name: FillColor
+          Type: BaseDataVariableType
+          DataType: Color
+          ModellingRule: Optional
+          Value: "#b9b9b9"
+        - Name: HeaderLayout
+          Type: RowLayout
+          Children:
+          - Name: Width
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 50.0
+          - Name: Height
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 50.0
+          - Name: HorizontalAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            ModellingRule: Optional
+            Value: 3
+          - Name: VerticalAlignment
+            Type: BaseVariableType
+            DataType: VerticalAlignment
+            ModellingRule: Optional
+            Value: 3
+          - Name: LeftMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 2.0
+          - Name: TopMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 2.0
+          - Name: RightMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 2.0
+          - Name: BottomMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 2.0
+          - Name: Header
+            Type: Label
+            Children:
+            - Name: Text
+              Type: BaseDataVariableType
+              DataType: LocalizedText
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "{PID}/Tagname"
+            - Name: LeftMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+            - Name: TopMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 11.0
+            - Name: HorizontalAlignment
+              Type: BaseVariableType
+              DataType: HorizontalAlignment
+              ModellingRule: Optional
+              Value: 3
+            - Name: VerticalAlignment
+              Type: BaseVariableType
+              DataType: VerticalAlignment
+              ModellingRule: Optional
+              Value: 3
+            - Name: RightMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: -265.0
+            - Name: FontSize
+              Type: BaseDataVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 12.0
+            - Name: FontFamily
+              Type: BaseDataVariableType
+              DataType: Font
+              ModellingRule: Optional
+            - Name: FontItalic
+              Type: BaseDataVariableType
+              DataType: Boolean
+              ModellingRule: Optional
+            - Name: FontWeight
+              Type: BaseDataVariableType
+              DataType: FontWeightEnum
+              ModellingRule: Optional
+              Value: 700
+            - Name: TextHorizontalAlignment
+              Type: BaseVariableType
+              DataType: TextHorizontalAlignment
+              ModellingRule: Optional
+          - Name: Close
+            Type: Panel
+            Children:
+            - Name: Width
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 35.0
+            - Name: Height
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 35.0
+            - Name: LeftMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 265.0
+            - Name: TopMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+            - Name: Button1
+              Type: Button
+              Children:
+              - Name: Text
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                ModellingRule: Optional
+                Value: {"LocaleId":"en-US","Text":""}
+              - Name: HorizontalAlignment
+                Type: BaseVariableType
+                DataType: HorizontalAlignment
+                ModellingRule: Optional
+                Value: 3
+              - Name: VerticalAlignment
+                Type: BaseVariableType
+                DataType: VerticalAlignment
+                ModellingRule: Optional
+                Value: 3
+              - Name: ImagePosition
+                Type: BaseDataVariableType
+                DataType: Position
+                ModellingRule: Optional
+                Value: 4
+              - Name: ImagePath
+                Type: BaseDataVariableType
+                DataType: ResourceUri
+                ModellingRule: Optional
+                Value: "ns=122;%PROJECTDIR%/res/Nav_Close_Icon_border.svg"
+              - Name: MouseClickEventHandler1
+                Type: EventHandler
+                Children:
+                - Name: ListenEventType
+                  Type: PropertyType
+                  DataType: NodeId
+                  Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
+                - Name: MethodsToCall
+                  Type: BaseObjectType
+                  Children:
+                  - Name: MethodContainer1
+                    Type: BaseObjectType
+                    Children:
+                    - Name: ns=80;ObjectPointer
+                      Type: NodePointer
+                      DataType: NodeId
+                      Children:
+                      - Name: Kind
+                        Type: PropertyType
+                        DataType: NodeId
+                        Value: "/Types/ObjectTypes/BaseObjectType"
+                      - Name: DynamicLink
+                        Type: DynamicLink
+                        DataType: NodePath
+                        Value: "../../../../../../../../../..@NodeId"
+                        Children:
+                        - Name: Mode
+                          Type: BaseVariableType
+                          DataType: DynamicLinkMode
+                          ModellingRule: Optional
+                          Value: 2
+                    - Name: ns=80;Method
+                      Type: BaseDataVariableType
+                      DataType: String
+                      Value: "Close"
+                - Name: EventArguments
+                  Type: MouseClickEvent
+                  Children:
+                  - Name: EventId
+                    Type: PropertyType
+                    DataType: ByteString
+                  - Name: EventType
+                    Type: PropertyType
+                    DataType: NodeId
+                  - Name: SourceNode
+                    Type: PropertyType
+                    DataType: NodeId
+                  - Name: SourceName
+                    Type: PropertyType
+                    DataType: String
+                  - Name: Time
+                    Type: PropertyType
+                    DataType: UtcTime
+                  - Name: ReceiveTime
+                    Type: PropertyType
+                    DataType: UtcTime
+                  - Name: Message
+                    Type: PropertyType
+                    DataType: LocalizedText
+                  - Name: Severity
+                    Type: PropertyType
+                    DataType: UInt16
+            - Name: HorizontalAlignment
+              Type: BaseVariableType
+              DataType: HorizontalAlignment
+              ModellingRule: Optional
+      - Name: NavigationPanel1
+        Type: NavigationPanel
+        Children:
+        - Name: Panels
+          Type: BaseObjectType
+          Children:
+          - Name: Home
+            Type: NavigationPanelItem
+            Children:
+            - Name: Title
+              Type: BaseDataVariableType
+              DataType: LocalizedText
+              Value: {"LocaleId":"en-US","Text":"Home"}
+            - Name: Panel
+              Type: NodePointer
+              DataType: NodeId
+              Value: "/Objects/Optix_Features_Demo/UI/Faceplate/PID_Display/PID_Home"
+              Children:
+              - Name: Kind
+                Type: PropertyType
+                DataType: NodeId
+                Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
+            - Name: ImagePath
+              Type: BaseDataVariableType
+              DataType: ResourceUri
+              ModellingRule: Optional
+              Value: "ns=122;%PROJECTDIR%/HMI Image Files/Nav_Home.png"
+          - Name: Config
+            Type: NavigationPanelItem
+            Children:
+            - Name: Title
+              Type: BaseDataVariableType
+              DataType: LocalizedText
+              Value: {"LocaleId":"en-US","Text":"Config"}
+            - Name: Panel
+              Type: NodePointer
+              DataType: NodeId
+              Value: "/Objects/Optix_Features_Demo/UI/Faceplate/PID_Display/PID_Config"
+              Children:
+              - Name: Kind
+                Type: PropertyType
+                DataType: NodeId
+                Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
+            - Name: ImagePath
+              Type: BaseDataVariableType
+              DataType: ResourceUri
+              ModellingRule: Optional
+              Value: "ns=122;%PROJECTDIR%/HMI Image Files/Nav_Maint.png"
+          - Name: Trend
+            Type: NavigationPanelItem
+            Children:
+            - Name: Title
+              Type: BaseDataVariableType
+              DataType: LocalizedText
+              Value: {"LocaleId":"en-US","Text":"Trend"}
+            - Name: Panel
+              Type: NodePointer
+              DataType: NodeId
+              Value: "/Objects/Optix_Features_Demo/UI/Faceplate/PID_Display/PID_Trend"
+              Children:
+              - Name: Kind
+                Type: PropertyType
+                DataType: NodeId
+                Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
+            - Name: ImagePath
+              Type: BaseDataVariableType
+              DataType: ResourceUri
+              Value: "ns=122;%PROJECTDIR%/HMI Image Files/Nav_Trend.png"
+            - Name: Enabled
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+        - Name: CurrentPanel
+          Type: NodePointer
+          DataType: NodeId
+          AccessLevel: Read
+          Children:
+          - Name: Kind
+            Type: PropertyType
+            DataType: NodeId
+            Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item"
+        - Name: CurrentTabIndex
+          Type: BaseDataVariableType
+          DataType: Int32
+        - Class: Reference
+          Target: ns=82;i=1181
+          Direction: Forward
+        - Class: Reference
+          Target: ns=82;i=1183
+          Direction: Forward
+        - Name: Width
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 300.0
+        - Name: Height
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 300.0
+        - Name: HorizontalAlignment
+          Type: BaseVariableType
+          DataType: HorizontalAlignment
+          ModellingRule: Optional
+          Value: 3
+        - Name: VerticalAlignment
+          Type: BaseVariableType
+          DataType: VerticalAlignment
+          ModellingRule: Optional
+          Value: 3
+        - Name: TabPosition
+          Type: BaseVariableType
+          DataType: NavigationPanelTabPositionEnum
+          ModellingRule: Optional
+          Value: 2
+        - Name: TabWidth
+          Type: BaseDataVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 50.0
+        - Name: TabHeight
+          Type: BaseDataVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 50.0
+  - Name: Modal
+    Type: BaseDataVariableType
+    DataType: Boolean
+    ModellingRule: Optional
+  - Name: MoveTarget
+    Type: NodePointer
+    DataType: NodeId
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "..@NodeId"
+  - Name: PID
+    Type: Alias
+    DataType: NodeId
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Objects/Optix_Features_Demo/CommDrivers/RAEtherNet_IPDriver1/Optix_Demo/Types/VariableTypes/PID_Type"
+  - Name: ns=98;LockPassword
+    Type: BaseDataVariableType
+    DataType: PasswordHash
+    AccessLevel: Read
+    Value: 
+     {
+      "TypeId": {
+       "Id": 252,
+       "Namespace": 1
+      },
+      "Body": {
+       "Hash": [172,52,241,189,5,214,5,28,164,154,146,64,64,46,62,114,143,147,197,211,159,45,203,156,172,24,151,217,76,11,82,84],
+       "Salt": [13,172,165,252,143,162,231,98,96,218,116,27,22,195,28,41,231,210,110,95,32,52,117,127,159,151,177,93,159,200,35,34]
+      }
+     }
+- Name: Motor_DialogBox
+  Id: g=f763e132d0930ef108054360592b475b
+  Supertype: Dialog
+  ReferenceType: HasComponent
+  Children:
+  - Class: Reference
+    Target: ns=82;i=519
+    Direction: Forward
+  - Name: Width
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 340.0
+  - Name: Height
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 400.0
+  - Name: Canvas
+    Type: Screen
+    Children:
+    - Name: Rectangle1
+      Type: Rectangle
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 50.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 50.0
+      - Name: BorderThickness
+        Type: BaseDataVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 2.0
+      - Name: HorizontalAlignment
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        ModellingRule: Optional
+        Value: 3
+      - Name: VerticalAlignment
+        Type: BaseVariableType
+        DataType: VerticalAlignment
+        ModellingRule: Optional
+        Value: 3
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: Optional
+        Value: "#b3b3b3"
+      - Name: FillColor
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: Optional
+        Value: "#e4e4e4"
+    - Name: VerticalLayout1
+      Type: ColumnLayout
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 50.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 50.0
+      - Name: HorizontalAlignment
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        ModellingRule: Optional
+        Value: 3
+      - Name: VerticalAlignment
+        Type: BaseVariableType
+        DataType: VerticalAlignment
+        ModellingRule: Optional
+        Value: 3
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 2.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 2.0
+      - Name: RightMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 2.0
+      - Name: BottomMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 2.0
+      - Name: Header
+        Type: Rectangle
+        Children:
+        - Name: Width
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 77.0
+        - Name: Height
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 40.0
+        - Name: BorderThickness
+          Type: BaseDataVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 1.0
+        - Name: HorizontalAlignment
+          Type: BaseVariableType
+          DataType: HorizontalAlignment
+          ModellingRule: Optional
+          Value: 3
+        - Name: TopMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+        - Name: FillColor
+          Type: BaseDataVariableType
+          DataType: Color
+          ModellingRule: Optional
+          Value: "#b3b3b3"
+        - Name: HeaderLayout
+          Type: RowLayout
+          Children:
+          - Name: Width
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 50.0
+          - Name: Height
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 50.0
+          - Name: HorizontalAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            ModellingRule: Optional
+            Value: 3
+          - Name: VerticalAlignment
+            Type: BaseVariableType
+            DataType: VerticalAlignment
+            ModellingRule: Optional
+            Value: 3
+          - Name: LeftMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 2.0
+          - Name: TopMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 2.0
+          - Name: RightMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 2.0
+          - Name: BottomMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 2.0
+          - Name: Header
+            Type: Label
+            Children:
+            - Name: Text
+              Type: BaseDataVariableType
+              DataType: LocalizedText
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "{Motor}/Tagname"
+            - Name: LeftMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+            - Name: TopMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 11.0
+            - Name: HorizontalAlignment
+              Type: BaseVariableType
+              DataType: HorizontalAlignment
+              ModellingRule: Optional
+              Value: 3
+            - Name: VerticalAlignment
+              Type: BaseVariableType
+              DataType: VerticalAlignment
+              ModellingRule: Optional
+              Value: 3
+            - Name: RightMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: -265.0
+            - Name: FontSize
+              Type: BaseDataVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 12.0
+            - Name: FontFamily
+              Type: BaseDataVariableType
+              DataType: Font
+              ModellingRule: Optional
+            - Name: FontItalic
+              Type: BaseDataVariableType
+              DataType: Boolean
+              ModellingRule: Optional
+            - Name: FontWeight
+              Type: BaseDataVariableType
+              DataType: FontWeightEnum
+              ModellingRule: Optional
+              Value: 700
+            - Name: TextHorizontalAlignment
+              Type: BaseVariableType
+              DataType: TextHorizontalAlignment
+              ModellingRule: Optional
+          - Name: Close
+            Type: Panel
+            Children:
+            - Name: Width
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 35.0
+            - Name: Height
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 35.0
+            - Name: LeftMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 265.0
+            - Name: TopMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+            - Name: Button1
+              Type: Button
+              Children:
+              - Name: Text
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                ModellingRule: Optional
+                Value: {"LocaleId":"en-US","Text":""}
+              - Name: HorizontalAlignment
+                Type: BaseVariableType
+                DataType: HorizontalAlignment
+                ModellingRule: Optional
+                Value: 3
+              - Name: VerticalAlignment
+                Type: BaseVariableType
+                DataType: VerticalAlignment
+                ModellingRule: Optional
+                Value: 3
+              - Name: ImagePosition
+                Type: BaseDataVariableType
+                DataType: Position
+                ModellingRule: Optional
+                Value: 4
+              - Name: ImagePath
+                Type: BaseDataVariableType
+                DataType: ResourceUri
+                ModellingRule: Optional
+                Value: "ns=122;%PROJECTDIR%/res/Nav_Close_Icon_border.svg"
+              - Name: MouseClickEventHandler1
+                Type: EventHandler
+                Children:
+                - Name: ListenEventType
+                  Type: PropertyType
+                  DataType: NodeId
+                  Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
+                - Name: MethodsToCall
+                  Type: BaseObjectType
+                  Children:
+                  - Name: MethodContainer1
+                    Type: BaseObjectType
+                    Children:
+                    - Name: ns=80;ObjectPointer
+                      Type: NodePointer
+                      DataType: NodeId
+                      Children:
+                      - Name: Kind
+                        Type: PropertyType
+                        DataType: NodeId
+                        Value: "/Types/ObjectTypes/BaseObjectType"
+                      - Name: DynamicLink
+                        Type: DynamicLink
+                        DataType: NodePath
+                        Value: "../../../../../../../../../..@NodeId"
+                        Children:
+                        - Name: Mode
+                          Type: BaseVariableType
+                          DataType: DynamicLinkMode
+                          ModellingRule: Optional
+                          Value: 2
+                    - Name: ns=80;Method
+                      Type: BaseDataVariableType
+                      DataType: String
+                      Value: "Close"
+                - Name: EventArguments
+                  Type: MouseClickEvent
+                  Children:
+                  - Name: EventId
+                    Type: PropertyType
+                    DataType: ByteString
+                  - Name: EventType
+                    Type: PropertyType
+                    DataType: NodeId
+                  - Name: SourceNode
+                    Type: PropertyType
+                    DataType: NodeId
+                  - Name: SourceName
+                    Type: PropertyType
+                    DataType: String
+                  - Name: Time
+                    Type: PropertyType
+                    DataType: UtcTime
+                  - Name: ReceiveTime
+                    Type: PropertyType
+                    DataType: UtcTime
+                  - Name: Message
+                    Type: PropertyType
+                    DataType: LocalizedText
+                  - Name: Severity
+                    Type: PropertyType
+                    DataType: UInt16
+            - Name: HorizontalAlignment
+              Type: BaseVariableType
+              DataType: HorizontalAlignment
+              ModellingRule: Optional
+      - Name: Banner
+        Type: Rectangle
+        Children:
+        - Name: Width
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 50.0
+        - Name: Height
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 40.0
+        - Name: BorderThickness
+          Type: BaseDataVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 1.0
+        - Name: HorizontalAlignment
+          Type: BaseVariableType
+          DataType: HorizontalAlignment
+          ModellingRule: Optional
+          Value: 3
+        - Name: VerticalAlignment
+          Type: BaseVariableType
+          DataType: VerticalAlignment
+          ModellingRule: Optional
+        - Name: FillColor
+          Type: BaseDataVariableType
+          DataType: Color
+          ModellingRule: Optional
+          Value: "#b3b3b3"
+        - Name: Label1
+          Type: Label
+          Children:
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Children:
+            - Name: KeyValueConverter1
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "{Motor}/Motor/Motor_Status"
+              - Name: ns=80;Pairs
+                Type: BaseObjectType
+                Children:
+                - Name: Pair
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Ready to start"
+                - Name: Pair1
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 1
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Interlock not ok"
+                - Name: Pair2
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 2
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Permissive not ok"
+                - Name: Pair3
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 3
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Both Interlock and Permissive not ok"
+                - Name: Pair4
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 4
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Run feedback fault"
+                - Name: Pair5
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 5
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Starting"
+                - Name: Pair6
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 6
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Running"
+                - Name: Pair7
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 7
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Stopped"
+          - Name: VerticalAlignment
+            Type: BaseVariableType
+            DataType: VerticalAlignment
+            ModellingRule: Optional
+            Value: 2
+          - Name: HorizontalAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            ModellingRule: Optional
+          - Name: FontSize
+            Type: BaseDataVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 12.0
+          - Name: FontItalic
+            Type: BaseDataVariableType
+            DataType: Boolean
+            ModellingRule: Optional
+          - Name: FontWeight
+            Type: BaseDataVariableType
+            DataType: FontWeightEnum
+            ModellingRule: Optional
+            Value: 700
+          - Name: LeftMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 2.0
+          - Name: TextColor
+            Type: BaseDataVariableType
+            DataType: Color
+            Value: "#000000"
+            Children:
+            - Name: KeyValueConverter1
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "{Motor}/Motor/Motor_Status"
+              - Name: ns=80;Pairs
+                Type: BaseObjectType
+                ModellingRule: None
+                Children:
+                - Name: Pair
+                  Type: ValueMapPair
+                  ModellingRule: None
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    ModellingRule: None
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Color
+                    ModellingRule: None
+                    Value: "#eb001b"
+                - Name: Pair1
+                  Type: ValueMapPair
+                  ModellingRule: None
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    ModellingRule: None
+                    Value: 1
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Color
+                    ModellingRule: None
+                    Value: "#eb001b"
+                - Name: Pair2
+                  Type: ValueMapPair
+                  ModellingRule: None
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    ModellingRule: None
+                    Value: 2
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Color
+                    ModellingRule: None
+                    Value: "#eb001b"
+                - Name: Pair3
+                  Type: ValueMapPair
+                  ModellingRule: None
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    ModellingRule: None
+                    Value: 3
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Color
+                    ModellingRule: None
+                    Value: "#eb001b"
+                - Name: Pair4
+                  Type: ValueMapPair
+                  ModellingRule: None
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    ModellingRule: None
+                    Value: 4
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Color
+                    ModellingRule: None
+                    Value: "#eb001b"
+                - Name: Pair5
+                  Type: ValueMapPair
+                  ModellingRule: None
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    ModellingRule: None
+                    Value: 5
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Color
+                    ModellingRule: None
+                    Value: "#eb001b"
+                - Name: Pair6
+                  Type: ValueMapPair
+                  ModellingRule: None
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    ModellingRule: None
+                    Value: 6
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Color
+                    ModellingRule: None
+                    Value: "#00ff00"
+                - Name: Pair7
+                  Type: ValueMapPair
+                  ModellingRule: None
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    ModellingRule: None
+                    Value: 7
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Color
+                    ModellingRule: None
+                    Value: "#eb001b"
+          - Name: Blink
+            Type: BaseDataVariableType
+            DataType: Boolean
+            Children:
+            - Name: ConditionalConverter1
+              Type: ConditionalConverter
+              Children:
+              - Name: Condition
+                Type: BaseDataVariableType
+                DataType: Boolean
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "{Motor}/Motor/Status_Blink_Bit"
+              - Name: TrueValue
+                Type: BaseDataVariableType
+                DataType: Boolean
+                ReferenceType: HasParameter
+                ModellingRule: Optional
+                Value: true
+              - Name: FalseValue
+                Type: BaseDataVariableType
+                DataType: Boolean
+                ReferenceType: HasParameter
+                ModellingRule: Optional
+          - Name: Style
+            Type: BaseDataVariableType
+            DataType: String
+            ModellingRule: Optional
+            Value: "Default"
+      - Name: NavigationPanel1
+        Type: NavigationPanel
+        Children:
+        - Name: Panels
+          Type: BaseObjectType
+          Children:
+          - Name: Home
+            Type: NavigationPanelItem
+            Children:
+            - Name: Title
+              Type: BaseDataVariableType
+              DataType: LocalizedText
+              Value: {"LocaleId":"en-US","Text":"Home"}
+            - Name: Panel
+              Type: NodePointer
+              DataType: NodeId
+              Value: "/Objects/Optix_Features_Demo/UI/Faceplate/Motor_Display/Home"
+              Children:
+              - Name: Kind
+                Type: PropertyType
+                DataType: NodeId
+                Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
+            - Name: ImagePath
+              Type: BaseDataVariableType
+              DataType: ResourceUri
+              ModellingRule: Optional
+              Value: "ns=122;%PROJECTDIR%/HMI Image Files/Nav_Home.png"
+          - Name: Config
+            Type: NavigationPanelItem
+            Children:
+            - Name: Title
+              Type: BaseDataVariableType
+              DataType: LocalizedText
+              Value: {"LocaleId":"en-US","Text":"Config"}
+            - Name: Panel
+              Type: NodePointer
+              DataType: NodeId
+              Value: "/Objects/Optix_Features_Demo/UI/Faceplate/Motor_Display/Config"
+              Children:
+              - Name: Kind
+                Type: PropertyType
+                DataType: NodeId
+                Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
+            - Name: ImagePath
+              Type: BaseDataVariableType
+              DataType: ResourceUri
+              ModellingRule: Optional
+              Value: "ns=122;%PROJECTDIR%/HMI Image Files/Nav_Maint.png"
+          - Name: Permissive
+            Type: NavigationPanelItem
+            Children:
+            - Name: Title
+              Type: BaseDataVariableType
+              DataType: LocalizedText
+              Value: {"LocaleId":"en-US","Text":"Permissive"}
+            - Name: Panel
+              Type: NodePointer
+              DataType: NodeId
+              Value: "/Objects/Optix_Features_Demo/UI/Faceplate/Motor_Display/Permissive"
+              Children:
+              - Name: Kind
+                Type: PropertyType
+                DataType: NodeId
+                Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
+            - Name: ImagePath
+              Type: BaseDataVariableType
+              DataType: ResourceUri
+              Children:
+              - Name: ConditionalConverter1
+                Type: ConditionalConverter
+                Children:
+                - Name: Condition
+                  Type: BaseDataVariableType
+                  DataType: Boolean
+                  ReferenceType: HasSource
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Motor}/Motor/All_Permissive_OK"
+                - Name: TrueValue
+                  Type: BaseDataVariableType
+                  DataType: ResourceUri
+                  ReferenceType: HasParameter
+                  ModellingRule: Optional
+                  Value: "ns=122;%PROJECTDIR%/HMI Image Files/Nav_PermOK.png"
+                - Name: FalseValue
+                  Type: BaseDataVariableType
+                  DataType: ResourceUri
+                  ReferenceType: HasParameter
+                  ModellingRule: Optional
+                  Value: "ns=122;%PROJECTDIR%/HMI Image Files/Nav_PermNotOK.png"
+            - Name: Enabled
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "{Motor}/Motor/Has_Permissive_Bit"
+          - Name: Interlock
+            Type: NavigationPanelItem
+            Children:
+            - Name: Title
+              Type: BaseDataVariableType
+              DataType: LocalizedText
+              Value: {"LocaleId":"en-US","Text":"Interlock"}
+            - Name: Panel
+              Type: NodePointer
+              DataType: NodeId
+              Value: "/Objects/Optix_Features_Demo/UI/Faceplate/Motor_Display/Interlock"
+              Children:
+              - Name: Kind
+                Type: PropertyType
+                DataType: NodeId
+                Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
+            - Name: ImagePath
+              Type: BaseDataVariableType
+              DataType: ResourceUri
+              Children:
+              - Name: ConditionalConverter1
+                Type: ConditionalConverter
+                Children:
+                - Name: Condition
+                  Type: BaseDataVariableType
+                  DataType: Boolean
+                  ReferenceType: HasSource
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Motor}/Motor/All_Interlock_OK"
+                - Name: TrueValue
+                  Type: BaseDataVariableType
+                  DataType: ResourceUri
+                  ReferenceType: HasParameter
+                  ModellingRule: Optional
+                  Value: "ns=122;%PROJECTDIR%/HMI Image Files/Nav_IntlkOK.png"
+                - Name: FalseValue
+                  Type: BaseDataVariableType
+                  DataType: ResourceUri
+                  ReferenceType: HasParameter
+                  ModellingRule: Optional
+                  Value: "ns=122;%PROJECTDIR%/HMI Image Files/Nav_IntlkNotOK.png"
+            - Name: Enabled
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "{Motor}/Motor/Has_Interlock_Bit"
+        - Name: CurrentPanel
+          Type: NodePointer
+          DataType: NodeId
+          AccessLevel: Read
+          Children:
+          - Name: Kind
+            Type: PropertyType
+            DataType: NodeId
+            Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item"
+        - Name: CurrentTabIndex
+          Type: BaseDataVariableType
+          DataType: Int32
+        - Class: Reference
+          Target: ns=82;i=1181
+          Direction: Forward
+        - Class: Reference
+          Target: ns=82;i=1183
+          Direction: Forward
+        - Name: Width
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 300.0
+        - Name: Height
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 300.0
+        - Name: HorizontalAlignment
+          Type: BaseVariableType
+          DataType: HorizontalAlignment
+          ModellingRule: Optional
+          Value: 3
+        - Name: VerticalAlignment
+          Type: BaseVariableType
+          DataType: VerticalAlignment
+          ModellingRule: Optional
+          Value: 3
+        - Name: TabPosition
+          Type: BaseVariableType
+          DataType: NavigationPanelTabPositionEnum
+          ModellingRule: Optional
+          Value: 2
+        - Name: TabWidth
+          Type: BaseDataVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 50.0
+        - Name: TabHeight
+          Type: BaseDataVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 50.0
+  - Name: Motor
+    Type: Alias
+    DataType: NodeId
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Objects/Optix_Features_Demo/CommDrivers/RAEtherNet_IPDriver1/Optix_Demo/Types/VariableTypes/MTR"
+  - Name: Modal
+    Type: BaseDataVariableType
+    DataType: Boolean
+    ModellingRule: Optional
+  - Name: MoveTarget
+    Type: NodePointer
+    DataType: NodeId
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "..@NodeId"
+  - Name: ns=98;LockPassword
+    Type: BaseDataVariableType
+    DataType: PasswordHash
+    AccessLevel: Read
+    Value: 
+     {
+      "TypeId": {
+       "Id": 252,
+       "Namespace": 1
+      },
+      "Body": {
+       "Hash": [180,252,53,255,35,58,233,112,105,155,140,78,120,86,192,41,128,98,169,63,55,14,1,35,155,85,248,20,67,70,55,182],
+       "Salt": [129,194,73,241,237,70,237,33,161,62,104,84,200,226,101,37,146,49,106,254,40,213,61,105,147,159,146,126,33,197,81,199]
+      }
+     }

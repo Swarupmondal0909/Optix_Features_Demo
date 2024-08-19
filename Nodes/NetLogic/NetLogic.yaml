@@ -1,0 +1,9 @@
+Name: NetLogic
+Type: NetLogicCategoryFolder
+Children:
+- Name: GetTimeSpanForTrend
+  Id: g=32521d7e34810ad6ef35946853e5661c
+  Type: NetLogic
+  Children:
+  - Class: Method
+    Name: GetTimeSpanForTrend1

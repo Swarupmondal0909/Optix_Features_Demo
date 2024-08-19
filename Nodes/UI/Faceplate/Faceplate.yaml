@@ -1,0 +1,8 @@
+Name: Faceplate
+Type: FolderType
+Children:
+- File: Base/Base.yaml
+- File: Motor_Display/Motor_Display.yaml
+- File: Valve_Display/Valve_Display.yaml
+- File: Scaling_Display/Scaling_Display.yaml
+- File: PID_Display/PID_Display.yaml
