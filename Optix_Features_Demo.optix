@@ -414,14 +414,14 @@ Project:
    Uri: 'http://opcfoundation.org/UA/DI/'
    CompanionSpecification: 1
  Statistics:
-  TotalNodeCount: 30894
-  Objects: 4722
-  ObjectTypes: 123
-  Variables: 26002
+  TotalNodeCount: 31669
+  Objects: 4871
+  ObjectTypes: 126
+  Variables: 26625
   VariableTypes: 9
   DataTypes: 11
   Methods: 27
-  References: 586
+  References: 593
   ReferenceTypes: 0
   Files: 63
  Nodes:
