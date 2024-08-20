@@ -17790,38 +17790,6 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 30.0
-    - Name: TextBox1
-      Type: TextBox
-      Children:
-      - Name: Text
-        Type: BaseDataVariableType
-        DataType: LocalizedText
-        Children:
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "../../AlarmHistoryGridWithTimeFilter/Query"
-          Children:
-          - Name: Mode
-            Type: BaseVariableType
-            DataType: DynamicLinkMode
-            ModellingRule: Optional
-            Value: 2
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 580.0
-      - Name: LeftMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 235.0
-      - Name: TopMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 855.0
   - Name: AlarmsHistoryExporter
     Type: NetLogic
     WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -18057,40 +18025,6 @@ Children:
        "Salt": [182,95,235,245,38,202,59,8,135,127,103,29,155,88,193,247,132,32,108,41,67,103,122,233,7,235,204,222,200,10,104,71]
       }
      }
-  - Name: FilterFromDateTime
-    Type: DateTimePicker
-    Children:
-    - Name: Value
-      Type: BaseDataVariableType
-      DataType: DateTime
-      Value: "2024-01-01T00:00:00.0000000"
-    - Name: LeftMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 253.0
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 925.0
-  - Name: FilterToDateTime
-    Type: DateTimePicker
-    Children:
-    - Name: Value
-      Type: BaseDataVariableType
-      DataType: DateTime
-      Value: "2025-01-01T00:00:00.0000000"
-    - Name: LeftMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 390.0
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 925.0
 - Name: Trend_Normal
   Id: g=9d5c61942d916d050e5bad6d441841f4
   Supertype: Panel
@@ -18882,7 +18816,7 @@ Children:
        "Salt": [200,50,17,27,54,237,65,161,230,155,203,129,243,136,71,249,178,215,226,99,62,184,20,206,50,135,200,117,132,158,190,224]
       }
      }
-- Name: Web_Browser
+- Name: Web_Graphical_Interface_
   Id: g=c88700fb29b8794c804f3bdc9dd8199d
   Supertype: Panel
   ReferenceType: HasComponent
@@ -18901,302 +18835,6 @@ Children:
     Type: BaseDataVariableType
     DataType: Boolean
     Value: true
-  - Name: WebBrowser1
-    Type: WebBrowser
-    Children:
-    - Name: URL
-      Type: BaseDataVariableType
-      DataType: ResourceUri
-      Value: "https://home.cloud.rockwellautomation.com/dashboard"
-    - Class: Reference
-      Target: ns=82;i=354
-      Direction: Forward
-    - Class: Reference
-      Target: ns=82;i=356
-      Direction: Forward
-    - Class: Reference
-      Target: ns=82;i=358
-      Direction: Forward
-    - Name: Width
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 1790.0
-    - Name: Height
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 720.0
-    - Name: LeftMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 80.0
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 300.0
-    - Name: IncognitoMode
-      Type: BaseDataVariableType
-      DataType: Boolean
-      ModellingRule: Optional
-      Value: true
-    - Name: ScrollBarStyle
-      Type: BaseDataVariableType
-      DataType: String
-      ModellingRule: Optional
-      Value: "Default"
-    - Name: CustomHeaders
-      Type: BaseDataVariableType
-      DataType: String
-      ModellingRule: Optional
-  - Name: Button1
-    Type: Button
-    Children:
-    - Name: Text
-      Type: BaseDataVariableType
-      DataType: LocalizedText
-      ModellingRule: Optional
-      Value: {"LocaleId":"en-US","Text":"Button1"}
-    - Name: LeftMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 96.0
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 250.0
-    - Name: MouseClickEventHandler1
-      Type: EventHandler
-      Children:
-      - Name: ListenEventType
-        Type: PropertyType
-        DataType: NodeId
-        Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
-      - Name: MethodsToCall
-        Type: BaseObjectType
-        Children:
-        - Name: MethodContainer1
-          Type: BaseObjectType
-          Children:
-          - Name: ns=80;ObjectPointer
-            Type: NodePointer
-            DataType: NodeId
-            Children:
-            - Name: Kind
-              Type: PropertyType
-              DataType: NodeId
-              Value: "/Types/ObjectTypes/BaseObjectType"
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "../../../../../WebBrowser1@NodeId"
-              Children:
-              - Name: Mode
-                Type: BaseVariableType
-                DataType: DynamicLinkMode
-                ModellingRule: Optional
-                Value: 2
-          - Name: ns=80;Method
-            Type: BaseDataVariableType
-            DataType: String
-            Value: "NavigateBack"
-          - Name: InputArguments
-            Type: BaseObjectType
-      - Name: EventArguments
-        Type: MouseClickEvent
-        Children:
-        - Name: EventId
-          Type: PropertyType
-          DataType: ByteString
-        - Name: EventType
-          Type: PropertyType
-          DataType: NodeId
-        - Name: SourceNode
-          Type: PropertyType
-          DataType: NodeId
-        - Name: SourceName
-          Type: PropertyType
-          DataType: String
-        - Name: Time
-          Type: PropertyType
-          DataType: UtcTime
-        - Name: ReceiveTime
-          Type: PropertyType
-          DataType: UtcTime
-        - Name: Message
-          Type: PropertyType
-          DataType: LocalizedText
-        - Name: Severity
-          Type: PropertyType
-          DataType: UInt16
-  - Name: Button2
-    Type: Button
-    Children:
-    - Name: Text
-      Type: BaseDataVariableType
-      DataType: LocalizedText
-      ModellingRule: Optional
-      Value: {"LocaleId":"en-US","Text":"Button2"}
-    - Name: LeftMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 196.0
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 250.0
-    - Name: MouseClickEventHandler1
-      Type: EventHandler
-      Children:
-      - Name: ListenEventType
-        Type: PropertyType
-        DataType: NodeId
-        Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
-      - Name: MethodsToCall
-        Type: BaseObjectType
-        Children:
-        - Name: MethodContainer1
-          Type: BaseObjectType
-          Children:
-          - Name: ns=80;ObjectPointer
-            Type: NodePointer
-            DataType: NodeId
-            Children:
-            - Name: Kind
-              Type: PropertyType
-              DataType: NodeId
-              Value: "/Types/ObjectTypes/BaseObjectType"
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "../../../../../WebBrowser1@NodeId"
-              Children:
-              - Name: Mode
-                Type: BaseVariableType
-                DataType: DynamicLinkMode
-                ModellingRule: Optional
-                Value: 2
-          - Name: ns=80;Method
-            Type: BaseDataVariableType
-            DataType: String
-            Value: "NavigateNext"
-          - Name: InputArguments
-            Type: BaseObjectType
-      - Name: EventArguments
-        Type: MouseClickEvent
-        Children:
-        - Name: EventId
-          Type: PropertyType
-          DataType: ByteString
-        - Name: EventType
-          Type: PropertyType
-          DataType: NodeId
-        - Name: SourceNode
-          Type: PropertyType
-          DataType: NodeId
-        - Name: SourceName
-          Type: PropertyType
-          DataType: String
-        - Name: Time
-          Type: PropertyType
-          DataType: UtcTime
-        - Name: ReceiveTime
-          Type: PropertyType
-          DataType: UtcTime
-        - Name: Message
-          Type: PropertyType
-          DataType: LocalizedText
-        - Name: Severity
-          Type: PropertyType
-          DataType: UInt16
-  - Name: Button3
-    Type: Button
-    Children:
-    - Name: Text
-      Type: BaseDataVariableType
-      DataType: LocalizedText
-      ModellingRule: Optional
-      Value: {"LocaleId":"en-US","Text":"Button3"}
-    - Name: LeftMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 290.0
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 250.0
-    - Name: MouseClickEventHandler1
-      Type: EventHandler
-      Children:
-      - Name: ListenEventType
-        Type: PropertyType
-        DataType: NodeId
-        Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
-      - Name: MethodsToCall
-        Type: BaseObjectType
-        Children:
-        - Name: MethodContainer1
-          Type: BaseObjectType
-          Children:
-          - Name: ns=80;ObjectPointer
-            Type: NodePointer
-            DataType: NodeId
-            Children:
-            - Name: Kind
-              Type: PropertyType
-              DataType: NodeId
-              Value: "/Types/ObjectTypes/BaseObjectType"
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "../../../../../WebBrowser1@NodeId"
-              Children:
-              - Name: Mode
-                Type: BaseVariableType
-                DataType: DynamicLinkMode
-                ModellingRule: Optional
-                Value: 2
-          - Name: ns=80;Method
-            Type: BaseDataVariableType
-            DataType: String
-            Value: "Refresh"
-          - Name: InputArguments
-            Type: BaseObjectType
-      - Name: EventArguments
-        Type: MouseClickEvent
-        Children:
-        - Name: EventId
-          Type: PropertyType
-          DataType: ByteString
-        - Name: EventType
-          Type: PropertyType
-          DataType: NodeId
-        - Name: SourceNode
-          Type: PropertyType
-          DataType: NodeId
-        - Name: SourceName
-          Type: PropertyType
-          DataType: String
-        - Name: Time
-          Type: PropertyType
-          DataType: UtcTime
-        - Name: ReceiveTime
-          Type: PropertyType
-          DataType: UtcTime
-        - Name: Message
-          Type: PropertyType
-          DataType: LocalizedText
-        - Name: Severity
-          Type: PropertyType
-          DataType: UInt16
   - Name: ns=98;LockPassword
     Type: BaseDataVariableType
     DataType: PasswordHash
@@ -19212,6 +18850,42 @@ Children:
        "Salt": [144,4,51,119,241,174,100,210,157,223,144,3,204,78,252,151,250,111,165,204,40,15,148,153,208,228,74,175,170,232,74,198]
       }
      }
+  - Name: WebBrowser1
+    Type: WebBrowser
+    Children:
+    - Name: URL
+      Type: BaseDataVariableType
+      DataType: ResourceUri
+      Value: "https://www.google.com/"
+    - Class: Reference
+      Target: ns=82;i=354
+      Direction: Forward
+    - Class: Reference
+      Target: ns=82;i=356
+      Direction: Forward
+    - Class: Reference
+      Target: ns=82;i=358
+      Direction: Forward
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 300.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 300.0
+    - Name: HorizontalAlignment
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+      Value: 3
+    - Name: VerticalAlignment
+      Type: BaseVariableType
+      DataType: VerticalAlignment
+      ModellingRule: Optional
+      Value: 3
 - Name: ns=122;Report
   Id: g=201c0679d310c62867f447ba19815687
   Supertype: Panel
@@ -21801,12 +21475,12 @@ Children:
     Type: BaseVariableType
     DataType: Size
     ModellingRule: Optional
-    Value: 1400.0
+    Value: 1920.0
   - Name: Height
     Type: BaseVariableType
     DataType: Size
     ModellingRule: Optional
-    Value: 850.0
+    Value: 1100.0
   - Name: Visible
     Type: BaseDataVariableType
     DataType: Boolean
@@ -22002,3 +21676,81 @@ Children:
       DataType: VerticalAlignment
       ModellingRule: Optional
       Value: 3
+- Name: ns=122;Video
+  Id: g=86e4ddde636be8cf546e09b864c1d779
+  Supertype: Panel
+  ReferenceType: HasComponent
+  Children:
+  - Name: Width
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 1920.0
+  - Name: Height
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 1100.0
+  - Name: Visible
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: ns=98;LockPassword
+    Type: BaseDataVariableType
+    DataType: PasswordHash
+    AccessLevel: Read
+    Value: 
+     {
+      "TypeId": {
+       "Id": 252,
+       "Namespace": 1
+      },
+      "Body": {
+       "Hash": [222,179,162,42,76,209,215,165,241,187,16,40,234,47,125,180,106,112,121,67,153,154,81,87,169,182,6,16,142,49,233,90],
+       "Salt": [206,124,237,111,243,19,38,228,118,233,222,178,137,8,249,5,176,170,248,135,158,134,255,37,214,147,95,201,155,86,87,51]
+      }
+     }
+  - Name: Video1
+    Type: ns=82;Video
+    Children:
+    - Name: Path
+      Type: BaseDataVariableType
+      DataType: ResourceUri
+      Value: "ns=122;%PROJECTDIR%/FTViewDemoV14 Setup Video.mp4"
+    - Class: Reference
+      Target: ns=82;i=379
+      Direction: Forward
+    - Class: Reference
+      Target: ns=82;i=381
+      Direction: Forward
+    - Class: Reference
+      Target: ns=82;i=383
+      Direction: Forward
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 1350.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 880.0
+    - Name: AutoPlay
+      Type: BaseDataVariableType
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: true
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+    - Name: Visible
+      Type: BaseDataVariableType
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: true
