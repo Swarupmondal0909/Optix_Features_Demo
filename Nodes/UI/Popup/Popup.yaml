@@ -10328,6 +10328,7 @@ Children:
     Type: BaseVariableType
     DataType: HorizontalAlignment
     ModellingRule: Optional
+    Value: 1
   - Name: VerticalAlignment
     Type: BaseVariableType
     DataType: VerticalAlignment
