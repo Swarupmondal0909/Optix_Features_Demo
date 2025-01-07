@@ -1,0 +1,11 @@
+Name: Audit
+Type: FolderType
+Children:
+- Name: Start
+  Type: BaseDataVariableType
+  DataType: DateTime
+  Value: "2025-01-01T00:00:00.0000000"
+- Name: Stop
+  Type: BaseDataVariableType
+  DataType: DateTime
+  Value: "2026-01-01T00:00:00.0000000"

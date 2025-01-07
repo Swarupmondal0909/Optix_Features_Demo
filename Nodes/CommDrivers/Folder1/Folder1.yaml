@@ -1,0 +1,17 @@
+Name: Folder1
+Id: g=7ede0603a97d5282cf7e4c349bb4bce7
+Type: FolderType
+Children:
+- Name: Variable1
+  Type: BaseDataVariableType
+  DataType: Float
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../RAEtherNet_IPDriver1/Optix_Demo/Tags/Controller Tags/Web_Tag"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2

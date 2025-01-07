@@ -279,7 +279,7 @@ Children:
   Children:
   - Name: SamplingMode
     Type: PropertyType
-    DataType: SamplingModeEnum
+    DataType: ns=84;SamplingModeEnum
     Value: 1
   - Name: Store
     Type: NodePointer
@@ -403,13 +403,13 @@ Children:
   - Name: SamplingPeriod
     Type: PropertyType
     DataType: Duration
-    Value: "0:00:00:0.1000000"
+    Value: "0:00:00:00.1000000"
 - Name: Report_datalog
   Type: DataLogger
   Children:
   - Name: SamplingMode
     Type: PropertyType
-    DataType: SamplingModeEnum
+    DataType: ns=84;SamplingModeEnum
     Value: 1
     Children:
     - Name: ConditionalConverter1
@@ -426,12 +426,12 @@ Children:
           Value: "../../../../../CommDrivers/RAEtherNet_IPDriver1/Optix_Demo/Tags/Program&:MainProgram/ro_sys_ready_to_start_bit"
       - Name: TrueValue
         Type: BaseDataVariableType
-        DataType: SamplingModeEnum
+        DataType: ns=84;SamplingModeEnum
         ReferenceType: HasParameter
         Value: 2
       - Name: FalseValue
         Type: BaseDataVariableType
-        DataType: SamplingModeEnum
+        DataType: ns=84;SamplingModeEnum
         ReferenceType: HasParameter
   - Name: Store
     Type: NodePointer
@@ -705,13 +705,13 @@ Children:
   - Name: SamplingPeriod
     Type: PropertyType
     DataType: Duration
-    Value: "0:00:00:1.0000000"
+    Value: "0:00:00:01.0000000"
 - Name: Report_datalog1
   Type: DataLogger
   Children:
   - Name: SamplingMode
     Type: PropertyType
-    DataType: SamplingModeEnum
+    DataType: ns=84;SamplingModeEnum
     Value: 1
   - Name: Store
     Type: NodePointer
@@ -985,14 +985,14 @@ Children:
   - Name: SamplingPeriod
     Type: PropertyType
     DataType: Duration
-    Value: "0:00:00:0.1000000"
+    Value: "0:00:00:00.1000000"
 - Name: TrendDataLogger1
   Id: g=df4290288b9ac3938c11acfd1089a272
   Type: DataLogger
   Children:
   - Name: SamplingMode
     Type: PropertyType
-    DataType: SamplingModeEnum
+    DataType: ns=84;SamplingModeEnum
     Value: 1
   - Name: Store
     Type: NodePointer
@@ -1116,13 +1116,13 @@ Children:
   - Name: SamplingPeriod
     Type: PropertyType
     DataType: Duration
-    Value: "0:00:00:0.1000000"
+    Value: "0:00:00:00.1000000"
 - Name: Report_datalog2
   Type: DataLogger
   Children:
   - Name: SamplingMode
     Type: PropertyType
-    DataType: SamplingModeEnum
+    DataType: ns=84;SamplingModeEnum
     Value: 1
   - Name: Store
     Type: NodePointer
@@ -1395,4 +1395,56 @@ Children:
   - Name: SamplingPeriod
     Type: PropertyType
     DataType: Duration
-    Value: "0:00:00:0.1000000"
+    Value: "0:00:00:00.1000000"
+- Name: MQTT
+  Id: g=936adb77e8b3b0b5133b8f039effcd42
+  Type: DataLogger
+  Children:
+  - Name: SamplingMode
+    Type: PropertyType
+    DataType: ns=84;SamplingModeEnum
+    Value: 2
+  - Name: Store
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/Optix_Features_Demo/DataStores/ODBCDatabase3"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/ObjectTypes/BaseObjectType/Store"
+  - Name: VariablesToLog
+    Type: BaseObjectType
+    Children:
+    - Name: VariableToSample1
+      Type: VariableToLog
+      DataType: BaseDataType
+      Children:
+      - Name: LastValue
+        Type: PropertyType
+        DataType: BaseDataType
+        AccessLevel: Read
+      - Name: Timestamp
+        Type: PropertyType
+        DataType: UtcTime
+        AccessLevel: Read
+      - Name: LastOperationCode
+        Type: PropertyType
+        DataType: StatusCode
+        AccessLevel: Read
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../../CommDrivers/RAEtherNet_IPDriver1/Optix_Demo/Tags/Controller Tags/Web_Tag"
+        Children:
+        - Name: Mode
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
+  - Class: Reference
+    Target: ns=84;i=21
+    Direction: Forward
+  - Name: LogLocalTime
+    Type: PropertyType
+    DataType: Boolean
+    Value: true

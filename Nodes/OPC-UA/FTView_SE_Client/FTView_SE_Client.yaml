@@ -14,7 +14,7 @@ Children:
   DataType: ns=92;SecurityPolicyEnum
 - Name: UserIdentityType
   Type: BaseDataVariableType
-  DataType: UserIdentityTypeEnum
+  DataType: ns=92;UserIdentityTypeEnum
 - Name: ConnectionStatus
   Type: BaseDataVariableType
   DataType: ConnectionStatusEnum

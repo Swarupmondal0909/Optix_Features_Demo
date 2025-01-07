@@ -11,6 +11,11 @@ using FTOptix.Store;
 using FTOptix.SQLiteStore;
 using FTOptix.WebUI;
 using FTOptix.AuditSigning;
+using FTOptix.SerialPort;
+using FTOptix.System;
+using FTOptix.MQTTBroker;
+using FTOptix.MQTTClient;
+using FTOptix.InfluxDBStoreLocal;
 using OpcUa = UAManagedCore.OpcUa;
 
 #endregion

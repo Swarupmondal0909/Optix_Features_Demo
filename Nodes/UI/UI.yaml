@@ -1467,7 +1467,7 @@ Children:
     - Name: RotationTime
       Type: BaseDataVariableType
       DataType: Duration
-      Value: "0:00:00:5.0000000"
+      Value: "0:00:00:05.0000000"
     - Name: BlinkEnabled
       Type: BaseDataVariableType
       DataType: Boolean
@@ -2982,7 +2982,7 @@ Children:
               Type: BaseDataVariableType
               DataType: NodeId
               Description: {"NamespaceIndex":82,"TextId":"OpenDialogDialogDescription"}
-              Value: "/Objects/Optix_Features_Demo/UI/Popup/GridLayout"
+              Value: "/Objects/Optix_Features_Demo/UI/Popup/ScrollView1"
             - Name: AliasNode
               Type: BaseDataVariableType
               DataType: NodeId
@@ -3303,9 +3303,9 @@ Children:
 - File: Faceplate/Faceplate.yaml
 - File: Image/Image.yaml
 - File: Pages/Pages.yaml
+- File: Popup/Popup.yaml
 - File: LoginForm1/LoginForm1.yaml
 - File: Object/Object.yaml
-- File: Popup/Popup.yaml
 - Name: WebPresentationEngine
   Type: ns=113;PresentationEngine
   Children:
@@ -3418,6 +3418,14 @@ Children:
         Type: BaseVariableType
         DataType: Boolean
         AccessLevel: Read
+      - Name: StyleSheet
+        Type: NodePointer
+        DataType: NodeId
+        Children:
+        - Name: Kind
+          Type: PropertyType
+          DataType: NodeId
+          Value: "/Types/ObjectTypes/BaseObjectType/StyleSheet"
   - Name: MaxNumberOfConnections
     Type: BaseDataVariableType
     DataType: UInt32
@@ -5062,3 +5070,5 @@ Children:
       }
      }
 - File: AdvancedTrend/AdvancedTrend.yaml
+- File: SigningWorkflow/SigningWorkflow.yaml
+- File: AlarmWidgets/AlarmWidgets.yaml

@@ -16,6 +16,11 @@ using FTOptix.SQLiteStore;
 using FTOptix.WebUI;
 using System.Collections;
 using FTOptix.AuditSigning;
+using FTOptix.SerialPort;
+using FTOptix.System;
+using FTOptix.MQTTBroker;
+using FTOptix.MQTTClient;
+using FTOptix.InfluxDBStoreLocal;
 
 #endregion
 

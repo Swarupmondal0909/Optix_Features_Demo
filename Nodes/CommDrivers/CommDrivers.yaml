@@ -4,3 +4,4 @@ Children:
 - File: RAEtherNet_IPDriver1/RAEtherNet_IPDriver1.yaml
 - File: ModbusDriver2/ModbusDriver2.yaml
 - File: S7TIAPROFINETDriver1/S7TIAPROFINETDriver1.yaml
+- File: Folder1/Folder1.yaml

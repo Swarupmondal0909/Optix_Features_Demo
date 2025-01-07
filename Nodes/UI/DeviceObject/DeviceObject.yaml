@@ -3806,7 +3806,7 @@ Children:
       - Name: TimeWindow
         Type: BaseDataVariableType
         DataType: Duration
-        Value: "0:00:02:0.0000000"
+        Value: "0:00:02:00.0000000"
         Children:
         - Name: DynamicLink
           Type: DynamicLink
@@ -3935,7 +3935,7 @@ Children:
     Type: BaseDataVariableType
     DataType: Duration
     Description: {"LocaleId":"en-US","Text":"Sparkline time window"}
-    Value: "0:00:02:0.0000000"
+    Value: "0:00:02:00.0000000"
   - Name: Cfg_PenColor
     Type: BaseDataVariableType
     DataType: Color

@@ -19,6 +19,11 @@ using System.Data;
 using System.IO;
 using FTOptix.InfluxDBStore;
 using FTOptix.AuditSigning;
+using FTOptix.SerialPort;
+using FTOptix.System;
+using FTOptix.MQTTBroker;
+using FTOptix.MQTTClient;
+using FTOptix.InfluxDBStoreLocal;
 #endregion
 
 public class raSDK1_NL_NavUsingSuffix_Extension : BaseNetLogic

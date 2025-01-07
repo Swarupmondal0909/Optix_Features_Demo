@@ -277,7 +277,7 @@ Children:
                 Value: 3
               - Name: ImagePosition
                 Type: BaseDataVariableType
-                DataType: Position
+                DataType: ButtonImagePosition
                 ModellingRule: Optional
                 Value: 4
               - Name: ImagePath
@@ -1256,7 +1256,7 @@ Children:
                 Value: 3
               - Name: ImagePosition
                 Type: BaseDataVariableType
-                DataType: Position
+                DataType: ButtonImagePosition
                 ModellingRule: Optional
                 Value: 4
               - Name: ImagePath
@@ -1744,7 +1744,7 @@ Children:
                 Value: 3
               - Name: ImagePosition
                 Type: BaseDataVariableType
-                DataType: Position
+                DataType: ButtonImagePosition
                 ModellingRule: Optional
                 Value: 4
               - Name: ImagePath
@@ -2258,7 +2258,7 @@ Children:
                 Value: 3
               - Name: ImagePosition
                 Type: BaseDataVariableType
-                DataType: Position
+                DataType: ButtonImagePosition
                 ModellingRule: Optional
                 Value: 4
               - Name: ImagePath

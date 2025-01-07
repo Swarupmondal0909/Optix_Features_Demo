@@ -2715,7 +2715,7 @@ Children:
       - Name: Window
         Type: BaseDataVariableType
         DataType: Duration
-        Value: "0:00:01:0.0000000"
+        Value: "0:00:01:00.0000000"
       - Name: Interactive
         Type: BaseDataVariableType
         DataType: Boolean
@@ -2852,7 +2852,7 @@ Children:
       - Name: Window
         Type: BaseDataVariableType
         DataType: Duration
-        Value: "0:00:01:0.0000000"
+        Value: "0:00:01:00.0000000"
       - Name: Interactive
         Type: BaseDataVariableType
         DataType: Boolean

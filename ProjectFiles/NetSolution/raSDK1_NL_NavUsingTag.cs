@@ -20,6 +20,11 @@ using System.Reflection;
 using System.IO;
 using FTOptix.InfluxDBStore;
 using FTOptix.AuditSigning;
+using FTOptix.SerialPort;
+using FTOptix.System;
+using FTOptix.MQTTBroker;
+using FTOptix.MQTTClient;
+using FTOptix.InfluxDBStoreLocal;
 #endregion
 
 /*

@@ -1716,7 +1716,7 @@ Children:
                 - Name: TimeWindow
                   Type: BaseDataVariableType
                   DataType: Duration
-                  Value: "0:00:02:0.0000000"
+                  Value: "0:00:02:00.0000000"
                   Children:
                   - Name: DynamicLink
                     Type: DynamicLink
@@ -1795,7 +1795,7 @@ Children:
             - Name: Set_TimeWindow
               Type: BaseDataVariableType
               DataType: Duration
-              Value: "0:00:02:0.0000000"
+              Value: "0:00:02:00.0000000"
             - Name: Cfg_PenColor
               Type: BaseDataVariableType
               DataType: Color
@@ -1872,7 +1872,7 @@ Children:
                 - Name: TimeWindow
                   Type: BaseDataVariableType
                   DataType: Duration
-                  Value: "0:00:02:0.0000000"
+                  Value: "0:00:02:00.0000000"
                   Children:
                   - Name: DynamicLink
                     Type: DynamicLink
@@ -1951,7 +1951,7 @@ Children:
             - Name: Set_TimeWindow
               Type: BaseDataVariableType
               DataType: Duration
-              Value: "0:00:02:0.0000000"
+              Value: "0:00:02:00.0000000"
             - Name: Cfg_PenColor
               Type: BaseDataVariableType
               DataType: Color
@@ -4028,7 +4028,7 @@ Children:
                   - Name: Window
                     Type: BaseDataVariableType
                     DataType: Duration
-                    Value: "0:00:02:0.0000000"
+                    Value: "0:00:02:00.0000000"
                   - Name: Interactive
                     Type: BaseDataVariableType
                     DataType: Boolean
@@ -4266,7 +4266,7 @@ Children:
                   - Name: Window
                     Type: BaseDataVariableType
                     DataType: Duration
-                    Value: "0:00:02:0.0000000"
+                    Value: "0:00:02:00.0000000"
                   - Name: Interactive
                     Type: BaseDataVariableType
                     DataType: Boolean

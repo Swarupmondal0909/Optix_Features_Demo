@@ -1,0 +1,123 @@
+Name: MQTT1
+Type: MQTTCategoryFolder
+Children:
+- Name: MQTTBroker
+  Type: MQTTBroker
+  Children:
+  - Name: ListenerPort
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 1883
+  - Name: MaxConnections
+    Type: BaseDataVariableType
+    DataType: UInt32
+    Value: 25
+  - Name: MaxQoS
+    Type: BaseDataVariableType
+    DataType: MaxQoSEnum
+    Value: 2
+  - Name: MaxInflightMessages
+    Type: BaseDataVariableType
+    DataType: UInt32
+    Value: 20
+  - Name: MaxQueuedMessages
+    Type: BaseDataVariableType
+    DataType: UInt32
+    Value: 1000
+  - Name: MessageSizeLimit
+    Type: BaseDataVariableType
+    DataType: UInt32
+  - Name: RetainAvailable
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: RequireClientCertificate
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: CACertificateFile
+    Type: BaseDataVariableType
+    DataType: ResourceUri
+  - Name: CertificateFile
+    Type: BaseDataVariableType
+    DataType: ResourceUri
+  - Name: CertificateKeyFile
+    Type: BaseDataVariableType
+    DataType: ResourceUri
+  - Name: Running
+    Type: BaseDataVariableType
+    DataType: Boolean
+    AccessLevel: Read
+- Name: MQTTClient1
+  Type: MQTTClient
+  Children:
+  - Name: BrokerAddress
+    Type: PropertyType
+    DataType: String
+    Value: "localhost"
+  - Name: BrokerPort
+    Type: PropertyType
+    DataType: UInt16
+    Value: 1883
+  - Name: ClientId
+    Type: PropertyType
+    DataType: String
+    Value: "FTOptix-1"
+  - Name: Status
+    Type: BaseDataVariableType
+    DataType: StatusEnum
+    ReferenceType: HasProperty
+    AccessLevel: Read
+  - Name: UserIdentityType
+    Type: BaseDataVariableType
+    DataType: ns=127;UserIdentityTypeEnum
+  - Name: SSLTLSEnabled
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: ValidateBrokerCertificate
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Class: Reference
+    Target: ns=127;i=12
+    Direction: Forward
+  - Class: Reference
+    Target: ns=127;i=44
+    Direction: Forward
+  - Name: MQTTPublisher1
+    Type: MQTTPublisher
+    Children:
+    - Name: SamplingMode
+      Type: PropertyType
+      DataType: ns=127;SamplingModeEnum
+      Value: 2
+    - Name: Folder
+      Type: NodePointer
+      DataType: NodeId
+      Value: "/Objects/Optix_Features_Demo/CommDrivers/Folder1"
+      Children:
+      - Name: Kind
+        Type: PropertyType
+        DataType: NodeId
+        Value: "/Types/ObjectTypes/BaseObjectType/FolderType"
+    - Name: Topic
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "MQTT_Test"
+    - Name: QoS
+      Type: BaseDataVariableType
+      DataType: QoSLevelEnum
+      Value: 2
+    - Name: Retain
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: PollingPeriod
+      Type: PropertyType
+      DataType: Duration
+      Value: "0:00:00:01.0000000"
+  - Name: Username
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Student"
+  - Name: Password
+    Type: BaseDataVariableType
+    DataType: Password
+    Value: "Rockwell1"

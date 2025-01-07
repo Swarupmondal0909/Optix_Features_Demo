@@ -18,6 +18,11 @@ using FTOptix.CommunicationDriver;
 using FTOptix.InfluxDBStore;
 using FTOptix.ODBCStore;
 using FTOptix.AuditSigning;
+using FTOptix.SerialPort;
+using FTOptix.System;
+using FTOptix.MQTTBroker;
+using FTOptix.MQTTClient;
+using FTOptix.InfluxDBStoreLocal;
 #endregion
 
 public class RecipesEditorUISetup : BaseNetLogic
