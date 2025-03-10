@@ -19115,10 +19115,24 @@ Children:
             Type: BaseDataVariableType
             DataType: LocalizedText
             Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "{Item}/Feed Flow"
+            - Name: StringFormatter1
+              Type: StringFormatter
+              Children:
+              - Name: Format
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                ReferenceType: HasParameter
+                ModellingRule: Optional
+                Value: {"LocaleId":"en-US","Text":"{0:n1}"}
+              - Name: ns=80;Source0
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "{Item}/Feed Flow"
       - Name: Feed Ph
         Type: DataGridColumn
         Children:
@@ -19153,10 +19167,24 @@ Children:
             Type: BaseDataVariableType
             DataType: LocalizedText
             Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "{Item}/Feed Ph"
+            - Name: StringFormatter1
+              Type: StringFormatter
+              Children:
+              - Name: Format
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                ReferenceType: HasParameter
+                ModellingRule: Optional
+                Value: {"LocaleId":"en-US","Text":"{0:n1}"}
+              - Name: ns=80;Source0
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "{Item}/Feed Ph"
       - Name: Feed TDS (ppm)
         Type: DataGridColumn
         Children:
@@ -19191,10 +19219,24 @@ Children:
             Type: BaseDataVariableType
             DataType: LocalizedText
             Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "{Item}/Feed TDS (ppm)"
+            - Name: StringFormatter1
+              Type: StringFormatter
+              Children:
+              - Name: Format
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                ReferenceType: HasParameter
+                ModellingRule: Optional
+                Value: {"LocaleId":"en-US","Text":"{0:n1}"}
+              - Name: ns=80;Source0
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "{Item}/Feed TDS (ppm)"
       - Name: Feed ORP (mV)
         Type: DataGridColumn
         Children:
@@ -19229,10 +19271,24 @@ Children:
             Type: BaseDataVariableType
             DataType: LocalizedText
             Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "{Item}/Feed ORP (mV)"
+            - Name: StringFormatter1
+              Type: StringFormatter
+              Children:
+              - Name: Format
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                ReferenceType: HasParameter
+                ModellingRule: Optional
+                Value: {"LocaleId":"en-US","Text":"{0:n1}"}
+              - Name: ns=80;Source0
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "{Item}/Feed ORP (mV)"
       - Name: 'Permeate Flow '
         Type: DataGridColumn
         Children:
@@ -19267,10 +19323,24 @@ Children:
             Type: BaseDataVariableType
             DataType: LocalizedText
             Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "{Item}/Permeate Flow "
+            - Name: StringFormatter1
+              Type: StringFormatter
+              Children:
+              - Name: Format
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                ReferenceType: HasParameter
+                ModellingRule: Optional
+                Value: {"LocaleId":"en-US","Text":"{0:n1}"}
+              - Name: ns=80;Source0
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "{Item}/Permeate Flow "
       - Name: Permeate Ph
         Type: DataGridColumn
         Children:
@@ -19305,10 +19375,24 @@ Children:
             Type: BaseDataVariableType
             DataType: LocalizedText
             Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "{Item}/Permeate Ph"
+            - Name: StringFormatter1
+              Type: StringFormatter
+              Children:
+              - Name: Format
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                ReferenceType: HasParameter
+                ModellingRule: Optional
+                Value: {"LocaleId":"en-US","Text":"{0:n1}"}
+              - Name: ns=80;Source0
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "{Item}/Permeate Ph"
       - Name: Permeate TDS (ppm)
         Type: DataGridColumn
         Children:
@@ -19343,10 +19427,24 @@ Children:
             Type: BaseDataVariableType
             DataType: LocalizedText
             Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "{Item}/Permeate TDS (ppm)"
+            - Name: StringFormatter1
+              Type: StringFormatter
+              Children:
+              - Name: Format
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                ReferenceType: HasParameter
+                ModellingRule: Optional
+                Value: {"LocaleId":"en-US","Text":"{0:n1}"}
+              - Name: ns=80;Source0
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "{Item}/Permeate TDS (ppm)"
       - Name: 'Permeate Water Tank Level '
         Type: DataGridColumn
         Children:
@@ -19381,10 +19479,24 @@ Children:
             Type: BaseDataVariableType
             DataType: LocalizedText
             Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "{Item}/Permeate Water Tank Level "
+            - Name: StringFormatter1
+              Type: StringFormatter
+              Children:
+              - Name: Format
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                ReferenceType: HasParameter
+                ModellingRule: Optional
+                Value: {"LocaleId":"en-US","Text":"{0:n1}"}
+              - Name: ns=80;Source0
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "{Item}/Permeate Water Tank Level "
       - Name: Raw Water Tank Level
         Type: DataGridColumn
         Children:
@@ -19419,10 +19531,24 @@ Children:
             Type: BaseDataVariableType
             DataType: LocalizedText
             Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "{Item}/Raw Water Tank Level"
+            - Name: StringFormatter1
+              Type: StringFormatter
+              Children:
+              - Name: Format
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                ReferenceType: HasParameter
+                ModellingRule: Optional
+                Value: {"LocaleId":"en-US","Text":"{0:n1}"}
+              - Name: ns=80;Source0
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "{Item}/Raw Water Tank Level"
       - Name: RO Status
         Type: DataGridColumn
         Children:

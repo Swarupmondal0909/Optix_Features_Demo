@@ -3315,7 +3315,7 @@ Children:
   - Name: IPAddress
     Type: BaseDataVariableType
     DataType: String
-    Value: "10.112.131.241"
+    Value: "192.168.0.146"
   - Name: Port
     Type: BaseDataVariableType
     DataType: UInt16
@@ -5072,3 +5072,13 @@ Children:
 - File: AdvancedTrend/AdvancedTrend.yaml
 - File: SigningWorkflow/SigningWorkflow.yaml
 - File: AlarmWidgets/AlarmWidgets.yaml
+- Name: Label1
+  Id: g=b1cb2066f11694d298640d4354422463
+  Supertype: Label
+  ReferenceType: HasComponent
+  Children:
+  - Name: Text
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    ModellingRule: Optional
+    Value: {"LocaleId":"en-US","Text":"Label1"}
