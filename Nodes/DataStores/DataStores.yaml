@@ -385,12 +385,6 @@ Children:
         - Name: Name
           Type: StoreColumn
           DataType: String
-        - Name: /Tags/Controller Tags/RO_Feedflow_PID/PID_Bit/SP
-          Type: StoreColumn
-          DataType: Float
-        - Name: /Tags/Controller Tags/Ph_PID/PID_Bit/SP
-          Type: StoreColumn
-          DataType: Float
         - Name: '/Tags/Program:MainProgram/oct_level/scale/H_Limit'
           Type: StoreColumn
           DataType: Float

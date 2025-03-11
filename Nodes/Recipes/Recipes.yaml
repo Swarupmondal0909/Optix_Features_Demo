@@ -13,29 +13,6 @@ Children:
       Children:
       - Name: Controller Tags
         Type: BaseObjectType
-        Children:
-        - Name: RO_Feedflow_PID
-          Type: BaseDataVariableType
-          DataType: PID_Type
-          Children:
-          - Name: PID_Bit
-            Type: BaseDataVariableType
-            DataType: PID
-            Children:
-            - Name: SP
-              Type: BaseDataVariableType
-              DataType: Float
-        - Name: Ph_PID
-          Type: BaseDataVariableType
-          DataType: PID_Type
-          Children:
-          - Name: PID_Bit
-            Type: BaseDataVariableType
-            DataType: PID
-            Children:
-            - Name: SP
-              Type: BaseDataVariableType
-              DataType: Float
       - Name: 'Program:MainProgram'
         Type: BaseObjectType
         Children:
@@ -107,7 +84,7 @@ Children:
       Type: PropertyType
       DataType: NodeId
   - Name: EditModel
-    Id: g=0942d7fbf946bbd2931659383ba41927
+    Id: g=2bc5644ac399ecf2b1288a014cb6e81e
     Type: BaseObjectType
     Children:
     - Name: Tags
@@ -115,29 +92,6 @@ Children:
       Children:
       - Name: Controller Tags
         Type: BaseObjectType
-        Children:
-        - Name: RO_Feedflow_PID
-          Type: BaseDataVariableType
-          DataType: PID_Type
-          Children:
-          - Name: PID_Bit
-            Type: BaseDataVariableType
-            DataType: PID
-            Children:
-            - Name: SP
-              Type: BaseDataVariableType
-              DataType: Float
-        - Name: Ph_PID
-          Type: BaseDataVariableType
-          DataType: PID_Type
-          Children:
-          - Name: PID_Bit
-            Type: BaseDataVariableType
-            DataType: PID
-            Children:
-            - Name: SP
-              Type: BaseDataVariableType
-              DataType: Float
       - Name: 'Program:MainProgram'
         Type: BaseObjectType
         Children:
