@@ -2028,7 +2028,6 @@ Children:
       - Name: SortOrder
         Type: BaseDataVariableType
         DataType: SortOrderEnum
-        Value: 1
       - Name: AllowDeselection
         Type: BaseDataVariableType
         DataType: Boolean

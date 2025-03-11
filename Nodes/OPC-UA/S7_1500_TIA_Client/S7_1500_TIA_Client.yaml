@@ -81,12 +81,17 @@ Children:
           Id: 'ns=15;s="Machine_Data"."Machine_3_Speed"'
           Type: BaseDataVariableType
           DataType: WORD
-          DisplayName: {"LocaleId":"","Text":"Machine_3_Speed"}
+          DisplayName: {"LocaleId":"en-US","Text":"Machine_3_Speed"}
         - Name: ns=15;Machine_3_Run
           Id: 'ns=15;s="Machine_Data"."Machine_3_Run"'
           Type: BaseDataVariableType
           DataType: Boolean
           DisplayName: {"LocaleId":"","Text":"Machine_3_Run"}
+        - Name: ns=15;Machine_Speed
+          Id: ns=15;g=a493dbd7862fe5b30ca44d4de2643d35
+          Type: BaseDataVariableType
+          DataType: Int32
+          DisplayName: {"LocaleId":"en-US","Text":"Machine_Speed"}
   - Class: DataType
     Name: SimaticOperatingState
     Id: ns=15;i=3063

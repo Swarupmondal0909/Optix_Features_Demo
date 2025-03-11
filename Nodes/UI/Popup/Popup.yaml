@@ -2048,7 +2048,7 @@ Children:
     Type: BaseVariableType
     DataType: Size
     ModellingRule: Optional
-    Value: 520.0
+    Value: 740.0
   - Name: Height
     Type: BaseVariableType
     DataType: Size
@@ -2074,7 +2074,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 520.0
+      Value: 740.0
     - Name: Height
       Type: BaseVariableType
       DataType: Size
@@ -2111,12 +2111,12 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 239.0
+        Value: 350.0
       - Name: TopMargin
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 10.0
+        Value: 8.0
     - Name: Close
       Type: Panel
       Children:
@@ -2134,11 +2134,12 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 480.0
+        Value: 695.0
       - Name: TopMargin
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
+        Value: 10.0
       - Name: Button1
         Type: Button
         Children:
@@ -2233,7 +2234,7 @@ Children:
         Type: BaseVariableType
         DataType: HorizontalAlignment
         ModellingRule: Optional
-    - Name: RecipesEditor1
+    - Name: RecipesEditor2
       Type: Panel
       WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
       Children:
@@ -2241,12 +2242,12 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 500.0
+        Value: 670.0
       - Name: Height
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 306.0
+        Value: 300.0
       - Name: RecipesComboBox
         Type: ComboBox
         Children:
@@ -2343,16 +2344,6 @@ Children:
           DataType: String
           ModellingRule: Optional
           Value: "SELECT Name FROM \"RO\""
-        - Name: FontSize
-          Type: BaseDataVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 15.0
-        - Name: FontWeight
-          Type: BaseDataVariableType
-          DataType: FontWeightEnum
-          ModellingRule: Optional
-          Value: 700
       - Name: ResultMessageLabel
         Type: Label
         Children:
@@ -2407,16 +2398,6 @@ Children:
           DataType: Boolean
           ModellingRule: Optional
           Value: true
-        - Name: FontSize
-          Type: BaseDataVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 15.0
-        - Name: FontWeight
-          Type: BaseDataVariableType
-          DataType: FontWeightEnum
-          ModellingRule: Optional
-          Value: 700
       - Name: SaveButton
         Type: Button
         Children:
@@ -2562,16 +2543,6 @@ Children:
           DataType: Color
           ModellingRule: Optional
           Value: "#0fafff"
-        - Name: FontSize
-          Type: BaseDataVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 15.0
-        - Name: FontWeight
-          Type: BaseDataVariableType
-          DataType: FontWeightEnum
-          ModellingRule: Optional
-          Value: 700
       - Name: DeleteButton
         Type: Button
         Children:
@@ -2713,16 +2684,6 @@ Children:
           DataType: Color
           ModellingRule: Optional
           Value: "#0fafff"
-        - Name: FontSize
-          Type: BaseDataVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 15.0
-        - Name: FontWeight
-          Type: BaseDataVariableType
-          DataType: FontWeightEnum
-          ModellingRule: Optional
-          Value: 700
       - Name: LoadButton
         Type: Button
         Children:
@@ -2829,16 +2790,6 @@ Children:
           DataType: Color
           ModellingRule: Optional
           Value: "#0fafff"
-        - Name: FontSize
-          Type: BaseDataVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 15.0
-        - Name: FontWeight
-          Type: BaseDataVariableType
-          DataType: FontWeightEnum
-          ModellingRule: Optional
-          Value: 700
       - Name: ApplyButton
         Type: Button
         Children:
@@ -2952,16 +2903,6 @@ Children:
           DataType: Color
           ModellingRule: Optional
           Value: "#0fafff"
-        - Name: FontSize
-          Type: BaseDataVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 15.0
-        - Name: FontWeight
-          Type: BaseDataVariableType
-          DataType: FontWeightEnum
-          ModellingRule: Optional
-          Value: 700
       - Name: ScrollView
         Type: ScrollView
         Children:
@@ -3056,7 +2997,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: LocalizedText
                 ModellingRule: Optional
-                Value: {"LocaleId":"en-US","Text":"Feed Flow Setpoint"}
+                Value: {"LocaleId":"en-US","Text":"RO Feed Flow (m3/hr)"}
               - Name: LeftMargin
                 Type: BaseVariableType
                 DataType: Size
@@ -3072,6 +3013,10 @@ Children:
                 DataType: Size
                 ModellingRule: Optional
                 Value: 15.0
+              - Name: FontItalic
+                Type: BaseDataVariableType
+                DataType: Boolean
+                ModellingRule: Optional
               - Name: FontWeight
                 Type: BaseDataVariableType
                 DataType: FontWeightEnum
@@ -3098,20 +3043,6 @@ Children:
                 DataType: HorizontalAlignment
                 ModellingRule: Optional
                 Value: 1
-              - Name: FontFamily
-                Type: BaseDataVariableType
-                DataType: Font
-                ModellingRule: Optional
-              - Name: FontSize
-                Type: BaseDataVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 15.0
-              - Name: FontWeight
-                Type: BaseDataVariableType
-                DataType: FontWeightEnum
-                ModellingRule: Optional
-                Value: 700
             - Name: SpinBox
               Type: SpinBox
               Children:
@@ -3153,16 +3084,6 @@ Children:
                 DataType: String
                 ModellingRule: Optional
                 Value: "n6"
-              - Name: FontSize
-                Type: BaseDataVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 15.0
-              - Name: FontWeight
-                Type: BaseDataVariableType
-                DataType: FontWeightEnum
-                ModellingRule: Optional
-                Value: 700
           - Name: Tags_Controller Tags_Ph_PID_PID_Bit_SP
             Type: Panel
             Children:
@@ -3183,7 +3104,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: LocalizedText
                 ModellingRule: Optional
-                Value: {"LocaleId":"en-US","Text":"Feed Ph Setpoint"}
+                Value: {"LocaleId":"en-US","Text":"Feed Ph"}
               - Name: LeftMargin
                 Type: BaseVariableType
                 DataType: Size
@@ -3225,20 +3146,6 @@ Children:
                 DataType: HorizontalAlignment
                 ModellingRule: Optional
                 Value: 1
-              - Name: FontSize
-                Type: BaseDataVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 15.0
-              - Name: FontFamily
-                Type: BaseDataVariableType
-                DataType: Font
-                ModellingRule: Optional
-              - Name: FontWeight
-                Type: BaseDataVariableType
-                DataType: FontWeightEnum
-                ModellingRule: Optional
-                Value: 700
             - Name: SpinBox
               Type: SpinBox
               Children:
@@ -3280,16 +3187,6 @@ Children:
                 DataType: String
                 ModellingRule: Optional
                 Value: "n6"
-              - Name: FontSize
-                Type: BaseDataVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 15.0
-              - Name: FontWeight
-                Type: BaseDataVariableType
-                DataType: FontWeightEnum
-                ModellingRule: Optional
-                Value: 700
           - Name: 'Tags_Program&:MainProgram_oct_level_scale_H_Limit'
             Type: Panel
             Children:
@@ -3310,7 +3207,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: LocalizedText
                 ModellingRule: Optional
-                Value: {"LocaleId":"en-US","Text":"OCT High Setpoint"}
+                Value: {"LocaleId":"en-US","Text":"OCT High Level (%)"}
               - Name: LeftMargin
                 Type: BaseVariableType
                 DataType: Size
@@ -3352,16 +3249,6 @@ Children:
                 DataType: HorizontalAlignment
                 ModellingRule: Optional
                 Value: 1
-              - Name: FontSize
-                Type: BaseDataVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 15.0
-              - Name: FontWeight
-                Type: BaseDataVariableType
-                DataType: FontWeightEnum
-                ModellingRule: Optional
-                Value: 700
             - Name: SpinBox
               Type: SpinBox
               Children:
@@ -3403,16 +3290,6 @@ Children:
                 DataType: String
                 ModellingRule: Optional
                 Value: "n6"
-              - Name: FontSize
-                Type: BaseDataVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 15.0
-              - Name: FontWeight
-                Type: BaseDataVariableType
-                DataType: FontWeightEnum
-                ModellingRule: Optional
-                Value: 700
           - Name: 'Tags_Program&:MainProgram_oct_level_scale_Low_Limit'
             Type: Panel
             Children:
@@ -3433,7 +3310,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: LocalizedText
                 ModellingRule: Optional
-                Value: {"LocaleId":"en-US","Text":"OCT Low Setpoint"}
+                Value: {"LocaleId":"en-US","Text":"OCT Low Level (%)"}
               - Name: LeftMargin
                 Type: BaseVariableType
                 DataType: Size
@@ -3454,10 +3331,6 @@ Children:
                 DataType: FontWeightEnum
                 ModellingRule: Optional
                 Value: 700
-              - Name: FontFamily
-                Type: BaseDataVariableType
-                DataType: Font
-                ModellingRule: Optional
             - Name: CurrentValue
               Type: Label
               Children:
@@ -3479,24 +3352,6 @@ Children:
                 DataType: HorizontalAlignment
                 ModellingRule: Optional
                 Value: 1
-              - Name: FontSize
-                Type: BaseDataVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 15.0
-              - Name: FontFamily
-                Type: BaseDataVariableType
-                DataType: Font
-                ModellingRule: Optional
-              - Name: Elide
-                Type: BaseDataVariableType
-                DataType: ElideEnum
-                ModellingRule: Optional
-              - Name: FontWeight
-                Type: BaseDataVariableType
-                DataType: FontWeightEnum
-                ModellingRule: Optional
-                Value: 700
             - Name: SpinBox
               Type: SpinBox
               Children:
@@ -3538,16 +3393,6 @@ Children:
                 DataType: String
                 ModellingRule: Optional
                 Value: "n6"
-              - Name: FontSize
-                Type: BaseDataVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 15.0
-              - Name: FontWeight
-                Type: BaseDataVariableType
-                DataType: FontWeightEnum
-                ModellingRule: Optional
-                Value: 700
         - Name: ScrollAxesEnabled
           Type: BaseDataVariableType
           DataType: ScrollAxesEnabledEnum
@@ -3702,91 +3547,6 @@ Children:
         - Name: SelectFromDBTrigger
           Type: BaseDataVariableType
           DataType: Boolean
-        - Name: RecipeControllerCreatedAndSaved
-          Type: BaseDataVariableType
-          DataType: LocalizedText
-          AccessLevel: Read
-          Value: {"NamespaceIndex":122,"TextId":"RecipeControllerCreatedAndSaved"}
-        - Name: RecipeControllerDeleted
-          Type: BaseDataVariableType
-          DataType: LocalizedText
-          AccessLevel: Read
-          Value: {"NamespaceIndex":122,"TextId":"RecipeControllerDeleted"}
-        - Name: RecipeControllerEmptyRecipeName
-          Type: BaseDataVariableType
-          DataType: LocalizedText
-          AccessLevel: Read
-          Value: {"NamespaceIndex":122,"TextId":"RecipeControllerEmptyRecipeName"}
-        - Name: RecipeControllerRecipe
-          Type: BaseDataVariableType
-          DataType: LocalizedText
-          AccessLevel: Read
-          Value: {"NamespaceIndex":122,"TextId":"RecipeControllerRecipe"}
-        - Name: RecipeControllerRecipeApplied
-          Type: BaseDataVariableType
-          DataType: LocalizedText
-          AccessLevel: Read
-          Value: {"NamespaceIndex":122,"TextId":"RecipeControllerRecipeApplied"}
-        - Name: RecipeControllerRecipeLoaded
-          Type: BaseDataVariableType
-          DataType: LocalizedText
-          AccessLevel: Read
-          Value: {"NamespaceIndex":122,"TextId":"RecipeControllerRecipeLoaded"}
-        - Name: RecipeControllerSaved
-          Type: BaseDataVariableType
-          DataType: LocalizedText
-          AccessLevel: Read
-          Value: {"NamespaceIndex":122,"TextId":"RecipeControllerSaved"}
-        - Name: RecipesEditorRecipeSchemaNotFound
-          Type: BaseDataVariableType
-          DataType: LocalizedText
-          AccessLevel: Read
-          Value: {"NamespaceIndex":122,"TextId":"RecipesEditorRecipeSchemaNotFound"}
-        - Name: RecipesEditorRecipeSchemaNotSet
-          Type: BaseDataVariableType
-          DataType: LocalizedText
-          AccessLevel: Read
-          Value: {"NamespaceIndex":122,"TextId":"RecipesEditorRecipeSchemaNotSet"}
-        - Name: RecipesEditorRecipeNotFound
-          Type: BaseDataVariableType
-          DataType: LocalizedText
-          AccessLevel: Read
-          Value: {"NamespaceIndex":122,"TextId":"RecipesEditorRecipeNotFound"}
-        - Name: RecipesEditorNotARecipe
-          Type: BaseDataVariableType
-          DataType: LocalizedText
-          AccessLevel: Read
-          Value: {"NamespaceIndex":122,"TextId":"RecipesEditorNotARecipe"}
-        - Name: RecipesEditorStoreOfSchema
-          Type: BaseDataVariableType
-          DataType: LocalizedText
-          AccessLevel: Read
-          Value: {"NamespaceIndex":122,"TextId":"RecipesEditorStoreOfSchema"}
-        - Name: RecipesEditorNotSet
-          Type: BaseDataVariableType
-          DataType: LocalizedText
-          AccessLevel: Read
-          Value: {"NamespaceIndex":122,"TextId":"RecipesEditorNotSet"}
-        - Name: RecipesEditorStore
-          Type: BaseDataVariableType
-          DataType: LocalizedText
-          AccessLevel: Read
-          Value: {"NamespaceIndex":122,"TextId":"RecipesEditorStore"}
-        - Name: RecipesEditorNotFound
-          Type: BaseDataVariableType
-          DataType: LocalizedText
-          AccessLevel: Read
-          Value: {"NamespaceIndex":122,"TextId":"RecipesEditorNotFound"}
-        - Name: RecipesEditorNotAStore
-          Type: BaseDataVariableType
-          DataType: LocalizedText
-          AccessLevel: Read
-          Value: {"NamespaceIndex":122,"TextId":"RecipesEditorNotAStore"}
-        - Name: RecipesEditorEditModelOfSchema
-          Type: BaseDataVariableType
-          DataType: LocalizedText
-          AccessLevel: Read
-          Value: {"NamespaceIndex":122,"TextId":"RecipesEditorEditModelOfSchema"}
         - Name: ApplyFromDBTriggerTransitioned1
           Type: VariableTransitionEventDispatcher
           Children:
@@ -4611,6 +4371,91 @@ Children:
               - Name: Severity
                 Type: PropertyType
                 DataType: UInt16
+        - Name: RecipeControllerCreatedAndSaved
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          AccessLevel: Read
+          Value: {"NamespaceIndex":122,"TextId":"RecipeControllerCreatedAndSaved"}
+        - Name: RecipeControllerDeleted
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          AccessLevel: Read
+          Value: {"NamespaceIndex":122,"TextId":"RecipeControllerDeleted"}
+        - Name: RecipeControllerEmptyRecipeName
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          AccessLevel: Read
+          Value: {"NamespaceIndex":122,"TextId":"RecipeControllerEmptyRecipeName"}
+        - Name: RecipeControllerRecipe
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          AccessLevel: Read
+          Value: {"NamespaceIndex":122,"TextId":"RecipeControllerRecipe"}
+        - Name: RecipeControllerRecipeApplied
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          AccessLevel: Read
+          Value: {"NamespaceIndex":122,"TextId":"RecipeControllerRecipeApplied"}
+        - Name: RecipeControllerRecipeLoaded
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          AccessLevel: Read
+          Value: {"NamespaceIndex":122,"TextId":"RecipeControllerRecipeLoaded"}
+        - Name: RecipeControllerSaved
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          AccessLevel: Read
+          Value: {"NamespaceIndex":122,"TextId":"RecipeControllerSaved"}
+        - Name: RecipesEditorRecipeSchemaNotFound
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          AccessLevel: Read
+          Value: {"NamespaceIndex":122,"TextId":"RecipesEditorRecipeSchemaNotFound"}
+        - Name: RecipesEditorRecipeSchemaNotSet
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          AccessLevel: Read
+          Value: {"NamespaceIndex":122,"TextId":"RecipesEditorRecipeSchemaNotSet"}
+        - Name: RecipesEditorRecipeNotFound
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          AccessLevel: Read
+          Value: {"NamespaceIndex":122,"TextId":"RecipesEditorRecipeNotFound"}
+        - Name: RecipesEditorNotARecipe
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          AccessLevel: Read
+          Value: {"NamespaceIndex":122,"TextId":"RecipesEditorNotARecipe"}
+        - Name: RecipesEditorStoreOfSchema
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          AccessLevel: Read
+          Value: {"NamespaceIndex":122,"TextId":"RecipesEditorStoreOfSchema"}
+        - Name: RecipesEditorNotSet
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          AccessLevel: Read
+          Value: {"NamespaceIndex":122,"TextId":"RecipesEditorNotSet"}
+        - Name: RecipesEditorStore
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          AccessLevel: Read
+          Value: {"NamespaceIndex":122,"TextId":"RecipesEditorStore"}
+        - Name: RecipesEditorNotFound
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          AccessLevel: Read
+          Value: {"NamespaceIndex":122,"TextId":"RecipesEditorNotFound"}
+        - Name: RecipesEditorNotAStore
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          AccessLevel: Read
+          Value: {"NamespaceIndex":122,"TextId":"RecipesEditorNotAStore"}
+        - Name: RecipesEditorEditModelOfSchema
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          AccessLevel: Read
+          Value: {"NamespaceIndex":122,"TextId":"RecipesEditorEditModelOfSchema"}
       - Name: RecipesEditorUISetup
         Type: NetLogic
         Children:
@@ -4641,12 +4486,12 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 10.0
+        Value: 30.0
       - Name: TopMargin
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 44.0
+        Value: 40.0
   - Name: Modal
     Type: BaseDataVariableType
     DataType: Boolean
